@@ -275,3 +275,14 @@ body.theme-dark {
   border: 1px solid var(--mr-wos-ink);
   border-radius: 3px;
 }
+
+/* ── texto del libro en los diarios ── */
+.mr-wos-orden .ref, .journal-entry-page .ref { text-decoration: underline dotted; text-underline-offset: 2px; }
+.mr-wos-pag { font-size: 0.72em; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.55; margin: 1.6em 0 0.2em; border-top: 1px solid currentColor; padding-top: 0.3em; }
+.mr-wos-lugar { margin: 0 0 4px; font-size: 0.78em; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.75; }
+aside.mr-wos-nota { margin: 0.6em 0; padding: 6px 10px; border-left: 3px solid #d9382e; background: rgba(217, 56, 46, 0.08); font-size: 0.92em; }
+aside.mr-wos-nota p { margin: 0; }
+.mr-wos-stats { list-style: none; padding: 0; margin: 0.4em 0; }
+.mr-wos-stats li { margin: 0.25em 0; }
+.mr-wos-orden section.secret { margin-top: 1em; }
+.mr-wos-ajustes button { width: 100%; margin: 2px 0; }

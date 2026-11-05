@@ -1,8 +1,13 @@
 {
-  "MR_WOS": {
-    "Titulo": "MR- Wages of Sin: Kit de Cazarrecompensas y La Luna Carcelaria",
-    "Terminal": "Terminal de Recompensas y ODC Baclite",
-    "MostrarCartel": "Mostrar cartel a la mesa",
-    "InformeGuardian": "Informe del Guardián"
+  "MRWOS": {
+    "Importar": "Importar el contenido de Wages of Sin",
+    "ImportarAviso": "Se importarán escenas, actores, diarios, tablas, objetos y macros, cada uno en su carpeta «Wages of Sin». Lo que ya exista con la misma identidad se sobrescribe; los personajes de los jugadores se respetan.",
+    "Cancelar": "Cancelar",
+    "Importada": "MR- Wages of Sin: contenido importado en sus carpetas.",
+    "ErrorImportar": "MR- Wages of Sin: no se pudo importar el contenido (mira la consola). Puedes hacerlo a mano desde Configuración.",
+    "SinPack": "MR- Wages of Sin: no se encuentra el compendio de la aventura.",
+    "Terminal": "Abrir la Terminal de recompensas",
+    "Actualizar": "Actualizar MR- Wages of Sin",
+    "ActualizarAviso": "Hay una versión nueva de MR- Wages of Sin ({version}). ¿Quieres volver a importar el contenido? Los personajes de los jugadores se respetan."
   }
 }

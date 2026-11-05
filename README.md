@@ -12,7 +12,7 @@
   <a href="LICENSE"><img alt="Licencia MIT" src="https://img.shields.io/badge/license-MIT-2b3245?style=for-the-badge"></a>
 </p>
 
-<h3 align="center">Las 100 Órdenes de Busca, los 10 Cazarrecompensas rivales, las 3 naves nuevas y el módulo carcelario completo <em>«La ODC: Baclite»</em> de <strong>Wages of Sin</strong> en español para Foundry VTT.</h3>
+<h3 align="center">El libro de <strong>Wages of Sin</strong> en español para Foundry VTT: las 100 órdenes de busca con su retrato, los 10 cazarrecompensas rivales, la prisión <em>«La ODC: Baclite»</em> y las 3 naves. Se instala solo y deja cada cosa en su carpeta.</h3>
 
 > [!IMPORTANT]
 > Este módulo está diseñado para el sistema [**MoSh – Unofficial Mothership**](https://foundryvtt.com/packages/mosh) (`0.6.1+`) y se integra de forma nativa con [**MR- Mothership en español**](https://github.com/ManuRomera/mr-mothership-es) (traducción, modo oscuro y accesibilidad compartidos), [**MR- Kit del Desguazador**](https://github.com/ManuRomera/mr-kit-desguazador) (ficha de nave y combate naval para las 3 naves incluidas) y [**MR- Dirección**](https://github.com/ManuRomera/mr-direccion) (lecturas, relojes y figuras de cuerpo entero a escala).
@@ -27,47 +27,55 @@
   <a href="#-cómo-empezar"><strong>🎯 Cómo empezar</strong></a>
 </p>
 
+
 ---
 
 ## 🎯 Así se ve
 
 <p align="center">
-  <img src="docs/img/foundry-portada.webp" alt="Escena de portada de Wages of Sin en Foundry" width="49%">
-  <img src="docs/img/foundry-odc.webp" alt="Plano de la prisión ODC en Baclite" width="49%">
+  <img src="docs/img/foundry-orden.webp" alt="Una orden de busca con su retrato y su ficha" width="49%">
+  <img src="docs/img/foundry-terminal.webp" alt="La Terminal de recompensas" width="49%">
 </p>
-
 <p align="center">
-  <img src="docs/img/foundry-nave.webp" alt="Plano de cubierta del caza Hunter-Seeker" width="49%">
-  <img src="docs/img/foundry-salto.webp" alt="Mapa de Salto del Sector" width="49%">
+  <img src="docs/img/foundry-portada.webp" alt="Escena de portada" width="32%">
+  <img src="docs/img/foundry-odc.webp" alt="Plano de la prisión ODC para el Guardián" width="32%">
+  <img src="docs/img/foundry-nave.webp" alt="Cubierta del Veil of Night" width="32%">
 </p>
 
 ---
 
-## 📦 Qué trae el módulo
+## ⚡ Se instala solo
 
-Al activar **MR- Wages of Sin** en un mundo vacío, el módulo importa automáticamente las 16 escenas, las naves, los cazarrecompensas, los manuales y las macros, y abre la guía de inicio. Todo el contenido está además organizado en 8 compendios en español:
+Activa el módulo en un **mundo nuevo** y, al entrar el Guardián, se importa todo ordenado en una carpeta **Wages of Sin** de cada pestaña:
 
-| Compendio | Tipo | Documentos | Qué incluye |
-|---|---|---:|---|
-| **Las 100 Órdenes de Busca (`ordenes`)** | JournalEntry | 5 (100 págs.) | Las **100 órdenes de busca oficiales (`#01` a `#100`)** con su retrato, código de 6 dígitos, Nivel de Busca (`BL 1–10`), cartel público para jugadores y sección secreta del Guardián. |
-| **Objetivos, Cazadores y ODC (`objetivos`)** | Actor | 127 | Los **100 objetivos de busca** con su retrato, token redondo y estadísticas; los **10 Cazarrecompensas rivales** con figura de cuerpo entero y tácticas `1d5`; **jefes, guardias y presos de la ODC**; y la **Fauna de Offit**. |
-| **Naves (`naves`)** | Actor | 3 | **MPT «Bus»** (*Valecore MPT-SC J2C-II*), **Hunter-Seeker** (*Gauss CR-Medusa J1C-II*) y **Veil of Night** (*Utpala Shipyards Magnum Opus J3C-VI*) con sus planos de cubierta a doble página, compatibles con **MR- Kit del Desguazador**. |
-| **Armas de Prisión y Equipos (`equipo`)** | Item | 26 | Armas improvisadas y de tala de la ODC (pincho, anillos, pilas en calcetín, látigo de cuchillas, hachuela, motosierra, bisturí), equipo de captura (pistola sedante, porra eléctrica, grilletes, TaskMaster, féretro de estasis) y paquetes de equipo inicial. |
-| **Manual y Guía de la ODC (`manual`)** | JournalEntry | 8 | El manual completo en español: cómo dirigir sesiones sueltas y campañas, reglas de rastreo y entrega, fuerzas del orden, delitos de jugadores, juicios, los 10 cazarrecompensas y la guía íntegra de **La ODC: Baclite** y el **Infierno Verde**. |
-| **Tablas y Generadores (`tablas`)** | RollTable | 10 | Tabla `1d100` de las 100 órdenes, generadores de objetivo, delito y complicación, pistas de rastreo, modelos policiales, cazarrecompensas rivales, rumores de presos, encuentros en el Infierno Verde y fauna de Offit. |
-| **Macros (`macros`)** | Macro | 6 | Accesos directos para abrir la Terminal, generar una orden al azar, rastrear una presa, evaluar un delito del grupo, intentar un soborno en la ODC o simular un día en el Infierno Verde. |
-| **La ODC: Baclite y Sector (`aventura-baclite`)** | Adventure | 1 | Aventura lista para importar con **16 escenas** (portada, Mapa de Salto, estaciones, prisión ODC en versión mesa y versión Guardián, plano de celda, mapa del Infierno Verde en versión mesa y Guardián y cubiertas de naves) y paquete para **MR- Dirección**. |
+| Pestaña | Qué trae |
+|---|---|
+| **Escenas** | Sector y encargos (portada, mapa de salto, red de órdenes, muelles) · Estaciones (Absalom, Anvollapolis, Balonov, HypeLabs Domia, Utpala) · La ODC: Baclite (plano de mesa, plano del Guardián, celda, Infierno Verde) · Cubiertas de las 3 naves |
+| **Actores** | Los 10 cazarrecompensas rivales · Personal de dirección de la ODC · 27 presos con retrato · 10 criaturas de la fauna de Offit · Las 3 naves |
+| **Diarios** | Empieza aquí · Manual y guías (capítulos del libro y estaciones del sector) · Órdenes de busca 01–100 · Cazarrecompensas rivales |
+| **Objetos** | Las 13 armas de prisión con su dibujo del libro |
+| **Tablas** | Las 100 órdenes (1d100) · Incidentes en la entrega · Tipo de cliente · 6 tablas de equipo inicial |
+| **Macros** | Terminal de recompensas · Orden al azar · Oráculo de Nivel de Recompensa · Soborno en la ODC (ya puestas en tu barra) |
+
+Las fichas de los 100 objetivos están en el compendio **Objetivos, cazadores y ODC**. Si ya tienes contenido propio en el mundo no se importa nada solo; puedes hacerlo cuando quieras desde **Configuración → MR- Wages of Sin**. Los personajes de tus jugadores no se tocan al reimportar.
 
 ---
 
-## 🖥️ Terminal interactiva de Recompensas y ODC
+## 🖥️ Terminal de recompensas
 
-Pulsa el botón <i class="fa-solid fa-crosshairs"></i> en los controles de escena de Tokens (o usa la macro incluida) para abrir la **Terminal de Recompensas y ODC Baclite** (`ConMemoria`):
+El icono <i class="fa-solid fa-crosshairs"></i> de los controles de escena (o su macro) abre la Terminal:
 
-1. **Las 100 Órdenes:** Filtra al instante por nombre, estación (*Absalom, Anvollapolis, Balonov, HypeLabs Domia, Utpala, Offit ODC…*), etiqueta o Nivel de Busca (`BL 1–10`). Pulsa **«Mostrar Cartel (Sin spoilers)»** para enviar al chat la ficha pública del objetivo sin revelar los secretos del Guardián.
-2. **Generador y Rastreo:** Crea contratos nuevos en un clic, tira fuentes de investigación o aplica la regla de oro del libro: el **Oráculo BL (`1d10 ≤ BL`)**.
-3. **Delitos, Juicios y Cazadores:** Comprueba si las pruebas dejadas vinculan a la tripulación con un delito (`1d10 ≤ nivelPrueba`), actualiza el `BL` del grupo, dicta sentencia judicial y despacha a cualquiera de los **10 Cazarrecompensas rivales** con su táctica `1d5`.
-4. **La ODC: Baclite e Infierno Verde:** Resuelve intentos de **Soborno (`1d100 < Soborno`)** al personal de la prisión, lleva el registro de **Reputación** con las bandas (*23 Arms*, *Sindicato Stratemeyer*, *Sindicato de Presos*, *Funcionarios CO*) y simula las jornadas de fuga y forrajeo de bayas por la jungla de Offit.
+1. **Las 100 órdenes:** busca por nombre, lugar o delito, filtra por Nivel de Recompensa, abre la orden completa, la ficha del objetivo o publica en el chat el **cartel para la mesa** (sin nada secreto).
+2. **Niveles y pago:** la tabla del libro (págs. 12-13), de BL 1 a 9.
+3. **La ODC:** soborno a un funcionario (sacar menos que su valor de Soborno en 1d100, pág. 298).
+
+El **Oráculo** aplica la regla del Guardián (pág. 16): se tira 1d10 y, si sale por debajo del Nivel de Recompensa, ocurre.
+
+---
+
+## 📖 Texto y arte del libro
+
+Todo el texto sale de la tradumaquetación en español y todo el arte (retratos, figuras, mapas, fauna, armas) es el del propio libro, recortado sin la maqueta. Lo que el libro no ilustra —el personal de dirección de la ODC (Bognar, Aoki, Kartall, Sivert), dos presos y los iconos— son retratos e iconos **generados para el módulo** y así se indica en cada ficha. Las estadísticas son las que da el libro; cuando un objetivo no las tiene, la ficha lo dice.
 
 ---
 
@@ -80,11 +88,11 @@ Pulsa el botón <i class="fa-solid fa-crosshairs"></i> en los controles de escen
    ```text
    https://github.com/ManuRomera/mr-wages-of-sin/releases/latest/download/module.json
    ```
-3. Pulsa **Install**.
+3. Pulsa **Install**, crea un mundo con el sistema **MoSh** y activa el módulo.
 
 ### Manual
 
-Descarga [`module.zip`](https://github.com/ManuRomera/mr-wages-of-sin/releases/latest/download/module.zip) de la última versión y descomprímelo dentro de `Data/modules/mr-wages-of-sin/`.
+Descarga [`module.zip`](https://github.com/ManuRomera/mr-wages-of-sin/releases/latest/download/module.zip) y descomprímelo en `Data/modules/mr-wages-of-sin/`.
 
 ---
 
@@ -92,10 +100,10 @@ Descarga [`module.zip`](https://github.com/ManuRomera/mr-wages-of-sin/releases/l
 
 ```bash
 npm install
-npm test                   # ejecuta los tests unitarios del núcleo puro (node --test)
-python3 tools/extract_assets.py
-python3 tools/build_foundry.py
-npm run build              # compila _data/*.json -> packs/* y genera dist/module.zip
+npm test                          # reglas (node --test)
+python3 tools/extract_assets.py   # arte desde el PDF
+python3 tools/build_foundry.py    # datos desde el texto del libro (tools/texto.py)
+npm run build                     # packs y dist/module.zip
 ```
 
 ---
@@ -103,7 +111,7 @@ npm run build              # compila _data/*.json -> packs/* y genera dist/modul
 ## 📜 Créditos y aviso
 
 - **Obra original:** *Wages of Sin* (`MRPG-M6`), de Luke Gearing, Jarrett Crader, Sean McCoy et al. (© 2025 Tuesday Knight Games). **Mothership** es una marca de Tuesday Knight Games.
-- **Diseño, programación, Terminal interactiva y adaptación a Foundry VTT:** Manu Romera (MR · Digital RPG Design).
+- **Diseño, programación y adaptación a Foundry VTT:** Manu Romera (MR · Digital RPG Design).
 - **Licencia:** MIT para el código del módulo. Consulta [`NOTICE.md`](NOTICE.md) y [`LICENSE`](LICENSE).
 
 <p align="center">

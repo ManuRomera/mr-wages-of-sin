@@ -1,18 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Extractor y procesador gráfico para MR- Wages of Sin: Kit de Cazarrecompensas y La Luna Carcelaria.
-Aplica siempre la marca oficial MR_MARCA (marca.esquina en escenas/planos/retratos/iconos
-y marca.discreta en tokens circulares y figuras de cuerpo entero).
-"""
+Extrae el arte REAL del PDF de «Wages of Sin» (nada inventado) y lo deja listo para Foundry.
 
+Etapas (python3 tools/extract_assets.py [etapa ...]; sin argumentos = todas):
+  ordenes   100 retratos de las órdenes de busca + tokens
+  cazadores 10 cazarrecompensas rivales: figura sin fondo, retrato y token
+  odc       fauna de Offit, personal y presos con retrato del libro
+  escenas   escenas y mapas sin la maquetación del libro
+  planos    planos de cubierta de las 3 naves
+  armas     iconos de las armas de prisión (recortes de la pág. 277)
+  arte      retratos del personal sin ilustración e iconos (generados con Codex: tools/gen_codex.py)
+
+Los retratos del libro son estarcidos de tinta con máscara: hay que componerlos con su máscara sobre
+papel, no con el RGB suelto (así salían negros en la primera versión).
+La marca MR se aplica con Trabajo LOGO/marca/marca.py (regla de la casa).
+"""
 import io
-import os
 import re
 import sys
 from pathlib import Path
+
 import fitz
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter
 
 sys.path.insert(0, "/Volumes/Datos_Dock/FoundryVTT/Trabajo LOGO/marca")
 import marca  # noqa: E402
@@ -20,453 +30,417 @@ import marca  # noqa: E402
 PDF_PATH = "/Volumes/Datos_Dock/Rol/01 Sistemas de juego/Colección de sistemas/Mothership/Wages of Sin ESPAÑOL.pdf"
 RAIZ = Path(__file__).resolve().parent.parent
 ASSETS = RAIZ / "assets"
-
-for sub in ("escenas", "planos", "objetivos", "cazadores", "odc", "tokens", "figuras", "iconos"):
+RAW = RAIZ / "art_src" / "raw"
+for sub in ("escenas", "planos", "objetivos", "cazadores", "odc", "tokens", "figuras", "iconos", "armas"):
     (ASSETS / sub).mkdir(parents=True, exist_ok=True)
 
-
-def cargar_fuente(tam=22, indice=0):
-    rutas = [
-        "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
-        "/System/Library/Fonts/Avenir Next Condensed.ttc",
-        "/System/Library/Fonts/HelveticaNeue.ttc",
-    ]
-    for r in rutas:
-        if os.path.exists(r):
-            try:
-                return ImageFont.truetype(r, tam, index=indice)
-            except Exception:
-                try:
-                    return ImageFont.truetype(r, tam)
-                except Exception:
-                    pass
-    return ImageFont.load_default()
+ROJO = (214, 32, 40)          # rojo del libro
+PAPEL = (244, 241, 235)       # blanco de papel
+NEGRO_ODC = (22, 20, 22)      # fondo negro de las láminas de la ODC
+_cache = {}
 
 
-def extraer_xref(doc, xref):
-    d = doc.extract_image(xref)
-    im = Image.open(io.BytesIO(d["image"]))
-    smask = d.get("smask", 0)
-    if smask and smask > 0:
-        try:
-            m_d = doc.extract_image(smask)
-            mask = Image.open(io.BytesIO(m_d["image"])).convert("L")
-            if mask.size != im.size:
-                mask = mask.resize(im.size, Image.Resampling.LANCZOS)
-            im = im.convert("RGBA")
-            im.putalpha(mask)
-            return im
-        except Exception:
-            pass
-    return im.convert("RGBA")
+# ───────────────────────── utilidades ─────────────────────────
+def rgba(doc, xref, opaco_ok=False):
+    """Imagen del PDF con su máscara suave como alfa. None si es un fondo opaco (y no se pide)."""
+    if (xref, opaco_ok) in _cache:
+        return _cache[(xref, opaco_ok)]
+    e = doc.extract_image(xref)
+    im = Image.open(io.BytesIO(e["image"])).convert("RGB")
+    out = im.convert("RGBA")
+    if e.get("smask"):
+        m = Image.open(io.BytesIO(doc.extract_image(e["smask"])["image"])).convert("L")
+        if m.size != im.size:
+            m = m.resize(im.size, Image.LANCZOS)
+        if m.getextrema()[0] >= 250 and not opaco_ok:
+            out = None
+        else:
+            out.putalpha(m)
+    elif not opaco_ok:
+        out = None
+    _cache[(xref, opaco_ok)] = out
+    return out
 
 
-def render_pagina(doc, p1, dpi=165):
-    pm = doc[p1 - 1].get_pixmap(dpi=dpi)
+def sobre(im, color):
+    bg = Image.new("RGBA", im.size, color + (255,))
+    bg.alpha_composite(im.convert("RGBA"))
+    return bg.convert("RGB")
+
+
+def render_pagina(doc, p1, dpi=165, clip=None):
+    pm = doc[p1 - 1].get_pixmap(dpi=dpi, clip=clip)
     return Image.frombytes("RGB", (pm.width, pm.height), pm.samples)
 
 
-def render_doble_pagina(doc, p_izq, p_der, dpi=165):
-    a = render_pagina(doc, p_izq, dpi=dpi)
-    b = render_pagina(doc, p_der, dpi=dpi)
-    hoja = Image.new("RGB", (a.width + b.width, max(a.height, b.height)), (14, 14, 16))
+def guardar(im, destino, calidad=86):
+    destino = Path(destino)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    im.save(destino, "WEBP", quality=calidad, method=6)
+
+
+def token_circular(src, destino, aro, caja=None, fondo=None, sello=True):
+    """Token redondo 400×400 con aro. `caja` = (x0,y0,x1,y1) cuadrada sobre `src`; el sello MR va en el aro."""
+    L = 400
+    src = src.convert("RGBA")
+    if caja is None:
+        w, h = src.size
+        lado = min(w, h)
+        caja = ((w - lado) // 2, 0, (w - lado) // 2 + lado, lado)
+    rec = src.crop(tuple(int(v) for v in caja)).resize((L, L), Image.LANCZOS)
+    if fondo is not None:
+        rec = Image.alpha_composite(Image.new("RGBA", (L, L), fondo + (255,)), rec)
+    mask = Image.new("L", (L * 3, L * 3), 0)
+    ImageDraw.Draw(mask).ellipse((36, 36, L * 3 - 36, L * 3 - 36), fill=255)
+    mask = mask.resize((L, L), Image.LANCZOS)
+    out = Image.new("RGBA", (L, L), (0, 0, 0, 0))
+    out.paste(rec, (0, 0), ImageChops.multiply(mask, rec.getchannel("A")))
+    dr = ImageDraw.Draw(out)
+    dr.ellipse((8, 8, L - 8, L - 8), outline=(18, 18, 20, 255), width=10)
+    dr.ellipse((12, 12, L - 12, L - 12), outline=aro + (245,), width=5)
+    if sello:
+        out = marca.discreta(out, 329, 329, 17)
+    guardar(out, destino, 88)
+
+
+def figura(src, destino, ancho_max=1400):
+    """Figura sin fondo sobre lienzo transparente, con sombra bajo los pies y sello en el hombro."""
+    bb = src.getchannel("A").point(lambda v: 255 if v > 30 else 0).getbbox()
+    src = src.crop(bb)
+    sw, sh = src.size
+    H = 900
+    W = max(600, min(ancho_max, round(H * 0.92 * sw / sh / 0.88)))
+    esc = min((W * 0.88) / sw, (H * 0.92) / sh)
+    nw, nh = max(1, int(sw * esc)), max(1, int(sh * esc))
+    s = src.resize((nw, nh), Image.LANCZOS)
+    lienzo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sombra = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(sombra).ellipse((W // 2 - int(nw * 0.35), H - 50, W // 2 + int(nw * 0.35), H - 14), fill=(0, 0, 0, 120))
+    lienzo = Image.alpha_composite(lienzo, sombra.filter(ImageFilter.GaussianBlur(9)))
+    capa = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    capa.paste(s, ((W - nw) // 2, H - nh - 26), s)
+    lienzo = Image.alpha_composite(lienzo, capa)
+    try:
+        lienzo = marca.hombro(lienzo)
+    except Exception:  # noqa: BLE001
+        pass
+    guardar(lienzo, destino, 88)
+
+
+# ───────────────────────── 1 · órdenes de busca ─────────────────────────
+def etapa_ordenes(doc):
+    """El retrato de cada orden es un JPEG de tinta (≤80) con máscara; cada página de orden tiene uno de ~380×455."""
+    paginas = []
+    for i in range(26, 222):
+        for im in doc[i].get_images(full=True):
+            if 370 <= im[2] <= 430 and 440 <= im[3] <= 462 and im[1] > 0:
+                paginas.append((i + 1, im[0]))
+                break
+    assert len(paginas) == 100, f"se esperaban 100 retratos y hay {len(paginas)}"
+    for n, (p, xref) in enumerate(paginas, 1):
+        a = rgba(doc, xref, opaco_ok=True)
+        m = a.getchannel("A").point(lambda v: min(255, int(v * 1.3)))   # tinta algo más negra
+        a.putalpha(m)
+        ret = sobre(a, PAPEL).resize((570, 684), Image.LANCZOS)
+        slug = f"orden-{n:03d}"
+        # token: cara y hombros, aro rojo; se saca ANTES de firmar el retrato
+        token_circular(ret, ASSETS / "tokens" / f"{slug}.webp", (217, 56, 46), caja=(0, 14, 570, 584), fondo=PAPEL)
+        guardar(marca.esquina(ret), ASSETS / "objetivos" / f"{slug}.webp", 84)
+    print(f"  [OK] {len(paginas)} retratos y tokens de las órdenes")
+
+
+# ───────────────────────── 2 · cazarrecompensas ─────────────────────────
+HUNTER_SPREADS = [230, 232, 234, 236, 238, 240, 242, 244, 246, 248]   # página izquierda de cada doble
+# Red Taskr: su arte es un rectángulo rojo opaco con la silueta aparte; se recorta el rojo.
+TASKR_FONDO, TASKR_SILUETA = 1720, 1723
+
+
+def _taskr(doc):
+    fondo = rgba(doc, TASKR_FONDO, opaco_ok=True).convert("RGB")
+    sil = rgba(doc, TASKR_SILUETA, opaco_ok=True).getchannel("A")
+    import numpy as np
+    arr = np.asarray(fondo).astype("float32")
+    d = np.sqrt(((arr - np.array(ROJO, dtype="float32")) ** 2).sum(-1))
+    k = np.clip((d - 45) / 70.0, 0, 1)
+    alfa = Image.fromarray((k * 255).astype("uint8")).filter(ImageFilter.MedianFilter(3))
+    alfa = ImageChops.lighter(alfa, sil)
+    out = fondo.convert("RGBA")
+    out.putalpha(alfa)
+    return out
+
+
+def figura_doble(doc, pl, sc=2.0):
+    W, H = int(576 * 2 * sc), int(720 * sc)
+    cv = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    for k, p in enumerate((pl, pl + 1)):
+        pg = doc[p - 1]
+        for im in pg.get_images(full=True):
+            x, w, h = im[0], im[2], im[3]
+            if w < 250 or h < 250:
+                continue
+            a = _taskr(doc) if x == TASKR_SILUETA else (None if x == TASKR_FONDO else rgba(doc, x))
+            if a is None:
+                continue
+            for r in pg.get_image_rects(x):
+                s = a.resize((max(1, round(r.width * sc)), max(1, round(r.height * sc))), Image.LANCZOS)
+                capa = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+                capa.paste(s, (round((r.x0 + k * 576) * sc), round(r.y0 * sc)))
+                cv = Image.alpha_composite(cv, capa)
+    bb = cv.getchannel("A").point(lambda v: 255 if v > 40 else 0).getbbox()
+    return cv.crop(bb)
+
+
+def cabeza(fig):
+    """Caja cuadrada sobre la parte alta de la figura (donde está la cara) para el token."""
+    w, h = fig.size
+    al = fig.getchannel("A").point(lambda v: 255 if v > 40 else 0)
+    banda = al.crop((0, 0, w, max(2, int(h * 0.12))))
+    xs = [x for x in range(w) if banda.crop((x, 0, x + 1, banda.height)).getbbox()]
+    cx = (min(xs) + max(xs)) / 2 if xs else w / 2
+    lado = min(w, int(h * 0.36))
+    lado = max(lado, int(h * 0.22))
+    x0 = int(min(max(cx - lado / 2, 0), max(0, w - lado)))
+    return (x0, 0, x0 + lado, lado)
+
+
+# caja del token a mano donde la cabeza no está arriba al centro: (x0/ancho, y0/alto, lado/alto)
+TOKEN_A_MANO = {1: (0.49, 0.0, 0.36), 2: (0.043, 0.07, 0.235), 4: (0.396, 0.193, 0.347), 10: (0.435, 0.03, 0.34)}
+
+
+def etapa_cazadores(doc):
+    for i, pl in enumerate(HUNTER_SPREADS, 1):
+        fig = figura_doble(doc, pl)
+        slug = f"cazador-{i:02d}"
+        caja = cabeza(fig)
+        if i in TOKEN_A_MANO:
+            fx, fy, fl = TOKEN_A_MANO[i]
+            lado = int(fl * fig.height)
+            caja = (int(fx * fig.width), int(fy * fig.height), int(fx * fig.width) + lado, int(fy * fig.height) + lado)
+        token_circular(fig, ASSETS / "tokens" / f"{slug}.webp", (235, 168, 52), caja=caja, fondo=ROJO)
+        # retrato: parte alta de la figura sobre el rojo del libro, proporción 520×680
+        w, h = fig.size
+        alto = max(int(h * 0.45), min(h, int(w / 0.765)))
+        ancho = int(alto * 0.765)
+        cx = (caja[0] + caja[2]) / 2
+        x0 = int(min(max(cx - ancho / 2, 0), max(0, w - ancho)))
+        rec = fig.crop((x0, 0, min(w, x0 + ancho), min(h, alto)))
+        lienzo = Image.new("RGB", (ancho, alto), ROJO)
+        lienzo.paste(sobre(rec, ROJO), (0, 0))
+        lienzo = lienzo.resize((520, 680), Image.LANCZOS)
+        guardar(marca.esquina(lienzo), ASSETS / "cazadores" / f"{slug}.webp", 86)
+        figura(fig, ASSETS / "figuras" / f"{slug}.webp")
+    print("  [OK] 10 cazarrecompensas (figura, retrato y token)")
+
+
+# ───────────────────────── 3 · ODC y fauna ─────────────────────────
+# criaturas de las láminas de las págs. 306-308: caja (x0,y0,x1,y1) en píxeles de la imagen de página de 1205×1505
+FAUNA = {
+    "fauna-larva": (306, (60, 380, 580, 960)),
+    "fauna-chupaarboles": (306, (600, 380, 1100, 1030)),
+    "fauna-pseudohiena": (307, (90, 170, 580, 1000)),
+    "fauna-basilisco": (307, (600, 190, 1110, 1060)),
+    "fauna-hiperalgas": (308, (30, 480, 570, 1130)),
+    "fauna-simios": (308, (560, 100, 1150, 1070)),
+    "fauna-lagarto-jirafa": (309, (40, 160, 600, 1010)),
+    "fauna-dragon": (309, (600, 170, 1150, 1010)),
+    "fauna-sirena": (310, (40, 160, 560, 1030)),
+    "fauna-vandalos": (310, (590, 170, 1110, 1010)),
+}
+
+
+def _lamina(doc, pag):
+    pg = doc[pag - 1]
+    xref = [im[0] for im in pg.get_images(full=True) if im[2] == 1205][0]
+    return sobre(rgba(doc, xref, opaco_ok=True), NEGRO_ODC)
+
+
+def etapa_odc(doc):
+    for slug, (pag, caja) in FAUNA.items():
+        recorte = _lamina(doc, pag).crop(caja)
+        bb = recorte.convert("L").point(lambda v: 255 if v > 48 else 0).getbbox()
+        pad = 18
+        recorte = recorte.crop((max(0, bb[0] - pad), max(0, bb[1] - pad), min(recorte.width, bb[2] + pad), min(recorte.height, bb[3] + pad)))
+        lienzo = recorte.resize((520, int(520 * recorte.height / recorte.width)), Image.LANCZOS)
+        lado_ = max(recorte.size)
+        cuadro = Image.new("RGB", (lado_, lado_), NEGRO_ODC)
+        cuadro.paste(recorte, ((lado_ - recorte.width) // 2, (lado_ - recorte.height) // 2))
+        token_circular(cuadro, ASSETS / "tokens" / f"{slug}.webp", (88, 178, 132), caja=(0, 0, lado_, lado_), fondo=NEGRO_ODC)
+        luz = recorte.convert("L").point(lambda v: min(255, max(0, (v - 34) * 6)))
+        fig = recorte.convert("RGBA")
+        fig.putalpha(luz.filter(ImageFilter.MaxFilter(3)))
+        figura(fig, ASSETS / "figuras" / f"{slug}.webp")
+        guardar(marca.esquina(lienzo), ASSETS / "odc" / f"{slug}.webp", 86)
+    print(f"  [OK] fauna de Offit ({len(FAUNA)} criaturas)")
+
+    # Presos con retrato en el libro: cada imagen pequeña (175 px) junto a su «#NNNN»
+    n = 0
+    for i in range(279, 297):
+        pg = doc[i]
+        words = [w for w in pg.get_text("words") if re.fullmatch(r"#\d{4}", w[4])]
+        for im in pg.get_images(full=True):
+            if not (100 < im[2] < 400 and 100 < im[3] < 400 and im[1] == 0):
+                continue
+            r = pg.get_image_rects(im[0])[0]
+            cand = [w for w in words if w[1] <= r.y0 + 8 and w[0] < r.x0]
+            if not cand:
+                continue
+            num = max(cand, key=lambda w: w[1])[4][1:]
+            foto = rgba(doc, im[0], opaco_ok=True).convert("RGB")
+            gr = foto.resize((foto.width * 3, foto.height * 3), Image.LANCZOS)
+            lado_ = min(gr.size)
+            token_circular(gr, ASSETS / "tokens" / f"preso-{num}.webp", (234, 124, 40), caja=((gr.width - lado_) // 2, 0, (gr.width + lado_) // 2, lado_), fondo=NEGRO_ODC)
+            ret = gr.resize((520, int(520 * gr.height / gr.width)), Image.LANCZOS)
+            guardar(marca.esquina(ret), ASSETS / "odc" / f"preso-{num}.webp", 86)
+            n += 1
+    print(f"  [OK] {n} presos con retrato del libro")
+
+
+# ───────────────────────── 4 · escenas y planos ─────────────────────────
+def lienzo_16_9(im, destino, fondo=(14, 12, 16), margen=0.04, w=2400, h=1350, desenfoque=True):
+    """Pone una ilustración sobre un lienzo 16:9: la propia imagen difuminada de fondo y ella entera encima."""
+    if desenfoque:
+        bg = im.resize((w, h), Image.LANCZOS).filter(ImageFilter.GaussianBlur(30))
+        bg = ImageEnhance.Brightness(bg).enhance(0.32)
+    else:
+        bg = Image.new("RGB", (w, h), fondo)
+    esc = min(w * (1 - 2 * margen) / im.width, h * (1 - 2 * margen) / im.height)
+    fg = im.resize((int(im.width * esc), int(im.height * esc)), Image.LANCZOS)
+    bg.paste(fg, ((w - fg.width) // 2, (h - fg.height) // 2))
+    guardar(marca.esquina(bg), destino, 86)
+
+
+def recorte_pagina(doc, pag, caja_pt, dpi=200):
+    """Renderiza solo la zona (x0,y0,x1,y1 en puntos) de una página: mapas vectoriales con su rotulación."""
+    return render_pagina(doc, pag, dpi=dpi, clip=fitz.Rect(*caja_pt))
+
+
+ESTACIONES = {   # slug: (página, caja del plano en puntos)
+    "absalom-station": (26, (48, 228, 516, 600)), "anvollapolis": (34, (48, 228, 516, 600)),
+    "balonov": (44, (48, 195, 516, 608)), "hypelabs-domia": (103, (48, 205, 516, 600)), "utpala": (183, (48, 228, 516, 600)),
+}
+
+
+def doble_pagina(doc, p_izq, p_der, dpi, recorte_izq, recorte_der):
+    a = render_pagina(doc, p_izq, dpi=dpi, clip=fitz.Rect(*recorte_izq))
+    b = render_pagina(doc, p_der, dpi=dpi, clip=fitz.Rect(*recorte_der))
+    hoja = Image.new("RGB", (a.width + b.width, max(a.height, b.height)), NEGRO_ODC)
     hoja.paste(a, (0, 0))
     hoja.paste(b, (a.width, 0))
     return hoja
 
 
-def crear_token_circular(im_src, destino, color_aro=(217, 56, 46)):
-    """Crea token circular 400x400 con aro táctico y marca.discreta."""
-    L = 400
-    src = im_src.convert("RGB")
-    w, h = src.size
-    lado = min(w, h)
-    cx = (w - lado) // 2
-    cy = max(0, int((h - lado) * 0.18))
-    recorte = src.crop((cx, cy, cx + lado, cy + lado)).resize((L, L), Image.Resampling.LANCZOS)
-
-    mask = Image.new("L", (L, L), 0)
-    md = ImageDraw.Draw(mask)
-    md.ellipse((12, 12, L - 12, L - 12), fill=255)
-
-    out = Image.new("RGBA", (L, L), (0, 0, 0, 0))
-    out.paste(recorte.convert("RGBA"), (0, 0), mask)
-
-    dr = ImageDraw.Draw(out)
-    dr.ellipse((8, 8, L - 8, L - 8), outline=(18, 18, 20, 255), width=10)
-    dr.ellipse((12, 12, L - 12, L - 12), outline=(*color_aro, 245), width=5)
-
-    out = marca.discreta(out, L // 2, L - 28, 18)
-    out.save(destino, "WEBP", quality=88, method=6)
-
-
-def crear_figura_cuerpo_entero(im_src, destino):
-    """Recorta figura vertical de cuerpo entero sobre lienzo transparente 600x900 con marca.discreta."""
-    W, H = 600, 900
-    rgba = im_src.convert("RGBA")
-    # Si el fondo es casi blanco o uniforme, convertirlo a transparente suave
-    px = rgba.load()
-    sw, sh = rgba.size
-    bg_r, bg_g, bg_b, bg_a = px[0, 0]
-    if bg_a > 200 and (bg_r > 225 and bg_g > 225 and bg_b > 225):
-        for y in range(sh):
-            for x in range(sw):
-                r, g, b, a = px[x, y]
-                dist = abs(r - bg_r) + abs(g - bg_g) + abs(b - bg_b)
-                if dist < 38:
-                    px[x, y] = (r, g, b, 0)
-                elif dist < 70:
-                    px[x, y] = (r, g, b, int(a * (dist - 38) / 32))
-
-    escala = min((W * 0.88) / sw, (H * 0.92) / sh)
-    nw, nh = max(1, int(sw * escala)), max(1, int(sh * escala))
-    escalada = rgba.resize((nw, nh), Image.Resampling.LANCZOS)
-
-    lienzo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    # Sombra suave bajo los pies
-    sombra = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(sombra)
-    sd.ellipse((W // 2 - int(nw * 0.35), H - 58, W // 2 + int(nw * 0.35), H - 18), fill=(0, 0, 0, 140))
-    sombra = sombra.filter(ImageFilter.GaussianBlur(10))
-    lienzo = Image.alpha_composite(lienzo, sombra)
-
-    ox = (W - nw) // 2
-    oy = H - nh - 26
-    lienzo.paste(escalada, (ox, oy), escalada)
-    lienzo = marca.discreta(lienzo, W // 2, H - 36, 22)
-    lienzo.save(destino, "WEBP", quality=88, method=6)
+def etapa_escenas(doc):
+    E = ASSETS / "escenas"
+    portada = render_pagina(doc, 1, dpi=200)
+    lienzo_16_9(portada, E / "portada.webp", fondo=(30, 8, 10), desenfoque=False, margen=0.03)
+    # mapa de salto: doble página completa (las etiquetas son texto vectorial, la imagen sola es solo el campo de estrellas)
+    salto = doble_pagina(doc, 332, 333, 130, (0, 0, 576, 720), (0, 0, 576, 720))
+    guardar(marca.esquina(salto), E / "mapa-salto.webp", 86)
+    for slug, xref in (("caza-recompensas", 253), ("tablon-ordenes", 263)):
+        lienzo_16_9(rgba(doc, xref, opaco_ok=True).convert("RGB"), E / f"{slug}.webp")
+    for slug, (pag, caja) in ESTACIONES.items():
+        lienzo_16_9(recorte_pagina(doc, pag, caja, dpi=240), E / f"{slug}.webp", fondo=PAPEL, desenfoque=False, margen=0.05)
+    # ODC mesa: las dos mitades limpias del plano isométrico (sin rótulos)
+    izq = rgba(doc, 1798, opaco_ok=True).convert("RGB")
+    der = rgba(doc, 1800, opaco_ok=True).convert("RGB")
+    odc = Image.new("RGB", (izq.width + der.width, max(izq.height, der.height)), NEGRO_ODC)
+    odc.paste(izq, (0, 0))
+    odc.paste(der, (izq.width, 0))
+    guardar(marca.esquina(odc), E / "odc-mesa.webp", 86)
+    # ODC Guardián: doble página con las claves A–Q, sin cabecera ni pie
+    gm = doble_pagina(doc, 254, 255, 150, (0, 34, 576, 640), (0, 34, 548, 640))
+    guardar(marca.esquina(gm), E / "odc-guardian.webp", 86)
+    # plano de la celda (pág. 256) para que los jugadores anoten su escondite
+    celda = recorte_pagina(doc, 256, (250, 309, 510, 452), dpi=330)
+    lienzo_16_9(celda, E / "odc-celda.webp", fondo=NEGRO_ODC, desenfoque=False, margen=0.08)
+    # Infierno Verde: el mapa del libro (las distancias van rotuladas en la propia imagen)
+    guardar(marca.esquina(rgba(doc, 2047, opaco_ok=True).convert("RGB")), E / "infierno-verde-mesa.webp", 86)
+    print("  [OK] escenas")
 
 
-def crear_portada_escena(doc, destino):
-    """Crea la escena de portada panorámica 1920x1080 de Wages of Sin."""
-    W, H = 1920, 1080
-    cov_page = render_pagina(doc, 1, dpi=180)
-    salto = render_doble_pagina(doc, 332, 333, dpi=130)
-
-    fondo = salto.resize((W, H), Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(4))
-    tinte = Image.new("RGB", (W, H), (22, 8, 10))
-    lienzo = Image.blend(fondo, tinte, 0.78).convert("RGBA")
-
-    # Póster de portada a la derecha
-    escala = (H * 0.92) / cov_page.height
-    cw, ch = int(cov_page.width * escala), int(cov_page.height * escala)
-    poster = cov_page.resize((cw, ch), Image.Resampling.LANCZOS).convert("RGBA")
-    px = W - cw - 110
-    py = (H - ch) // 2
-
-    sombra = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(sombra)
-    sd.rounded_rectangle((px - 12, py - 12, px + cw + 12, py + ch + 12), radius=14, fill=(0, 0, 0, 220))
-    sombra = sombra.filter(ImageFilter.GaussianBlur(18))
-    lienzo = Image.alpha_composite(lienzo, sombra)
-    lienzo.paste(poster, (px, py), poster)
-
-    # Panel informativo a la izquierda
-    panel = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    pd = ImageDraw.Draw(panel)
-    pd.rounded_rectangle((70, 70, 960, H - 70), radius=14, fill=(14, 12, 15, 232), outline=(217, 56, 46, 230), width=3)
-    lienzo = Image.alpha_composite(lienzo, panel)
-
-    dr = ImageDraw.Draw(lienzo)
-    f_kicker = cargar_fuente(24)
-    f_tit = cargar_fuente(96)
-    f_sub = cargar_fuente(34)
-    f_txt = cargar_fuente(24)
-
-    dr.text((115, 115), "MRPG-M6 · MOTHERSHIP 1E · EDICIÓN EN ESPAÑOL", font=f_kicker, fill=(217, 56, 46, 255))
-    dr.text((115, 155), "WAGES OF SIN", font=f_tit, fill=(244, 240, 234, 255))
-    dr.rectangle((115, 275, 320, 281), fill=(217, 56, 46, 255))
-    dr.text((115, 300), "KIT PARA CAZARRECOMPENSAS Y LA LUNA CARCELARIA BACLITE", font=f_sub, fill=(235, 185, 92, 255))
-
-    puntos = [
-        "• Las 100 Órdenes de Busca completas (BL 1–10) con carteles y retratos",
-        "• Generador procedural de recompensas, delitos, complicaciones y rastreo",
-        "• Reglas de delitos de jugadores, fuerzas del orden, juicios y condenas",
-        "• Los 10 Cazarrecompensas rivales con nombre propio y tablas de tácticas",
-        "• Módulo completo «La ODC: Baclite» (La Luna Carcelaria y el Infierno Verde)",
-        "• Bandas, 80+ presos (#YYXX), 50 guardias (S YY/XX), fauna de Offit y armas",
-        "• Las 3 naves nuevas (MPT «Bus», Hunter-Seeker y Veil of Night) + 60 equipos",
-        "• Terminal interactiva de Recompensas y paquete para MR- Dirección",
-    ]
-    y = 385
-    for pt in puntos:
-        dr.text((120, y), pt, font=f_txt, fill=(220, 218, 214, 245))
-        y += 52
-
-    lienzo = marca.esquina(lienzo)
-    lienzo.convert("RGB").save(destino, "WEBP", quality=90, method=6)
-    print("  [OK] Escena de portada ->", destino.name)
+def etapa_planos(doc):
+    """Planos de cubierta de las 3 naves: la doble página del libro (ficha + dibujo + leyenda numerada), sin cabecera ni pie."""
+    for slug, pl in (("mpt-bus", 326), ("hunter-seeker", 328), ("veil-of-night", 330)):
+        hoja = doble_pagina(doc, pl, pl + 1, 190, (0, 40, 576, 640), (0, 40, 576, 640))
+        guardar(marca.esquina(hoja, sube=0.0), ASSETS / "planos" / f"{slug}.webp", 84)
+    print("  [OK] planos de nave")
 
 
-def extraer_planos_y_escenas(doc):
-    """Extrae planos de las 3 naves, mapas de Baclite/Infierno Verde, Mapa de Salto y estaciones."""
-    crear_portada_escena(doc, ASSETS / "escenas" / "portada.webp")
-
-    # 3 Planos de cubierta de las naves (formato idéntico a mr-kit-desguazador/tools/planos.py)
-    naves_paginas = {
-        "mpt-bus": (326, 327),
-        "hunter-seeker": (328, 329),
-        "veil-of-night": (330, 331),
-    }
-    for clave, (pa, pb) in naves_paginas.items():
-        hoja = render_doble_pagina(doc, pa, pb, dpi=170)
-        hoja = marca.esquina(hoja)
-        hoja.save(ASSETS / "planos" / f"{clave}.webp", "WEBP", quality=84, method=6)
-        print("  [OK] Plano de nave ->", f"{clave}.webp")
-
-    # Mapa de salto del sector (doble página 332-333)
-    salto = render_doble_pagina(doc, 332, 333, dpi=170)
-    salto = marca.esquina(salto)
-    salto.save(ASSETS / "escenas" / "mapa-salto.webp", "WEBP", quality=86, method=6)
-
-    # Prisión ODC Baclite: versión Guardián (doble página 254-255 con notas) y versión Mesa (página 256 limpia)
-    odc_gm = render_doble_pagina(doc, 254, 255, dpi=170)
-    odc_gm = marca.esquina(odc_gm)
-    odc_gm.save(ASSETS / "escenas" / "odc-guardian.webp", "WEBP", quality=86, method=6)
-
-    # Para la mesa, usamos el mapa limpio de la celda/prisión sin las etiquetas de guardias (xref 1804 en P256 + xref 1798/1800 limpios)
-    odc_mesa_izq = extraer_xref(doc, 1798).convert("RGB")
-    odc_mesa_der = extraer_xref(doc, 1800).convert("RGB")
-    odc_mesa = Image.new("RGB", (odc_mesa_izq.width + odc_mesa_der.width, max(odc_mesa_izq.height, odc_mesa_der.height)), (245, 245, 245))
-    odc_mesa.paste(odc_mesa_izq, (0, 0))
-    odc_mesa.paste(odc_mesa_der, (odc_mesa_izq.width, 0))
-    odc_mesa = marca.esquina(odc_mesa)
-    odc_mesa.save(ASSETS / "escenas" / "odc-mesa.webp", "WEBP", quality=86, method=6)
-
-    # Plano de celda para jugadores (P256)
-    celda_mesa = render_pagina(doc, 256, dpi=170)
-    celda_mesa = marca.esquina(celda_mesa)
-    celda_mesa.save(ASSETS / "escenas" / "odc-celda.webp", "WEBP", quality=86, method=6)
-
-    # Mapa del Infierno Verde (P304): versión Guardián (página renderizada con distancias) y versión Mesa (xref 2047 limpia)
-    iv_gm = render_pagina(doc, 304, dpi=175)
-    iv_gm = marca.esquina(iv_gm)
-    iv_gm.save(ASSETS / "escenas" / "infierno-verde-guardian.webp", "WEBP", quality=86, method=6)
-
-    iv_mesa = extraer_xref(doc, 2047).convert("RGB")
-    iv_mesa = marca.esquina(iv_mesa)
-    iv_mesa.save(ASSETS / "escenas" / "infierno-verde-mesa.webp", "WEBP", quality=86, method=6)
-
-    # Escenas de estaciones y ubicaciones principales de Cazarrecompensas
-    hubs = {
-        "absalom-station": 26,
-        "albion": 29,
-        "anvollapolis": 34,
-        "balonov": 44,
-        "hypelabs-domia": 103,
-        "utpala": 183,
-        "sullipsuma": 311,
-        "elephant-lodge": 312,
-    }
-    for slug, pag in hubs.items():
-        im = render_pagina(doc, pag, dpi=165)
-        im = marca.esquina(im)
-        im.save(ASSETS / "escenas" / f"{slug}.webp", "WEBP", quality=85, method=6)
-        print("  [OK] Escena ubicación ->", f"{slug}.webp")
-
-    # Escenas ilustradas de ambiente (extraídas de las ilustraciones panorámicas del libro)
-    ilustradas = [
-        ("caza-recompensas", 7, 253, "ENTREGA EN MANO", "Cazarrecompensas en los muelles del sector"),
-        ("tablon-ordenes", 11, 263, "RED DE ÓRDENES DE BUSCA", "Terminales abiertas, encargos del sindicato y contratos cerrados"),
-        ("emboscada", 18, 337, "DEPREDADOR O PRESA", "Rastreo y captura en las estaciones fronterizas"),
-        ("bestia-absalom", 28, 395, "ORDEN 01 · ABSALOM STATION", "Lo que acecha bajo las cicatrices"),
-    ]
-    for slug, pag, xref, tit, sub in ilustradas:
-        try:
-            raw = extraer_xref(doc, xref).convert("RGB")
-        except Exception:
-            raw = render_pagina(doc, pag, dpi=160)
-        W, H = 1920, 1080
-        bg = raw.resize((W, H), Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(20))
-        bg = ImageEnhance.Brightness(bg).enhance(0.35)
-        escala = min((W * 0.86) / raw.width, (H * 0.86) / raw.height)
-        nw, nh = int(raw.width * escala), int(raw.height * escala)
-        fg = raw.resize((nw, nh), Image.Resampling.LANCZOS)
-        ox, oy = (W - nw) // 2, (H - nh) // 2
-        bg.paste(fg, (ox, oy))
-        dr = ImageDraw.Draw(bg)
-        dr.rounded_rectangle((48, H - 135, 760, H - 38), radius=10, fill=(14, 12, 16), outline=(217, 56, 46), width=2)
-        dr.text((68, H - 122), tit, font=cargar_fuente(34), fill=(244, 240, 234))
-        dr.text((68, H - 78), sub, font=cargar_fuente(22), fill=(210, 205, 198))
-        bg = marca.esquina(bg)
-        bg.save(ASSETS / "escenas" / f"{slug}.webp", "WEBP", quality=86, method=6)
-        print("  [OK] Escena ilustrada ->", f"{slug}.webp")
+# ───────────────────────── 5 · armas de prisión (pág. 277) ─────────────────────────
+ARMAS = {   # slug: caja en píxeles de la imagen de página 1205×1505
+    "pilas-calcetin": (130, 240, 320, 400), "motosierra": (300, 230, 920, 440), "daga": (920, 230, 1070, 440),
+    "hacha-de-tala": (70, 500, 320, 910), "anillos": (320, 505, 620, 690), "garrote": (640, 505, 900, 690),
+    "hachuela": (905, 505, 1100, 690), "latigo": (330, 780, 620, 970), "piedra-cuerda": (625, 780, 935, 960),
+    "mazo": (925, 800, 1145, 1160), "pincho-madera": (100, 1060, 300, 1170), "pincho-sierra": (310, 1050, 610, 1235),
+    "pincho-lata": (610, 1080, 920, 1240),
+}
 
 
-def extraer_100_objetivos(doc):
-    """Extrae el retrato individual de cada una de las 100 Órdenes de Busca (01..100) y genera su token."""
-    # Mapear en qué página empieza cada ORDEN 01..100
-    paginas_orden = {}
-    for p in range(25, 222):
-        txt = doc[p].get_text("text")
-        for m in re.finditer(r"ORDEN\s+(\d{2,3})", txt):
-            num = int(m.group(1))
-            if 1 <= num <= 100 and num not in paginas_orden:
-                paginas_orden[num] = p
-
-    # Respaldo: cuadrícula de retratos de las páginas 2 y 3
-    p2_im = render_pagina(doc, 2, dpi=180)
-    p3_im = render_pagina(doc, 3, dpi=180)
-
-    extraidos = 0
-    for num in range(1, 101):
-        p_idx = paginas_orden.get(num, 26)
-        candidato = None
-        # Buscar la imagen de retrato (típicamente 300..950px de ancho, relación vertical o cuadrada) en la página o la siguiente
-        for look_p in (p_idx, min(221, p_idx + 1)):
-            for img_info in doc[look_p].get_images(full=True):
-                xref, _, iw, ih = img_info[0], img_info[1], img_info[2], img_info[3]
-                if xref in (2251, 2254):
-                    continue
-                if 200 <= iw <= 1150 and 200 <= ih <= 1450 and not (iw == 1200 and ih == 1500):
-                    try:
-                        candidato = extraer_xref(doc, xref).convert("RGB")
-                        break
-                    except Exception:
-                        pass
-            if candidato is not None:
-                break
-
-        if candidato is None:
-            # Recortar de la cuadrícula de P2/P3
-             bloque = ((num - 1) // 10)
-             col = (num - 1) % 10
-             hoja_grid = p2_im if (bloque % 2 == 0) else p3_im
-             fila = bloque // 2
-             gw, gh = hoja_grid.size
-             cw, ch = gw / 10.0, gh / 5.0
-             candidato = hoja_grid.crop((int(col * cw), int(fila * ch), int((col + 1) * cw), int((fila + 1) * ch)))
-
-        # Guardar retrato con marca.esquina
-        retrato = candidato.resize((480, 600), Image.Resampling.LANCZOS)
-        retrato_m = marca.esquina(retrato.copy())
-        slug = f"orden-{num:03d}"
-        retrato_m.save(ASSETS / "objetivos" / f"{slug}.webp", "WEBP", quality=85, method=6)
-        crear_token_circular(retrato, ASSETS / "tokens" / f"{slug}.webp", color_aro=(217, 56, 46))
-        if num in (1, 2, 5, 7, 13, 28, 32, 41, 50, 56, 83, 100):
-            crear_figura_cuerpo_entero(candidato, ASSETS / "figuras" / f"{slug}.webp")
-        extraidos += 1
-
-    print(f"  [OK] {extraidos}/100 retratos y tokens de objetivos generados.")
+def etapa_armas(doc):
+    base = sobre(rgba(doc, 1955, opaco_ok=True), NEGRO_ODC)
+    for slug, caja in ARMAS.items():
+        rec = base.crop(caja)
+        lado = int(max(rec.size) * 1.12)
+        cuadro = Image.new("RGB", (lado, lado), NEGRO_ODC)
+        cuadro.paste(rec, ((lado - rec.width) // 2, (lado - rec.height) // 2))
+        cuadro = ImageEnhance.Contrast(cuadro).enhance(1.12).resize((256, 256), Image.LANCZOS)
+        guardar(marca.esquina(cuadro), ASSETS / "armas" / f"{slug}.webp", 88)
+    print(f"  [OK] {len(ARMAS)} iconos de armas de prisión")
 
 
-def extraer_10_cazarrecompensas_y_odc(doc):
-    """Extrae retratos, tokens y figuras de cuerpo entero de los 10 Cazarrecompensas, Presos, Guardias y Fauna."""
-    # En P334 y P335 están las 10 tiras verticales de los 10 cazarrecompensas, además de sus páginas 230..249
-    pags_cazador = [230, 232, 234, 236, 238, 240, 242, 244, 246, 248]
-    for i, pag in enumerate(pags_cazador, start=1):
-        mejor = None
-        for p_look in (pag - 1, pag):
-            for info in doc[p_look].get_images(full=True):
-                xref, iw, ih = info[0], info[2], info[3]
-                if xref in (2251, 2254) or (iw == 1200 and ih == 1500):
-                    continue
-                if iw >= 220 and ih >= 220:
-                    try:
-                        im = extraer_xref(doc, xref)
-                        if mejor is None or (im.width * im.height > mejor.width * mejor.height):
-                            mejor = im
-                    except Exception:
-                        pass
-        if mejor is None:
-            mejor = render_pagina(doc, pag, dpi=150).crop((40, 120, 620, 920))
+# ───────────────────────── 6 · arte generado con Codex (personal sin ilustración e iconos) ─────────────────────────
+PERSONAL = ["stephen-bognar", "christof-bognar", "kyou-aoki", "rani-kartall", "asad-sivert", "rey-brun", "zazil-herbertsson"]
+ICONOS = ["terminal", "orden", "rastreo", "delito", "soborno", "equipo", "nave"]
 
-        slug = f"cazador-{i:02d}"
-        ret = mejor.convert("RGB").resize((520, 680), Image.Resampling.LANCZOS)
-        marca.esquina(ret.copy()).save(ASSETS / "cazadores" / f"{slug}.webp", "WEBP", quality=86, method=6)
-        crear_token_circular(ret, ASSETS / "tokens" / f"{slug}.webp", color_aro=(235, 168, 52))
-        crear_figura_cuerpo_entero(mejor, ASSETS / "figuras" / f"{slug}.webp")
 
-    # También la figura icónica de la portada (xref 27153)
-    try:
-        oso = extraer_xref(doc, 27153)
-        crear_figura_cuerpo_entero(oso, ASSETS / "figuras" / "cazarrecompensas-oso.webp")
-        crear_token_circular(oso, ASSETS / "tokens" / "cazarrecompensas-oso.webp", color_aro=(217, 56, 46))
-    except Exception:
-        pass
-
-    # Retratos de Presos, Guardias de la ODC y Fauna (de P281-310)
-    odc_muestras = [
-        ("preso-rebelde", 282),
-        ("preso-veterano", 285),
-        ("preso-sindicalista", 288),
-        ("preso-fugitivo", 292),
-        ("guardia-odc", 298),
-        ("superintendente-bognar", 299),
-        ("fauna-larva", 306),
-        ("fauna-chupaarboles", 307),
-        ("fauna-basilisco", 308),
-        ("fauna-acechador", 309),
-    ]
-    for slug, pag in odc_muestras:
-        im_elegida = None
-        for info in doc[pag - 1].get_images(full=True):
-            xref, iw, ih = info[0], info[2], info[3]
-            if xref not in (2251, 2254) and iw >= 180 and ih >= 180 and not (iw >= 1180 and ih >= 1480):
-                try:
-                    im_elegida = extraer_xref(doc, xref)
+def duotono(im):
+    """Lleva un retrato a color a la tinta naranja sobre negro de las láminas de la ODC (como los presos del libro)."""
+    g = ImageEnhance.Contrast(im.convert("L")).enhance(1.25)
+    pts = [(0, (14, 12, 14)), (95, (120, 52, 22)), (170, (226, 118, 48)), (255, (248, 236, 218))]
+    lut = []
+    for c in range(3):
+        for v in range(256):
+            for (a, ca), (b, cb) in zip(pts, pts[1:]):
+                if a <= v <= b:
+                    lut.append(round(ca[c] + (cb[c] - ca[c]) * (v - a) / (b - a)))
                     break
-                except Exception:
-                    pass
-        if im_elegida is None:
-            pg = render_pagina(doc, pag, dpi=150)
-            im_elegida = pg.crop((int(pg.width * 0.15), int(pg.height * 0.2), int(pg.width * 0.85), int(pg.height * 0.8)))
-
-        rgb = im_elegida.convert("RGB").resize((480, 600), Image.Resampling.LANCZOS)
-        marca.esquina(rgb.copy()).save(ASSETS / "odc" / f"{slug}.webp", "WEBP", quality=85, method=6)
-        crear_token_circular(rgb, ASSETS / "tokens" / f"{slug}.webp", color_aro=(88, 178, 132))
-        crear_figura_cuerpo_entero(im_elegida, ASSETS / "figuras" / f"{slug}.webp")
-
-    print("  [OK] 10 Cazarrecompensas y retratos/tokens/figuras de la ODC generados.")
+    r, g_, b_ = (g.point(lut[i * 256:(i + 1) * 256]) for i in range(3))
+    return Image.merge("RGB", (r, g_, b_))
 
 
-def crear_iconos():
-    """Genera iconos vectoriales estilo Mothership (blanco y rojo/ámbar sobre negro) con marca.esquina."""
-    definiciones = {
-        "terminal": ("BUSCA", "01-100"),
-        "orden": ("SE BUSCA", "VIVO/MUERTO"),
-        "rastreo": ("RASTREO", "PISTAS"),
-        "delito": ("DELITO", "NIVEL BL"),
-        "juicio": ("CASTIGO", "SENTENCIA"),
-        "odc": ("ODC", "BACLITE"),
-        "soborno": ("SOBORNO", "CRÉDITOS"),
-        "jungla": ("OFFIT", "JUNGLA"),
-        "arma-prision": ("PRISIÓN", "CONTRABANDO"),
-        "equipo": ("EQUIPO", "CAZADOR"),
-        "nave": ("NAVE", "SALTO"),
-    }
-    for slug, (l1, l2) in definiciones.items():
-        L = 512
-        im = Image.new("RGBA", (L, L), (14, 14, 16, 255))
-        dr = ImageDraw.Draw(im)
-        dr.rounded_rectangle((22, 22, L - 22, L - 22), radius=42, fill=(22, 20, 24, 255), outline=(217, 56, 46, 255), width=8)
-        dr.ellipse((86, 86, L - 86, L - 86), outline=(240, 236, 230, 90), width=4)
-        # Mira de cazarrecompensas estilizada
-        dr.line((L // 2, 54, L // 2, 136), fill=(217, 56, 46, 220), width=6)
-        dr.line((L // 2, L - 136, L // 2, L - 54), fill=(217, 56, 46, 220), width=6)
-        dr.line((54, L // 2, 136, L // 2), fill=(217, 56, 46, 220), width=6)
-        dr.line((L - 136, L // 2, L - 54, L // 2), fill=(217, 56, 46, 220), width=6)
-
-        f1 = cargar_fuente(68)
-        f2 = cargar_fuente(36)
-        b1 = dr.textbbox((0, 0), l1, font=f1)
-        b2 = dr.textbbox((0, 0), l2, font=f2)
-        dr.text(((L - (b1[2] - b1[0])) // 2, L // 2 - 58), l1, font=f1, fill=(244, 240, 234, 255))
-        dr.text(((L - (b2[2] - b2[0])) // 2, L // 2 + 22), l2, font=f2, fill=(235, 185, 92, 255))
-
-        im = marca.esquina(im)
-        im.save(ASSETS / "iconos" / f"{slug}.webp", "WEBP", quality=88, method=6)
-    print("  [OK] Iconos de sistema/macros generados con MR_MARCA.")
+def etapa_arte(doc=None):
+    for slug in PERSONAL:
+        src = Image.open(RAW / f"{slug}.png").convert("RGB")
+        w, h = src.size
+        d = duotono(src)
+        ret = d.crop((int(w * 0.12), 0, int(w * 0.88), h)).resize((520, int(520 * h / (w * 0.76))), Image.LANCZOS)
+        token_circular(d, ASSETS / "tokens" / f"{slug}.webp", (234, 124, 40), caja=(int(w * 0.08), int(h * 0.04), int(w * 0.92), int(h * 0.04) + int(w * 0.84)), fondo=NEGRO_ODC)
+        guardar(marca.esquina(ret), ASSETS / "odc" / f"{slug}.webp", 86)
+    for slug in ICONOS:
+        f = RAW / f"icono-{slug}.png"
+        if not f.exists():   # el filtro de violencia de la IA rechazó el pincho: se usa el arma real del libro
+            import shutil
+            shutil.copy(ASSETS / "armas" / "pincho-sierra.webp", ASSETS / "iconos" / f"{slug}.webp")
+            continue
+        src = Image.open(f).convert("RGB")
+        w, h = src.size
+        lado = min(w, h)
+        c = src.crop(((w - lado) // 2, (h - lado) // 2, (w + lado) // 2, (h + lado) // 2)).resize((256, 256), Image.LANCZOS)
+        # esquinas redondeadas
+        m = Image.new("L", (768, 768), 0)
+        ImageDraw.Draw(m).rounded_rectangle((0, 0, 767, 767), radius=150, fill=255)
+        c = c.convert("RGBA")
+        c.putalpha(m.resize((256, 256), Image.LANCZOS))
+        guardar(marca.esquina(c), ASSETS / "iconos" / f"{slug}.webp", 90)
+    print(f"  [OK] {len(PERSONAL)} retratos del personal e {len(ICONOS)} iconos")
 
 
 def main():
+    etapas = sys.argv[1:] or ["ordenes", "cazadores", "odc", "escenas", "planos", "armas", "arte"]
     doc = fitz.open(PDF_PATH)
-    extraer_planos_y_escenas(doc)
-    extraer_100_objetivos(doc)
-    extraer_10_cazarrecompensas_y_odc(doc)
-    crear_iconos()
+    for e in etapas:
+        globals()[f"etapa_{e}"](doc)
     doc.close()
-    print("Extracción de recursos de Wages of Sin completada.")
 
 
 if __name__ == "__main__":

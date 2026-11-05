@@ -1,5 +1,17 @@
 # Cambios
 
+## 1.1.1 (2026-11-05)
+
+Revisión completa: el módulo se instala solo, está ordenado y todo sale del libro.
+
+- **Autoinstalable de verdad.** La importación automática de 1.0.0 fallaba al activarse. Ahora, en un mundo nuevo, se importa todo en una carpeta **Wages of Sin** de cada pestaña (escenas por zonas, actores por grupos, diarios, objetos, tablas y macros) y las macros quedan en la barra. Botón de reimportación en Configuración; los personajes de los jugadores no se pisan.
+- **Retratos arreglados.** Los 100 retratos de las órdenes salían casi negros (se perdía la máscara de tinta); ahora son los del libro, con su token. Los cazarrecompensas, la fauna y los presos usan su arte real en lugar de capturas de página.
+- **Arte sin maquetación.** Escenas, mapas y planos recortados sin texto del libro; miniaturas de escena; iconos nuevos.
+- **Todo el texto del libro.** Órdenes, manual, cazarrecompensas, estaciones y tablas se leen del texto de la tradumaquetación (antes eran líneas sueltas del PDF con palabras partidas). Las tablas de dados salen en filas.
+- **Datos reales.** Se retiran las cifras, tablas y reglas que no eran del libro (pagos por BL, generador, sentencias, simulador del Infierno Verde, estadísticas de presos y fauna inventados). Fichas de naves, cazarrecompensas, personal, presos (100 en el registro, 27 con ficha y retrato), fauna (10 criaturas) y las 13 armas de prisión, con las cifras del libro.
+- **Terminal rehecha** con lo que el libro define: órdenes, tabla de niveles y pago, oráculo y sobornos.
+- Retratos del personal de dirección y dos presos, e iconos, generados para el módulo (indicado en cada ficha).
+
 ## 1.0.0 (2026-11-05)
 
 Primera publicación completa en español de **Wages of Sin (MRPG-M6)** para *Mothership 1e* en Foundry VTT v13/v14.

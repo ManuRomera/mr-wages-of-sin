@@ -1,129 +1,111 @@
 {
   "id": "mr-wages-of-sin",
-  "title": "MR- Wages of Sin · Cazarrecompensas y La ODC: Baclite",
+  "title": "MR- Wages of Sin",
   "system": "mosh",
   "clocks": [
     {
       "id": "bl-tripulacion",
-      "name": "Nivel de Busca del Grupo (BL)",
-      "max": 10,
-      "value": 0
-    },
-    {
-      "id": "rastro-presa",
-      "name": "Rastro del Objetivo",
-      "max": 4,
-      "value": 0
-    },
-    {
-      "id": "alerta-odc",
-      "name": "Alerta en la Prisión ODC",
-      "max": 6,
-      "value": 0
-    },
-    {
-      "id": "fuga-offit",
-      "name": "Travesía por el Infierno Verde",
-      "max": 6,
+      "name": "Nivel de Recompensa de la tripulación",
+      "max": 9,
       "value": 0
     }
   ],
   "scenes": {
     "portada": {
-      "id": "8XJi7y9ytvg8jGuW",
-      "name": "00 · Portada — Wages of Sin",
+      "id": "8xjI7Y9YTVG8JgUw",
+      "name": "Portada",
       "img": "modules/mr-wages-of-sin/assets/escenas/portada.webp",
-      "readAloud": "El terminal del sindicato parpadea en rojo sobre la mesa. Cien rostros buscados en todo el sector; trescientos mil créditos en recompensas pendientes; y al final de la ruta de salto, la sombra verde de Baclite, la Luna Carcelaria."
+      "readAloud": ""
     },
     "mapa-salto": {
-      "id": "NpGhgctlur0io4E9",
-      "name": "01 · Mapa de Salto del Sector",
+      "id": "nPgHGCTLUR0IO4e9",
+      "name": "Mapa de salto del sector",
       "img": "modules/mr-wages-of-sin/assets/escenas/mapa-salto.webp",
-      "readAloud": "Las rutas de salto conectan las estaciones comerciales de Clase A y B con los puertos sin ley del borde exterior y el sistema aislado de Baclite."
+      "readAloud": ""
     },
     "tablon-ordenes": {
-      "id": "OkGXomtGPkWKUA3I",
-      "name": "02 · Red de Órdenes de Busca",
+      "id": "oKgxOMTgpKwkua3i",
+      "name": "Red de órdenes de busca",
       "img": "modules/mr-wages-of-sin/assets/escenas/tablon-ordenes.webp",
-      "readAloud": "Órdenes abiertas para cualquiera con un arma; contratos del sindicato con fianza; y subastas cerradas donde corporaciones y mafias ponen precio a sus traidores."
+      "readAloud": ""
     },
     "caza-recompensas": {
-      "id": "WutkbANNO1zhScff",
-      "name": "03 · Muelles y Entrega en Mano",
+      "id": "wUTKBanno1ZHsCFF",
+      "name": "Muelles y entrega en mano",
       "img": "modules/mr-wages-of-sin/assets/escenas/caza-recompensas.webp",
-      "readAloud": "Entregar un objetivo vivo paga el doble, pero cada día de espera en el puerto da tiempo a sus cómplices para intentar liberarlo."
+      "readAloud": ""
     },
     "absalom-station": {
-      "id": "0jMKuac7ntG219l6",
-      "name": "04 · Absalom Station (Órdenes 01, BL:1)",
+      "id": "0JmkUAC7NTg219L6",
+      "name": "Absalom Station",
       "img": "modules/mr-wages-of-sin/assets/escenas/absalom-station.webp",
-      "readAloud": "Antiguo cuartel orbital reconvertido en colmena superpoblada. Las obras de ampliación nunca terminan y algo acecha en los conductos tras las Pleasance Rooms."
+      "readAloud": "Construida como cuartel orbital, Absalom Station iba a alojar tropas de una futura fuerza antipiratería local. Una crisis económica dio al traste con el proyecto y la estación salió a subasta. Hoy alberga a decenas de miles de personas, y cada día llegan más. Las obras de ampliación nunca acaban. La mayoría huye de la miseria de sus mundos natales y sube a la estación con la esperanza de encontrar trabajo o, al menos, un pasaje para salir del sistema."
     },
     "anvollapolis": {
-      "id": "LxyUPdS8haRm8NyG",
-      "name": "05 · Anvollapolis (Órdenes 03–07)",
+      "id": "lXYupDs8HArM8nYg",
+      "name": "Anvollapolis",
       "img": "modules/mr-wages-of-sin/assets/escenas/anvollapolis.webp",
-      "readAloud": "Metrópoli vertical dividida entre las torres corporativas, los sindicatos portuarios y las células insurgentes del ALF."
+      "readAloud": "Anvollapolis es una inmensa megaciudad que crece sobre Anvolla como una garrapata de metal hinchada con la sangre del mundo. Miles de millones habitan bajo su piel de acero: humanidad hacinada en estratos. En su interior se ocultan incontables pasajes sinuosos y ruinas oxidadas que se desmoronan. La riqueza depende de la altura y la distancia a la superficie de la ciudad. Quienes viven en los bordes externos sufren la radiación constante de la atmósfera arruinada de Anvolla."
     },
     "balonov": {
-      "id": "p98xua8Q2NPDhNs7",
-      "name": "06 · Balonov Downport City (Órdenes 09–13)",
+      "id": "P98XUA8q2npdHnS7",
+      "name": "Balonov: puerto",
       "img": "modules/mr-wages-of-sin/assets/escenas/balonov.webp",
-      "readAloud": "Puerto de superficie ruidoso y embarrado donde confluyen contrabandistas, zoólogos ilegales y streamers de asesinatos en directo."
+      "readAloud": "Balonov fue una colonia minera. Agotados sus principales recursos, solo queda una ruina posindustrial en decadencia, sumida en la pobreza extrema. Gran parte de la población vive en las extensas ruinas industriales de la Ciudad Portuaria."
     },
     "hypelabs-domia": {
-      "id": "FZduAw9Zqx3OxGOn",
-      "name": "07 · HypeLabs Domia Station (Órdenes 41, 43, 45, 46)",
+      "id": "fzDUaW9zQX3oXgoN",
+      "name": "Estación Domia de HypeLabs",
       "img": "modules/mr-wages-of-sin/assets/escenas/hypelabs-domia.webp",
-      "readAloud": "Estación de investigación de alta seguridad. Sus órdenes de busca alcanzan BL:9 y suelen implicar inteligencias artificiales o sicarios corporativos."
+      "readAloud": "HypeLabs aplica un modelo de incubadora tecnológica a la investigación puntera en cualquier disciplina. Domia es una de sus estaciones de «intercambio de ideas», donde distintos campos comparten recursos para reducir costes y, con suerte, generar ideas novedosas. Todo invento creado en sus instalaciones pasa a ser propiedad intelectual de HypeLabs."
     },
     "utpala": {
-      "id": "S4OeqJid8XeBpz9A",
-      "name": "08 · Utpala — Fortín Pirata (Orden 83, BL:8)",
+      "id": "s4oEQjID8xEbPZ9a",
+      "name": "Utpala",
       "img": "modules/mr-wages-of-sin/assets/escenas/utpala.webp",
-      "readAloud": "Astillero y bastión fortificado desde donde opera el crucero acorazado Veil of Night."
+      "readAloud": "En el negro vacío inerte más allá del Borde Exterior, Utpala. Bautizada como un infierno helado, es el corazón de un imperio pirata. Los miembros de la Cofradía Pirata de Utpala solo respetan sus propios lazos y no tienen piedad al saquear y expoliar. Aun así, los juramentos, promesas y tratos entre piratas son sagrados. Todos recalcan las terribles consecuencias de faltar a un juramento, aunque ningún forastero ha visto pruebas más allá de las anécdotas que se cuentan entre cervezas."
     },
     "odc-mesa": {
-      "id": "zhXGLrGdLwPiAwPz",
-      "name": "09 · La ODC: Baclite — Plano de Prisión (Mesa)",
+      "id": "ZHxglRgDlWpIaWpZ",
+      "name": "La ODC: plano de la prisión (mesa)",
       "img": "modules/mr-wages-of-sin/assets/escenas/odc-mesa.webp",
-      "readAloud": "Hormigón húmedo rodeado por un muro de ocho metros y el rugido incesante de los generadores de contención animal. Más allá del perímetro se extiende el mar verde sin fin de Offit."
+      "readAloud": ""
     },
     "odc-guardian": {
-      "id": "sYOFyBhHDRZuUChK",
-      "name": "10 · La ODC: Baclite — Plano del Guardián (Con secretos)",
+      "id": "SyofYbHhdrzUucHk",
+      "name": "La ODC: plano del Guardián",
       "img": "modules/mr-wages-of-sin/assets/escenas/odc-guardian.webp",
-      "readAloud": "Plano operativo del Guardián con dotación de funcionarios CO por atalaya, cámaras, horarios y puntos débiles del perímetro."
+      "readAloud": ""
     },
     "odc-celda": {
-      "id": "2B87B4ZmK8Y95OaW",
-      "name": "11 · La ODC: Baclite — Plano de Celda y Escondites",
+      "id": "2b87b4zMk8y95oAw",
+      "name": "La ODC: plano de la celda",
       "img": "modules/mr-wages-of-sin/assets/escenas/odc-celda.webp",
-      "readAloud": "Vuestra celda en el bloque penitenciario. Anotad aquí qué escondéis y dónde antes de la próxima requisa de los guardias."
+      "readAloud": "Imprime este plano y dáselo a tus jugadores: que marquen sus escondites."
     },
     "infierno-verde-mesa": {
-      "id": "N3uQimAlZGJJ4aaC",
-      "name": "12 · El Infierno Verde de Offit (Mapa de Jugadores)",
+      "id": "n3UqIMaLzgjj4AAc",
+      "name": "El Infierno Verde de Offit",
       "img": "modules/mr-wages-of-sin/assets/escenas/infierno-verde-mesa.webp",
-      "readAloud": "Árboles titánicos envueltos en niebla cálida. Aquí fuera no hay muros ni guardias: solo depredadores de seis patas y kilómetros de jungla."
-    },
-    "infierno-verde-guardian": {
-      "id": "AQtkxedWKCViCJ4E",
-      "name": "13 · El Infierno Verde de Offit (Mapa del Guardián)",
-      "img": "modules/mr-wages-of-sin/assets/escenas/infierno-verde-guardian.webp",
-      "readAloud": "Mapa del Guardián con las distancias aleatorias entre la ODC, el Campamento Maderero, el Parque Científico Sullipsuma, el Elephant Lodge y la Colonia de Fuga."
-    },
-    "plano-hunter-seeker": {
-      "id": "RngHybcU9vW8F4oZ",
-      "name": "14 · Cubierta: Caza «Hunter-Seeker» (Gauss CR-Medusa)",
-      "img": "modules/mr-wages-of-sin/assets/planos/hunter-seeker.webp",
-      "readAloud": "Caza interceptor de cazarrecompensas con 30 celdas de estasis, cañones automáticos gemelos y lancha de abordaje."
+      "readAloud": ""
     },
     "plano-mpt-bus": {
-      "id": "xQ9Z4P18RUH9ViJ5",
-      "name": "15 · Cubierta: Transporte Penal «MPT Bus»",
+      "id": "Xq9z4p18ruh9vIj5",
+      "name": "Cubierta: MPT «Bus»",
       "img": "modules/mr-wages-of-sin/assets/planos/mpt-bus.webp",
-      "readAloud": "Transporte masivo de prisioneros con pasarela superior armada y 132 celdas de contención rumbo a Baclite."
+      "readAloud": ""
+    },
+    "plano-hunter-seeker": {
+      "id": "rNGhYBCu9Vw8f4Oz",
+      "name": "Cubierta: Hunter-Seeker",
+      "img": "modules/mr-wages-of-sin/assets/planos/hunter-seeker.webp",
+      "readAloud": ""
+    },
+    "plano-veil-of-night": {
+      "id": "r0NaILcAvhuTj2Du",
+      "name": "Cubierta: Veil of Night",
+      "img": "modules/mr-wages-of-sin/assets/planos/veil-of-night.webp",
+      "readAloud": ""
     }
   }
 }

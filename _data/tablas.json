@@ -1,2009 +1,1209 @@
 [
  {
-  "_id": "AWL6FnECVXqYa6Ti",
-  "name": "01 · Las 100 Órdenes de Busca al azar (1d100)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
+  "_id": "awl6fNecvxQyA6tI",
+  "name": "Las 100 órdenes de busca (1d100)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/orden.webp",
+  "description": "",
   "results": [
    {
-    "_id": "k4tpEL06GUilCQH9",
+    "_id": "UQbwDKD5nvfgFtEN",
     "type": "text",
-    "text": "Orden #01 (BL:1) · Objetivo #01 — Viva, deuda saldada (1kcr) · Entrega: El Agujero, Absalom",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 01 · Ianeria Grimm, deudora (BL:1) — Vivo — 1kcr",
     "weight": 1,
     "range": [
      1,
      1
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "VNwwbgHoX7z46fLY",
+    "_id": "qwKE284mh9aekc3B",
     "type": "text",
-    "text": "Orden #02 (BL:8) · Objetivo #02 — Vivo (16kcr) · Entrega: ,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 02 · Cadoc Geisler, general rebelde (BL:8) — Vivo — 19mcr",
     "weight": 1,
     "range": [
      2,
      2
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "kS3UXVwNKkN8WZLI",
+    "_id": "TEnWuQmRkITP0et3",
     "type": "text",
-    "text": "Orden #03 (BL:1) · Objetivo #03 — Vivo (2kcr) · Entrega: Policía de Anvollapolis.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 03 · Markos Petraitiene, ladrón (BL:1) — Vivo — 2kcr",
     "weight": 1,
     "range": [
      3,
      3
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "vsIrp1zK5TUcoHO6",
+    "_id": "6AH9WNTrHQPOCRjv",
     "type": "text",
-    "text": "Orden #04 (BL:3) · Objetivo #04 — Muerto (6kcr) · Entrega: Juvela’s Soycafe & Samovar,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 04 · Tte. Odovacer Vergoossen (BL:3) — Muerto — 30kcr",
     "weight": 1,
     "range": [
      4,
      4
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "XoKiwnUyHpqhfKy7",
+    "_id": "VUNL5oeOHzB9ebM4",
     "type": "text",
-    "text": "Orden #05 (BL:3) · Objetivo #05 — Vivo (6kcr) · Entrega: Piso 798, Domino Tower,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 05 · Asset_37 (BL:3) — Vivo — 12kcr",
     "weight": 1,
     "range": [
      5,
      5
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Q0suD87ioHhamMlG",
+    "_id": "LEvvcdn5od26TSE9",
     "type": "text",
-    "text": "Orden #06 (BL:4) · Objetivo #06 — Vivo (8kcr) · Entrega: Cualquier distrito de Stronghold.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 06 · Steffen Butkus, artificiero (BL:4) — Vivo — 600kcr",
     "weight": 1,
     "range": [
      6,
      6
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "4z9G8kkXqRPlgzdL",
+    "_id": "3XCJkK4iElUTdFoq",
     "type": "text",
-    "text": "Orden #07 (BL:8) · Objetivo #07 — Vivo o muerto (16kcr) · Entrega: Abundance Guardian, nave",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 07 · Célula de Mando del Alf (BL:8) — Vivo o muerto — 10mcr",
     "weight": 1,
     "range": [
      7,
      7
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "32AFmAeRxAhwl5wR",
+    "_id": "OZBAUREzgzS7IUvl",
     "type": "text",
-    "text": "Orden #08 (BL:3) · Objetivo #08 — Vivo (6kcr) · Entrega: Betune, luna de Aogantu.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 08 · Abiolu Opeyemi, decano (BL:3) — Vivo — 55kcr",
     "weight": 1,
     "range": [
      8,
      8
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "fhUlYe3Bf2DnrQmb",
+    "_id": "URUPerpwK17PqKfl",
     "type": "text",
-    "text": "Orden #09 (BL:2) · Objetivo #09 — Vivo (4kcr) · Entrega: Casa de los Robertson,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 09 · Yamis Robertson Joven Rebelde (BL:2) — Vivo — 10kcr",
     "weight": 1,
     "range": [
      9,
      9
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "1Ry5Ub57XWPtOhra",
+    "_id": "Q3m4Ub4qblpG6i9w",
     "type": "text",
-    "text": "Orden #10 (BL:4) · Objetivo #10 — Vivo o muerto (8kcr) · Entrega: Balonov Downport City.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 10 · Raffael Ebner, zoólogo (BL:4) — Vivo o muerto — 200kcr",
     "weight": 1,
     "range": [
      10,
      10
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "3FT4UhxehAxYejKm",
+    "_id": "HfFUqa10FCHezNop",
     "type": "text",
-    "text": "Orden #11 (BL:4) · Objetivo #11 — Vivo, con paquete (8kcr) · Entrega: , agente",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 11 · Bahdan Eros, mensajero (BL:4) — Vivo — 150kcr",
     "weight": 1,
     "range": [
      11,
      11
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "VYa6O7SSLItyUm4Y",
+    "_id": "EcDMJPKQArObnaxs",
     "type": "text",
-    "text": "Orden #12 (BL:5) · Objetivo #12 — Vivo o muerto (75kcr por pandillero) · Entrega: Sede de la Autoridad de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 12 · Asesinos del Slickware (BL:5) — Vivo o muerto",
     "weight": 1,
     "range": [
      12,
      12
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "X4P8PAS7Tr1jEXHB",
+    "_id": "N8yGZPBFRZU8uV35",
     "type": "text",
-    "text": "Orden #13 (BL:7) · Objetivo #13 — Vivo (14kcr) · Entrega: Unidad Móvil de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 13 · Muestra #78 (BL:7) — Vivo — 2mcr",
     "weight": 1,
     "range": [
      13,
      13
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "QERPNhQfp1f55Se0",
+    "_id": "K7Kvo5lUlu69I7g4",
     "type": "text",
-    "text": "Orden #14 (BL:3) · Objetivo #14 — Vivo o muerto (6kcr) · Entrega: Plaza de Traverso, Boria.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 14 · Odran Perrin, bandido (BL:3) — Vivo o muerto — 50kcr",
     "weight": 1,
     "range": [
      14,
      14
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "hDxYEr3qxEdpqYkg",
+    "_id": "3MCyc4Ma7K24gqel",
     "type": "text",
-    "text": "Orden #15 (BL:3) · Objetivo #15 — Solo viva (6kcr) · Entrega: Habitación 4, posada de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 15 · Aile Kyler, presa de pesadillas (BL:3) — Vivo — 20kcr",
     "weight": 1,
     "range": [
      15,
      15
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "GkPe8PtI9YIOzOxm",
+    "_id": "jz2CLnkImBbnHyEv",
     "type": "text",
-    "text": "Orden #16 (BL:5) · Objetivo #16 — Vivo (10kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 16 · Nazar Balog, rompebloqueos (BL:5) — Vivo — 800kcr",
     "weight": 1,
     "range": [
      16,
      16
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "g4lIhPtyRuQJNjAP",
+    "_id": "SCc8wKpOAfgiV3Re",
     "type": "text",
-    "text": "Orden #17 (BL:3) · Objetivo #17 — Muerto (50kcr) · Entrega: instalación de repostaje y",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 17 · Milosh Yaromil, minero (BL:3) — Muerto — 50kcr",
     "weight": 1,
     "range": [
      17,
      17
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "wRpXbjvrjJKBCchF",
+    "_id": "g4O1IRT2wi5cCQBR",
     "type": "text",
-    "text": "Orden #18 (BL:2) · Objetivo #18 — Viva (4kcr) · Entrega: Sede del Consejo de la Verdad",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 18 · Szofia Woodhams, investigadora (BL:2) — Vivo — 15kcr",
     "weight": 1,
     "range": [
      18,
      18
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "tRAVA5Wh3ag2EoFL",
+    "_id": "lFvwdjkw79rs0dA3",
     "type": "text",
-    "text": "Orden #19 (BL:5) · Objetivo #19 — Vivo (10kcr) · Entrega: Sala del Pueblo de Chiamia.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 19 · Isador Hornik, ejecutivo (BL:5) — Vivo — 520kcr",
     "weight": 1,
     "range": [
      19,
      19
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "WxHIS1TBtBBENGHY",
+    "_id": "XBin2R7PHZtWf1Sy",
     "type": "text",
-    "text": "Orden #20 (BL:3) · Objetivo #20 — Muerto (6kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 20 · Amaruq Borges, cazarrecompensas (BL:3) — Muerto — 20kcr",
     "weight": 1,
     "range": [
      20,
      20
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "DXZmsikluyOmOwCE",
+    "_id": "HYhuo1OuU6QoR5m9",
     "type": "text",
-    "text": "Orden #21 (BL:4) · Objetivo #21 — Vivo (8kcr) · Entrega: Crucero patrulla de BriStar n.º",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 21 · Noe Moore, arquitecto naval (BL:4) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      21,
      21
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "ayqSb8gewoxdinZa",
+    "_id": "6FRZsO7JDnJkoirS",
     "type": "text",
-    "text": "Orden #22 (BL:4) · Objetivo #22 — Vivo (8kcr) · Entrega: Entregar a",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 22 · Eamon Mcguinness, recuperador (BL:4) — Vivo — 100kcr",
     "weight": 1,
     "range": [
      22,
      22
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "2apObNRfexvcfNSk",
+    "_id": "JBqq1GQLfOXHWZoI",
     "type": "text",
-    "text": "Orden #23 (BL:4) · Objetivo #23 — Viva (8kcr) · Entrega: Comisaría central de la ciudad",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 23 · Laxmi Riggi, organiza protestas (BL:4) — Vivo — 100kcr",
     "weight": 1,
     "range": [
      23,
      23
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "OSvVf9iI13uO92JA",
+    "_id": "xor4VKgeQe62ESKD",
     "type": "text",
-    "text": "Orden #24 (BL:3) · Objetivo #24 — Vivo (6kcr) · Entrega: Oficinas de la ACT de Citov,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 24 · Josue Georgiu, vendedor (BL:3) — Vivo — 80kcr",
     "weight": 1,
     "range": [
      24,
      24
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "XjEp9JxHTUxGoaop",
+    "_id": "TljRTMGTNjO3CCic",
     "type": "text",
-    "text": "Orden #25 (BL:3) · Objetivo #25 — Vivo (6kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 25 · Waldek Mccune, transportista (BL:3) — Vivo — 50kcr",
     "weight": 1,
     "range": [
      25,
      25
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "HQ2CS4FRrs8wAIPR",
+    "_id": "tEJLMCqosbQGi4O6",
     "type": "text",
-    "text": "Orden #26 (BL:3) · Objetivo #26 — Vivo (6kcr) · Entrega: Oficinas de la Comisión de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 26 · Arjun Barber, «doctor» (BL:3) — Vivo — 45kcr",
     "weight": 1,
     "range": [
      26,
      26
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "YekkA1VriCtDsyBV",
+    "_id": "0MntG5qA0kYN9DUP",
     "type": "text",
-    "text": "Orden #27 (BL:4) · Objetivo #27 — Viva (8kcr) · Entrega: Oficinas de la Comisión de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 27 · Natalia Ivanova, profeta (BL:4) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      27,
      27
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "2c9Pjuzxi1z9FYxj",
+    "_id": "kiodTCkiv3BydJBf",
     "type": "text",
-    "text": "Orden #28 (BL:7) · Objetivo #28 — Vivo o muerto (14kcr) · Entrega: Representantes de la",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 28 · Akoni Lafrenz, investigador de ia (BL:7) — Vivo o muerto — 5mcr",
     "weight": 1,
     "range": [
      28,
      28
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "8EQW6bdV1j9mOXAY",
+    "_id": "iRid2cBaOs3ZMsaO",
     "type": "text",
-    "text": "Orden #29 (BL:2) · Objetivo #29 — Viva (4kcr) · Entrega: Comisaría Harlow del distrito",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 29 · Magda Cuesta, traficante (BL:2) — Vivo — 15kcr",
     "weight": 1,
     "range": [
      29,
      29
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "4lX9ae2Btrcet25N",
+    "_id": "8akc5Y8NjMGYGCzI",
     "type": "text",
-    "text": "Orden #30 (BL:4) · Objetivo #30 — Muerto (8kcr) · Entrega: Harlow, Doenides.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 30 · Cnaeus Baar, contrabandista (BL:4) — Muerto — 250kcr",
     "weight": 1,
     "range": [
      30,
      30
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "KaLylFv6HrBOoYTb",
+    "_id": "7wYaLfySf1ampSF8",
     "type": "text",
-    "text": "Orden #31 (BL:4) · Objetivo #31 — Vivo (8kcr) · Entrega: Cualquier dependencia",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 31 · Anish Vlahov, proveedor (BL:4) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      31,
      31
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "zayjNqI5NMJM2bM1",
+    "_id": "9myWaUOPhKHDFzs4",
     "type": "text",
-    "text": "Orden #32 (BL:4) · Objetivo #32 — Activa o inactiva (8kcr) · Entrega: Comisaría Harlow del distrito de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 32 · Abe Coleman, titiritero (BL:4) — Activa o inactiva — 150kcr",
     "weight": 1,
     "range": [
      32,
      32
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "kbF4zK1jabRoxFba",
+    "_id": "aCEfWJuVkYiCeRaB",
     "type": "text",
-    "text": "Orden #33 (BL:5) · Objetivo #33 — Vivo o muerto (10kcr) · Entrega: Plaza de los Mártires, Ciudad de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 33 · Ksenija Lope Gallo (BL:5) — Vivo o muerto — 500kcr",
     "weight": 1,
     "range": [
      33,
      33
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "oHk3xM0oLFbdn2VD",
+    "_id": "O1RedmeoY7Gta5Nf",
     "type": "text",
-    "text": "Orden #34 (BL:6) · Objetivo #34 — Vivo o muerto, operación destruida (12kcr) · Entrega: Estación Doenides.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 34 · Roach, cocinero (BL:6) — Vivo o muerto — 2mcr",
     "weight": 1,
     "range": [
      34,
      34
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "7C0woBPdN5UlWiC6",
+    "_id": "BgCWgcWCIZtwIQ3w",
     "type": "text",
-    "text": "Orden #35 (BL:4) · Objetivo #35 — Vivo o muerto (8kcr) · Entrega: Casa de la familia",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 35 · Hamilcar Borgi, traficante de armas (BL:4) — Vivo o muerto — 400kcr",
     "weight": 1,
     "range": [
      35,
      35
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "95YnQ3MQXMkyI2ZU",
+    "_id": "wiJkQ7UEK9WqF0Bt",
     "type": "text",
-    "text": "Orden #36 (BL:6) · Objetivo #36 — Vivo o muerto (12kcr) · Entrega: N/A",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 36 · Rade Furnadjiev, minero (BL:6) — Vivo o muerto — 1mcr",
     "weight": 1,
     "range": [
      36,
      36
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "QMFP4oKF79ATTuEi",
+    "_id": "2GFZgGjzJwQPFV7E",
     "type": "text",
-    "text": "Orden #37 (BL:5) · Objetivo #37 — Vivo o muerto (10kcr) · Entrega: , atracada",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 37 · Dzintra Favreau, espía (BL:5) — Vivo o muerto — 300kcr",
     "weight": 1,
     "range": [
      37,
      37
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "l1zs3jo4UXxciqr5",
+    "_id": "X8cIQGZKDEy9psIz",
     "type": "text",
-    "text": "Orden #38 (BL:6) · Objetivo #38 — Vivo o muerto (12kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 38 · Iago Faelan, ejecutivo (BL:6) — Vivo o muerto — 2mcr",
     "weight": 1,
     "range": [
      38,
      38
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "3selYKlPXoZTaFZm",
+    "_id": "GofQlurASqAmbDPW",
     "type": "text",
-    "text": "Orden #39 (BL:6) · Objetivo #39 — Vivo, con el dinero (12kcr) · Entrega: Shriakawa Foundry, en",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 39 · Esmaeil Kuipers, estafador (BL:6) — Vivo — 2mcr",
     "weight": 1,
     "range": [
      39,
      39
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "IKP6Kco3fCr1pOWe",
+    "_id": "ieWWcfHqPaG7oWaa",
     "type": "text",
-    "text": "Orden #40 (BL:6) · Objetivo #40 — Vivo (1mcr) · Entrega: Herencia Hildegaard, Lonoe.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 40 · Agostan Estrada, guardaespaldas (BL:6) — Vivo — 1mcr",
     "weight": 1,
     "range": [
      40,
      40
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "CGj2CqAc4gh71oET",
+    "_id": "pwcBsPcjtop4F6Hj",
     "type": "text",
-    "text": "Orden #41 (BL:9) · Objetivo #41 — Vivo (30mcr) · Entrega: representante de G³",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 41 · Etemenanki, ia (BL:9) — Vivo — 30mcr",
     "weight": 1,
     "range": [
      41,
      41
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "8DWYMXZ9FEfV9FNG",
+    "_id": "sOgpIUPDTIDxgnCH",
     "type": "text",
-    "text": "Orden #42 (BL:5) · Objetivo #42 — Vivo (200kcr) · Entrega: Nacelle City.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 42 · Guerreros Muerte Psiónica (BL:5) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      42,
      42
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "wom55Jfezi1H3aTY",
+    "_id": "DYopNVGwxI8BdHLT",
     "type": "text",
-    "text": "Orden #43 (BL:7) · Objetivo #43 — Vivo (14kcr) · Entrega: , Inrupa.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 43 · Generous Dividend, caballo (BL:7) — Vivo — 5mcr",
     "weight": 1,
     "range": [
      43,
      43
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "iZH6joekq3iycYkE",
+    "_id": "q0mK8rPRSs0KFWqI",
     "type": "text",
-    "text": "Orden #44 (BL:1) · Objetivo #44 — Viva (2kcr) · Entrega: Lonoe, luna privada del difunto",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 44 · Raina Fannon, heredera (BL:1) — Vivo — 10kcr",
     "weight": 1,
     "range": [
      44,
      44
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "HJlk70PdOiPYF2hV",
+    "_id": "8itsbN5I5jhLAHia",
     "type": "text",
-    "text": "Orden #45 (BL:4) · Objetivo #45 — Vivo (8kcr) · Entrega: CulturePlex de Lonoe",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 45 · Dragica Ismat, ladrona (BL:4) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      45,
      45
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Jq62Mo9yGQiFNRZ6",
+    "_id": "TiQTFRkGe9JX2Ji5",
     "type": "text",
-    "text": "Orden #46 (BL:8) · Objetivo #46 — Muerto (16kcr) · Entrega: , nuestro",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 46 · Akos Bristol, asesino (BL:8) — Muerto — 15mcr",
     "weight": 1,
     "range": [
      46,
      46
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "tpNx209HQ5iLoQgn",
+    "_id": "tsQXaA3IrzRTVLGM",
     "type": "text",
-    "text": "Orden #47 (BL:3) · Objetivo #47 — Vivo (20kcr) · Entrega: ,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 47 · Liam Napoli, asesor (BL:3) — Vivo — 20kcr",
     "weight": 1,
     "range": [
      47,
      47
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "1rlmTEdAQXcjNyY9",
+    "_id": "FvqurlL0hdllXcOM",
     "type": "text",
-    "text": "Orden #48 (BL:5) · Objetivo #48 — Vivo o muerto (650kcr) · Entrega: Mansión Ahlstrom, Maonus.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 48 · Jhon Rudowski, asesino en serie (BL:5) — Vivo o muerto — 650kcr",
     "weight": 1,
     "range": [
      48,
      48
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "a7z71Wnl9R98Xem7",
+    "_id": "vPo16HO7Gt4TPJn2",
     "type": "text",
-    "text": "Orden #49 (BL:7) · Objetivo #49 — Muerto (10mcr) · Entrega: Sala de reuniones 097,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 49 · Yann Giraud, el favorito (BL:7) — Muerto — 10mcr",
     "weight": 1,
     "range": [
      49,
      49
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "mhegVFz7qZbgAOiM",
+    "_id": "cSnLp0X0X2yAloWn",
     "type": "text",
-    "text": "Orden #50 (BL:8) · Objetivo #50 — Vivo o muerto (15mcr. (No basta.)) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 50 · zPotato, Hacker (BL:8) — Vivo o muerto — 15mcr. (No basta.)",
     "weight": 1,
     "range": [
      50,
      50
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "RZSEqedn4XxAYtFX",
+    "_id": "8kY3haO2Hu7C4Sg3",
     "type": "text",
-    "text": "Orden #51 (BL:5) · Objetivo #51 — Vivo o muerto (500kcr) · Entrega: Cuartel General Colonial de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 51 · Los Ladrones (BL:5) — Vivo o muerto — 500kcr",
     "weight": 1,
     "range": [
      51,
      51
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "SPfdFsRWslNYyegO",
+    "_id": "oL2pgmY3ReWQpMOz",
     "type": "text",
-    "text": "Orden #52 (BL:2) · Objetivo #52 — Vivo (4kcr) · Entrega: Sede de SecuRIGHT en Nidi City.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 52 · Ramesh Singh, dj pirata (BL:2) — Vivo — 35kcr",
     "weight": 1,
     "range": [
      52,
      52
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "ZArnRuMYKrXMADN3",
+    "_id": "Dr7qPdzIUyaYBTTP",
     "type": "text",
-    "text": "Orden #53 (BL:4) · Objetivo #53 — Muerta (250kcr) · Entrega: Ninguno; se paga al",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 53 · Anu Maas, candidata política (BL:4) — Muerto — 250kcr",
     "weight": 1,
     "range": [
      53,
      53
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "BrgeeeWmZnZW2Q5R",
+    "_id": "AsNY1lpKJjUEw2yh",
     "type": "text",
-    "text": "Orden #54 (BL:2) · Objetivo #54 — Muerta (6kcr en efectivo) · Entrega: No procede.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 54 · Jasmin Rutkousha, reclusa (BL:2) — Muerto — 6kcr en efectivo",
     "weight": 1,
     "range": [
      54,
      54
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "GzoZMx7LPtJmxrHI",
+    "_id": "R8H75e19W4hSCSoT",
     "type": "text",
-    "text": "Orden #55 (BL:3) · Objetivo #55 — Muerto (6kcr) · Entrega: N/A.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 55 · Sabellius Skjeggestad (BL:3) — Muerto — 2kcr en efectivo",
     "weight": 1,
     "range": [
      55,
      55
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "z50wvyyNf02ZGZur",
+    "_id": "TFnKxLyvGxCsHMRd",
     "type": "text",
-    "text": "Orden #56 (BL:6) · Objetivo #56 — Vivo (12kcr) · Entrega: Baclite.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 56 · Arewel Ennis, capo (BL:6) — Vivo — 2mcr",
     "weight": 1,
     "range": [
      56,
      56
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Sd7OPHsukKxjT2gF",
+    "_id": "66Ic7Zu4V6fZ9AyO",
     "type": "text",
-    "text": "Orden #57 (BL:2) · Objetivo #57 — Vivo o muerto (4kcr) · Entrega: Cúpulas del Paraíso, en",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 57 · Lera Zima, periodista (BL:2) — Vivo o muerto — 50kcr",
     "weight": 1,
     "range": [
      57,
      57
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "kprn8iPVZ4ZrvlmZ",
+    "_id": "Bcw3zO9uwu8P8KvD",
     "type": "text",
-    "text": "Orden #58 (BL:2) · Objetivo #58 — Muerta (50kcr) · Entrega: Motel SUITE DREAMS,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 58 · Melia Umarov, capataz (BL:2) — Muerto — 50kcr",
     "weight": 1,
     "range": [
      58,
      58
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "L5k5hjN2hH97yg5T",
+    "_id": "Et3XPE6aT4Gy5GmL",
     "type": "text",
-    "text": "Orden #59 (BL:3) · Objetivo #59 — Vivo (6kcr) · Entrega: Cualquier",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 59 · Loke Affini, expirata (BL:3) — Vivo — 40kcr",
     "weight": 1,
     "range": [
      59,
      59
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "ALBz5pVAz9jMuYk6",
+    "_id": "rX2d4l70LUEle1Zg",
     "type": "text",
-    "text": "Orden #60 (BL:3) · Objetivo #60 — Vivo (6kcr) · Entrega: Suites de la familia Rhys,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 60 · Rhys Rhodes, hijo de ejecutivos (BL:3) — Vivo — 30kcr",
     "weight": 1,
     "range": [
      60,
      60
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "4d0SytM6KUxCxO7e",
+    "_id": "3N2dNEorUYdcIoMu",
     "type": "text",
-    "text": "Orden #61 (BL:4) · Objetivo #61 — Vivo (8kcr) · Entrega: Cualquier comisaría de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 61 · Cevdet Koziel, coacciona jurados (BL:4) — Vivo — 150kcr",
     "weight": 1,
     "range": [
      61,
      61
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "CLb61cAFCVTPpg7m",
+    "_id": "mdHLbJTc2OcXn7D6",
     "type": "text",
-    "text": "Orden #62 (BL:5) · Objetivo #62 — Vivo (10kcr) · Entrega: Bar de Otabek, Ovibious City.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 62 · Hektor Koenigsmann, datamula (BL:5) — Vivo — 300kcr",
     "weight": 1,
     "range": [
      62,
      62
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "qtjaNk94DV7zbNSM",
+    "_id": "XXTNolbhnDls64FU",
     "type": "text",
-    "text": "Orden #63 (BL:6) · Objetivo #63 — Vivo, con lista de los lugares visitados (12kcr) · Entrega: Bloqueo de Cuarentena de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 63 · Julius Radclyffe (BL:6) — Vivo — 1mcr",
     "weight": 1,
     "range": [
      63,
      63
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "yLrY4OO0f5Wu7CFr",
+    "_id": "7BHPaKWHs7VQ8ZEn",
     "type": "text",
-    "text": "Orden #64 (BL:5) · Objetivo #64 — Viva (10kcr) · Entrega: Yacimiento #001, Ravour.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 64 · Dra. Giselle Reyer (BL:5) — Vivo — 750kcr",
     "weight": 1,
     "range": [
      64,
      64
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "boipLUmCjoqXM9Qx",
+    "_id": "3uMIq9tdVyUb3liB",
     "type": "text",
-    "text": "Orden #65 (BL:3) · Objetivo #65 — Vivo o muerto (6kcr) · Entrega: Refinería OB, Reliri.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 65 · Ctibor Vavra, pirata (BL:3) — Vivo o muerto — 80kcr",
     "weight": 1,
     "range": [
      65,
      65
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Xtc4otr1AGWQIQBI",
+    "_id": "05x1kp7gwURsluO5",
     "type": "text",
-    "text": "Orden #66 (BL:3) · Objetivo #66 — Muerta (6kcr) · Entrega: No procede. Basta con informar",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 66 · Alma Finch, portera (BL:3) — Muerto — 50kcr",
     "weight": 1,
     "range": [
      66,
      66
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "yBjtTjbqJkfFYu5b",
+    "_id": "KJP6GcBBFq5fhuQg",
     "type": "text",
-    "text": "Orden #67 (BL:4) · Objetivo #67 — Bien muerto. (8kcr) · Entrega: Ninguno. Se enviará el dinero",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 67 · Erasmus Extbaria (BL:4) — Muerto — 225kcr",
     "weight": 1,
     "range": [
      67,
      67
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "YZpRt74mLQtLnWNO",
+    "_id": "pJyFfppn9WJ13Se2",
     "type": "text",
-    "text": "Orden #68 (BL:6) · Objetivo #68 — Muerto (12kcr) · Entrega: Ninguno. Se pagará cuando la",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 68 · Haraldr Kurzmann, ángel (BL:6) — Muerto — 5mcr",
     "weight": 1,
     "range": [
      68,
      68
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "BCVAH8z3ZNYEgNIa",
+    "_id": "oFKQ5hcBmemtsxfn",
     "type": "text",
-    "text": "Orden #69 (BL:2) · Objetivo #69 — Vivo (4kcr) · Entrega: Sede de SEMSA, Icceon.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 69 · Klavis Yoshioka, ingeniero (BL:2) — Vivo — 30kcr",
     "weight": 1,
     "range": [
      69,
      69
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "QDMWMqra5X4KOxXy",
+    "_id": "4lGRK5YrWeJbDCWt",
     "type": "text",
-    "text": "Orden #70 (BL:5) · Objetivo #70 — Viva (10kcr) · Entrega: en Paxton",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 70 · Otilia Golub, contable (BL:5) — Vivo — 1mcr",
     "weight": 1,
     "range": [
      70,
      70
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "EFsZ1GUTssV3ixpH",
+    "_id": "nhgzDSb2PPdabc3X",
     "type": "text",
-    "text": "Orden #71 (BL:5) · Objetivo #71 — Vivo (10kcr) · Entrega: Cuartel de la OSPS, Sileais.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 71 · Darragh Havelkas, gángster (BL:5) — Vivo — 600kcr",
     "weight": 1,
     "range": [
      71,
      71
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "GNpsuvWfbTkyA7ro",
+    "_id": "mmw4PCjhGFMqxU6J",
     "type": "text",
-    "text": "Orden #72 (BL:4) · Objetivo #72 — Vivos o muertos; devolver víctimas (8kcr) · Entrega: Complejo Li, El Golfo, Stannish.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 72 · Los Secuestradores (BL:4) — Vivo o muerto — 100kcr",
     "weight": 1,
     "range": [
      72,
      72
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "E5VrUae0vREBKNl6",
+    "_id": "sGcGSQqpgYYtsPxO",
     "type": "text",
-    "text": "Orden #73 (BL:4) · Objetivo #73 — Vivo (8kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 73 · Miltiades Buono, espía (BL:4) — Vivo — 200kcr",
     "weight": 1,
     "range": [
      73,
      73
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Ff5pYj84EIPU4JYS",
+    "_id": "kpPgGN7TSWWBx9Ts",
     "type": "text",
-    "text": "Orden #74 (BL:4) · Objetivo #74 — Viva (8kcr) · Entrega: Mando de PSI-DB, Lonoe.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 74 · Taline Kistner, alarmista (BL:4) — Vivo — 150kcr",
     "weight": 1,
     "range": [
      74,
      74
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "uRUR3B40ssn4q7CV",
+    "_id": "Rb8G7dzuVdu1SA5L",
     "type": "text",
-    "text": "Orden #75 (BL:7) · Objetivo #75 — Vivos (14kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 75 · Vaina de Androides Tácticos (BL:7) — Vivo — 2mcr",
     "weight": 1,
     "range": [
      75,
      75
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "CWpn1lZ2vlQg36eJ",
+    "_id": "SpMzj93zzcwfDjD8",
     "type": "text",
-    "text": "Orden #76 (BL:5) · Objetivo #76 — Vivo o muerto (10kcr) · Entrega: Cualquier estación afín a",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 76 · Tripulación Camel S. Needle (BL:5) — Vivo o muerto — 800kcr",
     "weight": 1,
     "range": [
      76,
      76
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "Z00GsJp728v3AhjV",
+    "_id": "FIM6jNUpz2aHgQVU",
     "type": "text",
-    "text": "Orden #77 (BL:1) · Objetivo #77 — Vivo (2kcr) · Entrega: Equipo de enlace de DefenTEC,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 77 · Duygu Bourdillion, sargento (BL:1) — Vivo — 10kcr",
     "weight": 1,
     "range": [
      77,
      77
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "af0BHHUrghNBRWUL",
+    "_id": "WSo9PQfkUo4x0fHu",
     "type": "text",
-    "text": "Orden #78 (BL:3) · Objetivo #78 — Muerta (6kcr) · Entrega: Ninguno; sabremos que está",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 78 · Marlen Sakurada, coronel (BL:3) — Muerto",
     "weight": 1,
     "range": [
      78,
      78
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "zNXW7lwFJVPj9PHh",
+    "_id": "laWrgXClbEuaSxdk",
     "type": "text",
-    "text": "Orden #79 (BL:4) · Objetivo #79 — Vivo (8kcr) · Entrega: , transporte de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 79 · Teodoro Outterridge, capitán (BL:4) — Vivo — 175kcr",
     "weight": 1,
     "range": [
      79,
      79
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "ouLbIE82MEFlxydM",
+    "_id": "QFcB2S1Z0obNY56q",
     "type": "text",
-    "text": "Orden #80 (BL:6) · Objetivo #80 — Viva (1mcr) · Entrega: Sucursal de TDF en",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 80 · Slavica Ruane, terrorista (BL:6) — Vivo — 1mcr",
     "weight": 1,
     "range": [
      80,
      80
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "75nQDqObXoXWxO8O",
+    "_id": "00gANsdLzOZl4YZx",
     "type": "text",
-    "text": "Orden #81 (BL:3) · Objetivo #81 — Vivo (6kcr) · Entrega: Complejo Minero de Ualif.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 81 · Gibbon Moon, waning (BL:3) — Vivo — 70kcr",
     "weight": 1,
     "range": [
      81,
      81
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "rMTc2QC8mh6DpqKJ",
+    "_id": "finhMeFpOlEADHp6",
     "type": "text",
-    "text": "Orden #82 (BL:4) · Objetivo #82 — Muertos (8kcr) · Entrega: N/A.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 82 · Los Organizadores (BL:4) — Muerto — 200kcr",
     "weight": 1,
     "range": [
      82,
      82
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "KTYqgi3xGZnvsiLm",
+    "_id": "NqkQotncDM7Qtb3p",
     "type": "text",
-    "text": "Orden #83 (BL:8) · Objetivo #83 — Vivo o muerto (16kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 83 · Shoshana Berahthran, reina (BL:8) — Vivo o muerto — 20mcr",
     "weight": 1,
     "range": [
      83,
      83
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "NUzajGUpqTTdW7Dn",
+    "_id": "wZZwme4A0AEohEjP",
     "type": "text",
-    "text": "Orden #84 (BL:3) · Objetivo #84 — Viva (6kcr) · Entrega: Vehículo de la milicia,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 84 · Borisov Kyung-Hee, agricultora (BL:3) — Vivo — 30kcr",
     "weight": 1,
     "range": [
      84,
      84
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "lwUwEoxVT2n6ql1L",
+    "_id": "AkHHcRY3m9L8rSMZ",
     "type": "text",
-    "text": "Orden #85 (BL:6) · Objetivo #85 — Vivo, con el material robado (12kcr) · Entrega: Sede de D-Crypt",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 85 · Dr. Sabien Lowe, xenolingüista (BL:6) — Vivo — 1mcr",
     "weight": 1,
     "range": [
      85,
      85
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "WbCakMepbrT8SVj9",
+    "_id": "OlTAFBhemG4N3o3e",
     "type": "text",
-    "text": "Orden #86 (BL:1) · Objetivo #86 — Vivo (2kcr) · Entrega: Casa de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 86 · Reidar Beech, cangrejero (BL:1) — Vivo — 5kcr",
     "weight": 1,
     "range": [
      86,
      86
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "UWCLrORizy2ejmy8",
+    "_id": "lwhvk7HxGxQgB4sA",
     "type": "text",
-    "text": "Orden #87 (BL:5) · Objetivo #87 — Vivo (10kcr) · Entrega: Campus de ESRGRP, Ohines.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 87 · Surya Hersch, enchufado (BL:5) — Vivo — 445kcr",
     "weight": 1,
     "range": [
      87,
      87
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "trnPZs4Q7XOLTjfR",
+    "_id": "t2Wh7bBlGahI5lmq",
     "type": "text",
-    "text": "Orden #88 (BL:5) · Objetivo #88 — Vivo o muerto (10kcr) · Entrega: Instalaciones de InsightLabs",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 88 · Dr. Lars Laendros (BL:5) — Vivo o muerto — 500kcr",
     "weight": 1,
     "range": [
      88,
      88
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "7UZKDF6iFYTGrR3K",
+    "_id": "0nLhJuGnLMhJlamM",
     "type": "text",
-    "text": "Orden #89 (BL:2) · Objetivo #89 — Viva o muerta (4kcr) · Entrega: Cualquier agente de",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 89 · Margarita Eriksson, transportista (BL:2) — Vivo o muerto — 35kcr",
     "weight": 1,
     "range": [
      89,
      89
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "w2kXg4vGe9xKs2SM",
+    "_id": "EDx1JYjXctZeeOF1",
     "type": "text",
-    "text": "Orden #90 (BL:4) · Objetivo #90 — Vivo o muerto, con la (8kcr) · Entrega: Cualquier astillero afiliado a RNB.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 90 · George Ware, moroso hipotecario (BL:4) — Vivo o muerto — 500kcr",
     "weight": 1,
     "range": [
      90,
      90
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "G59mCPj1ZJbK0z7V",
+    "_id": "FfVHMsJh5FWlPFbz",
     "type": "text",
-    "text": "Orden #91 (BL:4) · Objetivo #91 — Viva (8kcr) · Entrega: Órbital Kibriacarro n.º 378",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 91 · Varpu Marudoch, gladiadora (BL:4) — Vivo — 500kcr",
     "weight": 1,
     "range": [
      91,
      91
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "P6Sybu5bXDQlfQtj",
+    "_id": "rX3J2yJV1nEWEtfu",
     "type": "text",
-    "text": "Orden #92 (BL:4) · Objetivo #92 — N/D (8kcr) · Entrega: Templo de Ogroitum.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 92 · El Budai de Hierro (BL:4) — N/D — 100kcr",
     "weight": 1,
     "range": [
      92,
      92
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "8pU5qVf11UJoP0XC",
+    "_id": "vEGoEBFTd5Y1dZde",
     "type": "text",
-    "text": "Orden #93 (BL:4) · Objetivo #93 — Vivo (8kcr) · Entrega: .",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 93 · Hnas. Akesson Contrabandistas (BL:4) — Vivo — 250kcr",
     "weight": 1,
     "range": [
      93,
      93
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "w1iAY5ljQ5y5q4rO",
+    "_id": "2LfJhidwndUOfZpG",
     "type": "text",
-    "text": "Orden #94 (BL:4) · Objetivo #94 — Viva, con los niños (8kcr) · Entrega: Estación Hypelabs",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 94 · Simona Morton, esposa en fuga (BL:4) — Vivo — 500kcr",
     "weight": 1,
     "range": [
      94,
      94
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "0FnHWgmYORRHHYye",
+    "_id": "9jCKEkgknX5VpNed",
     "type": "text",
-    "text": "Orden #95 (BL:5) · Objetivo #95 — Vivos o muertos (10kcr) · Entrega: ,",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 95 · Los Amotinados (BL:5) — Vivo o muerto — 300kcr",
     "weight": 1,
     "range": [
      95,
      95
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "XrgaZ48nsxUw4RO7",
+    "_id": "SPFtLgmM10vf5Wa5",
     "type": "text",
-    "text": "Orden #96 (BL:5) · Objetivo #96 — Viva (10kcr) · Entrega: Sede de la IAF, Lonoe.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 96 · Dra. Edu Cleary, pirata ecológica (BL:5) — Vivo — 650kcr",
     "weight": 1,
     "range": [
      96,
      96
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "jazKhzd4U9FAp6P9",
+    "_id": "kEv6lxeTvD3Y26Sa",
     "type": "text",
-    "text": "Orden #97 (BL:6) · Objetivo #97 — Vivo (12kcr) · Entrega: HYPE INC Image",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 97 · Aias Joshi, ceo de starfucker (BL:6) — Vivo — 2mcr",
     "weight": 1,
     "range": [
      97,
      97
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "NHYX7hXeP3THkOzB",
+    "_id": "4gT3kuiXb8tbJ7FD",
     "type": "text",
-    "text": "Orden #98 (BL:6) · Objetivo #98 — Vivo/muerto (12kcr) · Entrega: Estación Ogroitum.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 98 · Palle Gatsby, secuestrador (BL:6) — Vivo o muerto — 1mcr",
     "weight": 1,
     "range": [
      98,
      98
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "bE5SEBZPfxM83kpI",
+    "_id": "y7o8m7pdOC8SKPeM",
     "type": "text",
-    "text": "Orden #99 (BL:7) · Objetivo #99 — Muerta (14kcr) · Entrega: N/D.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 99 · Florette Watts, ceo (BL:7) — Muerto — 1,5mcr",
     "weight": 1,
     "range": [
      99,
      99
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "K5NopNltFFxWVMxh",
+    "_id": "eEjPNrkLA3GGzELQ",
     "type": "text",
-    "text": "Orden #100 (BL:9) · Objetivo #100 — Vivos o muertos, con el DAC capturado (18kcr) · Entrega: Oficina de Seguridad de la Estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Orden 100 · Los Falsificadores (BL:9) — Vivo o muerto — 60mcr",
     "weight": 1,
     "range": [
      100,
      100
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    }
   ],
   "formula": "1d100",
@@ -2018,2105 +1218,1074 @@
    "mr-wages-of-sin": {
     "clave": "ordenes-100"
    }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
   }
  },
  {
-  "_id": "FBju80hySCKp0gnF",
-  "name": "02 · Generador de Recompensas: quién es el Objetivo (1d10)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
+  "_id": "6zbFR7pTLB2SHmqY",
+  "name": "Incidentes en la entrega (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/delito.webp",
+  "description": "<p>Tabla del libro (pág. 19).</p>",
   "results": [
    {
-    "_id": "GuM4Fe5Uet4G7EPC",
+    "_id": "UZVFlDgkg3pzVq2y",
     "type": "text",
-    "text": "Criminal habitual o miembro de sindicato local",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     1,
-     4
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "abfvUFbp5S9U1qJ9",
-    "type": "text",
-    "text": "Desertor corporativo o empleado con secretos industriales",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     5,
-     6
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "u1TqRqiCjEI9aI21",
-    "type": "text",
-    "text": "Científico, médico o académico fugitivo",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     7,
-     7
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "rGdTvaWtpjl4iJLa",
-    "type": "text",
-    "text": "Androide defectuoso, prototipo o IA emancipada",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     8,
-     8
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "uAky4hCBR8bNdBTH",
-    "type": "text",
-    "text": "Criatura xenomorfa, infectado o líder de secta peligrosa",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     9,
-     10
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   }
-  ],
-  "formula": "1d10",
-  "replacement": true,
-  "displayRoll": true,
-  "folder": null,
-  "sort": 101000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "generador-objetivo"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "NyWz16ODn22IaT9m",
-  "name": "03 · Generador de Recompensas: Delito cometido (1d20)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
-  "results": [
-   {
-    "_id": "xIMGoSJnLCfvLJUg",
-    "type": "text",
-    "text": "Impago de deuda o ruptura de contrato de servidumbre",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de fuga",
     "weight": 1,
     "range": [
      1,
      1
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "vGYNm4axS9O3hwmm",
+    "_id": "LvkMH1vOfYXhGR5b",
     "type": "text",
-    "text": "Robo de carga o desvío de suministros médicos",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de rescate — Familia/Amigos",
     "weight": 1,
     "range": [
      2,
      2
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "G8cr2DgREI3Cjc6I",
+    "_id": "cgsNa6vvAQG9iws5",
     "type": "text",
-    "text": "Asesinato de un directivo o funcionario local",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de fuga",
     "weight": 1,
     "range": [
      3,
      3
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "89XUu0Ix8xmK7GWr",
+    "_id": "PpWm57tZYAte3DVN",
     "type": "text",
-    "text": "Sabotaje de soporte vital o reactores de estación",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de rescate — Aliados",
     "weight": 1,
     "range": [
      4,
      4
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "07f3W6TrtW8GbGZB",
+    "_id": "CNNwpfoY71t7TnDU",
     "type": "text",
-    "text": "Espionaje corporativo y robo de patentes",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Robapresas",
     "weight": 1,
     "range": [
      5,
      5
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "rfghOzeb6z8cxynE",
+    "_id": "1VoLPXK7iimICtMA",
     "type": "text",
-    "text": "Fuga de custodia o de la Luna Carcelaria ODC (Baclite)",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de rescate — Enemigos",
     "weight": 1,
     "range": [
      6,
      6
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "xhOJrIj67qmHP2xo",
+    "_id": "ARdvlxqDVkhxgRBm",
     "type": "text",
-    "text": "Contrabando de xenofauna o narcóticos prohibidos",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de rescate — Cliente",
     "weight": 1,
     "range": [
      7,
      7
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "2Vha88nejRx9OzYJ",
+    "_id": "Cl9riorQ40Qo2V1f",
     "type": "text",
-    "text": "Piratería espacial y secuestro de nave",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de fuga",
     "weight": 1,
     "range": [
      8,
      8
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "uU6BcQqFSZItdjXQ",
+    "_id": "H5sQKmHKBVTlBCNp",
     "type": "text",
-    "text": "Fraude financiero masivo y falsificación de identidad",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Robapresas",
     "weight": 1,
     "range": [
      9,
      9
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "czALbZX1o5ZiJC59",
+    "_id": "pcRoIKpIjEFn6xfx",
     "type": "text",
-    "text": "Motín a bordo o huelga declarada ilegal",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Intento de fuga",
     "weight": 1,
     "range": [
      10,
      10
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "7CezIe6lE1lOsVX1",
-    "type": "text",
-    "text": "Chantaje político a autoridades del sector",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     11,
-     11
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "nrD5x7vpAIHOqSoh",
-    "type": "text",
-    "text": "Crímenes de guerra o atrocidades coloniales",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     12,
-     12
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "syoNwL4iIbw0GcmE",
-    "type": "text",
-    "text": "Secuestro de un heredero o testigo clave",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     13,
-     13
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "h1KIv3eWG9UctSZY",
-    "type": "text",
-    "text": "Experimentos ilegales con biotecnología o psiónica",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     14,
-     14
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "SYFyzecE6S6RP8nb",
-    "type": "text",
-    "text": "Profanación o robo de reliquias de una secta",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     15,
-     15
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "u44uZ7KL1319eZwm",
-    "type": "text",
-    "text": "Incitación a la rebelión armada",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     16,
-     16
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "yl7cikMTnB1eIKeK",
-    "type": "text",
-    "text": "Suplantación de un agente de la ley o juez",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     17,
-     17
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "daLSIhYGssJXoRNL",
-    "type": "text",
-    "text": "Liberación accidental de un patógeno en cuarentena",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     18,
-     18
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "e7vqgDy6tO79p0bY",
-    "type": "text",
-    "text": "Traición a una banda criminal (recompensa cerrada)",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     19,
-     19
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "CniVbV2YaqRxkvAA",
-    "type": "text",
-    "text": "Testigo ocular de algo que la corporación quiere borrar",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     20,
-     20
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   }
-  ],
-  "formula": "1d20",
-  "replacement": true,
-  "displayRoll": true,
-  "folder": null,
-  "sort": 102000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "generador-delito"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "Exu4Mj3gz1bP5NNG",
-  "name": "04 · Generador de Recompensas: Complicación (1d20)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
-  "results": [
-   {
-    "_id": "EO3nYPnmZF0mqUXF",
-    "type": "text",
-    "text": "Hay un vínculo familiar o sentimental entre el cliente y el objetivo.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     1,
-     1
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "iO2CP90LYXzeJKOa",
-    "type": "text",
-    "text": "Una autoridad local ya ha encarcelado al objetivo por otros delitos.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     2,
-     2
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "bKpvYkI16TpMIMjZ",
-    "type": "text",
-    "text": "El objetivo es inocente del cargo oficial; el cliente quiere silenciarlo.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     3,
-     3
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "XBV7SNwGI5A4pnZ1",
-    "type": "text",
-    "text": "Otro grupo de cazarrecompensas rivales ya le pisa los talones.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     4,
-     4
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "0eaYOjlazkzeXkeI",
-    "type": "text",
-    "text": "El lugar donde se esconde está bajo ocupación militar o cuarentena.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     5,
-     5
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "8zmsVNzcpC5tHh6D",
-    "type": "text",
-    "text": "El objetivo no tiene huella digital ni usa pagos electrónicos.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     6,
-     6
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "PYc8ZfOp68fYvhgN",
-    "type": "text",
-    "text": "El objetivo es muy querido por la comunidad local, que lo protege.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     7,
-     7
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "48eqBQmC5hh7qKEd",
-    "type": "text",
-    "text": "El cliente planea traicionar a la tripulación en el punto de entrega para no pagar.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     8,
-     8
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "oF3r3jc3KpnxpPoN",
-    "type": "text",
-    "text": "El objetivo lleva un implante de hombre muerto (explosivo o filtración de datos).",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     9,
-     9
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "P7y0Zh6pFuKC6yAt",
-    "type": "text",
-    "text": "El objetivo ya ha muerto, pero alguien sigue haciéndose pasar por él.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     10,
-     10
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "6THiFelRumOeiWiL",
-    "type": "text",
-    "text": "El objetivo está infectado o sufriendo una metamorfosis monstruosa.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     11,
-     11
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "vTSNk3L9CIlK1bA6",
-    "type": "text",
-    "text": "El objetivo quiere entregarse, pero solo si antes ponen a salvo a su familia.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     12,
-     12
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "Tz3WKkxzdDUgIak5",
-    "type": "text",
-    "text": "La foto de la orden de busca es de hace 20 años o previa a cirugía estética.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     13,
-     13
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "dCNeBSBTsS4mbHnU",
-    "type": "text",
-    "text": "El objetivo trabaja ahora para una facción más poderosa que el cliente.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     14,
-     14
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "cAK0gLLTUaFp4FIa",
-    "type": "text",
-    "text": "El punto de entrega exige un viaje en salto con el prisionero a bordo durante semanas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     15,
-     15
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "HnbsTRmwxEcxPzXM",
-    "type": "text",
-    "text": "El objetivo tiene información que incrimina directamente a uno de los PJ.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     16,
-     16
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "CNKwBkLfG0WPC9QA",
-    "type": "text",
-    "text": "Se exige captura VIVA, pero el objetivo es suicida y prefiere morir antes que volver.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     17,
-     17
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "karyldlxat2AdcO2",
-    "type": "text",
-    "text": "El objetivo es en realidad varios clones o androides con el mismo código.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     18,
-     18
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "DUM7aOlkvGh6VMHq",
-    "type": "text",
-    "text": "Una tormenta solar o avería deja incomunicada la estación durante la caza.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     19,
-     19
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "aXIHbI3uKETWmDfV",
-    "type": "text",
-    "text": "El objetivo ofrece el doble de la recompensa si le ayudan a fingir su muerte.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     20,
-     20
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   }
-  ],
-  "formula": "1d20",
-  "replacement": true,
-  "displayRoll": true,
-  "folder": null,
-  "sort": 103000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "generador-complicacion"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "O55OiS7Nkcr6egu0",
-  "name": "05 · Localizar Objetivos: Pistas y Fuentes (1d10)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
-  "results": [
-   {
-    "_id": "4K3DyfBOfInAOrpc",
-    "type": "text",
-    "text": "Listas de pasajeros de naves: motivos de viaje inusuales o capitanes que «pierden» registros por un soborno.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     1,
-     2
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "9S2e7JPlYqLmlY7P",
-    "type": "text",
-    "text": "Vendedores y terminales de pago: cámaras de comercios y rastro de compras sin efectivo.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     3,
-     4
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "e8qF0824ATub38jZ",
-    "type": "text",
-    "text": "Datos forenses: registros de ADN, sangre o huellas dactilares en la escena.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     5,
-     6
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "Y1Asrc2z4CuEC5jM",
-    "type": "text",
-    "text": "Antecedentes y suscripciones: procesos judiciales previos, propiedades o envíos postales recurrentes.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     7,
-     8
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "AblmOnFvx1tcSNgd",
-    "type": "text",
-    "text": "Cómplices y conocidos: vigilar a antiguos socios, familiares o acreedores hasta que el objetivo contacte.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     9,
-     10
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    }
   ],
   "formula": "1d10",
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 104000,
+  "sort": 100000,
   "ownership": {
    "default": 0
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "rastreo-fuentes"
+    "clave": "incidentes-entrega"
    }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
   }
  },
  {
-  "_id": "xoYIkKmCx66ITRfD",
-  "name": "06 · Modelos de Fuerzas del Orden (1d10, pág. 223)",
+  "_id": "EUS4mGh6qHHRu0Tw",
+  "name": "Generador: tipo de cliente (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
+  "description": "<p>Tabla del libro (pág. 20).</p>",
   "results": [
    {
-    "_id": "kURA4q9MBvLR0noN",
+    "_id": "AfVbrYoHT8CfaTcX",
     "type": "text",
-    "text": "Plataforma de microservicios policiales a demanda (algoritmos generan encargos tipo Taskr).",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
+    "text": "Corporativo",
+    "weight": 4,
     "range": [
      1,
-     1
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "G7tBzVtIbOvngdvA",
-    "type": "text",
-    "text": "Milicia sindical rotatoria elegida entre los propios trabajadores de la estación.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     2,
-     2
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "HwKOnXUTaedMoKRR",
-    "type": "text",
-    "text": "Seguridad corporativa privada con blindaje pesado que solo protege activos de la empresa.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     3,
-     3
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "B0St2QSPmsP1qT7g",
-    "type": "text",
-    "text": "Alguaciles fronterizos solitarios desbordados que dependen de cazarrecompensas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     4,
      4
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "850mDvY0DmbwWUDD",
+    "_id": "uHC2HdMDgVpQPvCx",
     "type": "text",
-    "text": "Policía burocrática corrupta: lenta para investigar, rápida para aceptar sobornos o cerrar casos.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
+    "text": "Criminal",
+    "weight": 2,
     "range": [
      5,
-     7
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "aPT8DdXCaGRhWnoO",
-    "type": "text",
-    "text": "Tribunal algorítmico automatizado con drones de vigilancia y multas instantáneas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     8,
-     8
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "N92hYlFuEL4qk03F",
-    "type": "text",
-    "text": "Ley marcial militar: patrullas armadas con fusiles de pulsos y toques de queda.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     9,
-     9
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "GcCbnA3XEfjTXgfR",
-    "type": "text",
-    "text": "Justicia comunitaria / Ley del talión: sin policía formal; las familias pagan primas de sangre.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     10,
-     10
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   }
-  ],
-  "formula": "1d10",
-  "replacement": true,
-  "displayRoll": true,
-  "folder": null,
-  "sort": 105000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "fuerzas-orden"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "Vw8ceGA4qpKBmUAW",
-  "name": "07 · Los 10 Cazarrecompensas Rivales (1d10, págs. 230–249)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
-  "results": [
-   {
-    "_id": "7Q7118NZG8IdVffI",
-    "type": "text",
-    "text": "01 · La Langosta (Lobster) (BL 1–9 · 16kcr/mes + gastos (mín. 2 meses)) — Su traje de vacío blindado lleva años sin abrirse. Es poco sutil y cobra caro, pero actúa como un martillo neumático implacable que atraviesa mamparos para cobrar su presa.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     1,
-     1
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "u8GCTFVlf7SUbeFb",
-    "type": "text",
-    "text": "02 · Assassin Kult (BL 1–9 · 20kcr/mes + viajes) — Cuatro asesinos coordinados acompañados por su representante Elkan Nosek. Sabotean cerraduras electrónicas, teléfonos y alarmas antes de que la presa despierte.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     2,
-     2
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "6D2vN1UsWTsNY7kY",
-    "type": "text",
-    "text": "03 · Veteranos (Andra Arlotti) (BL 4–9 · 18kcr/mes) — Llevan en el oficio más tiempo que tú en el espacio. Uno a uno, los contactos y amigos del objetivo desaparecen o son comprados hasta dejarlo completamente aislado.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     3,
-     3
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "xtYr638PD0tJZNbI",
-    "type": "text",
-    "text": "04 · Ivo Salomon, Parásito (BL 1–9 · 8kcr/mes) — Con un traje de vacío a medida y potentes electroimanes, Ivo viaja adherido al casco exterior de la nave de su presa durante semanas. Su única táctica es: PACIENCIA.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     4,
-     4
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "CNbldBugmar9dxAD",
-    "type": "text",
-    "text": "05 · Red Taskr (Microencargos) (BL 1–8 · Comisión por microencargo) — «¿Tienes un minuto? Haz pequeños trabajos. Cobra. Sigue con tu día». Una aplicación que subcontrata la caza entre cientos de ciudadanos corrientes: taxistas, camareros, técnicos y vecinos.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     5,
-     5
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "3IL8mCsv3vzYi1Td",
-    "type": "text",
-    "text": "06 · Emira Churchill, Desmontada (BL 1–9 · 18kcr/mes + gastos) — Poco queda de su cuerpo original salvo la continuidad de sus recuerdos distribuida en varios chasis sintéticos y drones remotamente controlados.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     6,
      6
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "b8TCu6uVopX0XepI",
+    "_id": "xzAagbVtnE2JPoXt",
     "type": "text",
-    "text": "07 · El Soñador: Alf Moss (BL 1–9 · 35kcr/mes) — Cazarrecompensas psiónico. Sus víctimas sufren pesadillas compartidas con una fosa recién cavada: ganan +1 Estrés por semana y no pueden reducir Estrés descansando hasta entregarse.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Sindical",
     "weight": 1,
     "range": [
      7,
      7
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "WT1y7D5ts5YadtIH",
+    "_id": "Oshm3khIKVYzgF9Z",
     "type": "text",
-    "text": "08 · Edgars Crismondi (Clones desechables) (BL 1–9 · 40kcr fijo) — «Lo desechable siempre sale más barato». Una dinastía de clones baratos de Edgar Crismondi que atacan en parejas o tríos sin ningún apego por su propia supervivencia.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Civil",
     "weight": 1,
     "range": [
      8,
      8
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "3i4gJnn6Hg6EJ9Lm",
+    "_id": "gC8LNJAISiS57eZ0",
     "type": "text",
-    "text": "09 · Amaruq Borges, Memorius (BL 1–9 · 50kcr) — Le falta la mitad inferior del rostro, sustituida por un sintetizador mecánico que reproduce a la perfección las voces robadas de sus víctimas anteriores (Cailean, Kostandin, Sybilla, Nadia, Ingi).",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
+    "text": "Militar",
+    "weight": 2,
     "range": [
      9,
-     9
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "c1qfe7iNqoRBlqsB",
-    "type": "text",
-    "text": "10 · Cazador 854 alias «Sr. Bichos» (BL 1–9 · 40kcr) — Una figura siniestra bajo una gabardina hermética cuyo interior es una colonia consciente de artrópodos alienígenas que infestan conductos, devoran cables y se filtran bajo las puertas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     10,
      10
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    }
   ],
   "formula": "1d10",
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 106000,
+  "sort": 100000,
   "ownership": {
    "default": 0
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "cazadores-rivales"
+    "clave": "tipo-cliente"
    }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
   }
  },
  {
-  "_id": "bhP0wjyCVWADiWNY",
-  "name": "08 · Conocimiento y Rumores de los Presos de la ODC (1d10, pág. 296)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
+  "_id": "cc1nS77Hzd7ulXGS",
+  "name": "Equipo inicial: Marines (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
   "results": [
    {
-    "_id": "A94et0M293uRtQ6w",
+    "_id": "sI4uvgHhXFgKd0sR",
     "type": "text",
-    "text": "Las vallas de contención animal del sector norte fallan durante 12 minutos cada vez que aterrizan suministros.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Uniforme de combate estándar (PA 7), escopeta de combate (6 cartuchos de bolsa de balines - pág. 230), esposas.",
     "weight": 1,
     "range": [
      1,
      1
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "7vYEYzAjfWjvMDvw",
+    "_id": "8nIQ18aB3wK2Rchi",
     "type": "text",
-    "text": "El Dr. Asad Sivert firma certificados de defunción falsos por 3.000cr y saca a los «cadáveres» en el contenedor de residuos.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Hábito monástico (PA 1), años de entrenamiento (obtienes la habilidad de Maestro «Artes marciales»).",
     "weight": 1,
     "range": [
      2,
      2
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "JjGxIxFUPDtjHfax",
+    "_id": "tMtUTmbRWnQxmdqG",
     "type": "text",
-    "text": "En el bosque al oeste del Aserradero hay un campamento de fugados («La Colonia de Fuga») que cultiva hongos comestibles.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), máscara horripilante, vibmachete, drogas de combate.",
     "weight": 1,
     "range": [
      3,
      3
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "F0xGo2gU5kE5OiVU",
+    "_id": "CBM4PGHSsoszf7dd",
     "type": "text",
-    "text": "La Técnica Jefe Rani Kartall acepta sobornos con un 80% de facilidad si se le consiguen piezas electrónicas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Traje de riesgo (PA 5), revólver (12 cargas), prismáticos de visión nocturna, RCM (x7), filtro de agua.",
     "weight": 1,
     "range": [
      4,
      4
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "blzb3jagBVJrOPAP",
+    "_id": "YnJLOoakOlUcA4X5",
     "type": "text",
-    "text": "Al norte, cruzando el Infierno Verde, hay un complejo de caza para millonarios llamado El Elephant Lodge con una lanzadera VTOL.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver con mira inteligente (24 cargas).",
     "weight": 1,
     "range": [
      5,
      5
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "W9EjGd09JHn3ju7E",
+    "_id": "0ibCXvrl0CoUX5bX",
     "type": "text",
-    "text": "La banda 23 Arms esconde un revólver cargado bajo las tablas del taller de carpintería.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Uniforme de combate estándar (PA 7), pistola de espuma, porra aturdidora, esposas.",
     "weight": 1,
     "range": [
      6,
      6
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "nRreAdSlkQndBlOP",
+    "_id": "I1dZRC7COMoDpZxf",
     "type": "text",
-    "text": "Las larvas gigantes del bosque son comestibles si se les arranca la glándula venenosa antes de asarlas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Traje de riesgo (PA 5), lanzallamas (8 disparos), cámara desechable, baliza de emergencia.",
     "weight": 1,
     "range": [
      7,
      7
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "yUmrAJ79B3KM4Ie3",
+    "_id": "ElIFisYJAucEYRcj",
     "type": "text",
-    "text": "El Parque Científico Sullipsuma realiza experimentos ilegales con fauna de Offit y compra ejemplares vivos sin hacer preguntas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), pistola de dardos localizadores (4 disparos), subfusil (10 cargas), comunicaciones de corto alcance.",
     "weight": 1,
     "range": [
      8,
      8
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "H3Xa8eIMdvcBRXQe",
+    "_id": "94U52BlZIx9ufokk",
     "type": "text",
-    "text": "El Superintendente Stephen Bognar infla el número de presos vivos en los informes para cobrar las subvenciones de manutención.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Uniforme de combate avanzado (PA 10, RD 3), subfusil (x2, 20 cargas), gafas IR, estimulante.",
     "weight": 1,
     "range": [
      9,
      9
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "u5d0TWrVhCuYS22U",
+    "_id": "lJuSUe04H5JvXPNw",
     "type": "text",
-    "text": "En el Bloque 44 hay un preso que en realidad es un cazarrecompensas infiltrado para matar a un objetivo de BL:6.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Traje de camuflaje (PA 5), fusil de pulsos (10 cargas), comunicaciones de largo alcance.",
     "weight": 1,
     "range": [
      10,
      10
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    }
   ],
   "formula": "1d10",
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 107000,
+  "sort": 100000,
   "ownership": {
    "default": 0
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "odc-rumores"
+    "clave": "equipo-marines"
    }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
   }
  },
  {
-  "_id": "XR0ZtFdRNozKVqF2",
-  "name": "09 · Encuentros en el Infierno Verde de Offit (1d10, pág. 305)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
+  "_id": "8VXz3rgpneQBmtqf",
+  "name": "Equipo inicial: Androides (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
   "results": [
    {
-    "_id": "6iGAsHGdBxohkQBB",
+    "_id": "Hvrd7ekKWIvhIFAX",
     "type": "text",
-    "text": "Encuentro con animales autóctonos: tira en la tabla de Fauna de Offit (pág. 306).",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     1,
-     2
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "sHsGiDzWUC8gSEM7",
-    "type": "text",
-    "text": "Patrulla de 2d10 funcionarios (CO) de la prisión rastreando desde aeronaves VTOL.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     3,
-     3
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "dW9voIiIyzwUEiOP",
-    "type": "text",
-    "text": "30 % de hallar planta medicinal o comestible especial (± rumores conocidos de la pág. 296).",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     4,
-     4
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "cJIqaknAuK04etIx",
-    "type": "text",
-    "text": "Grupo de 1d10 presos fugados del Campamento maderero.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     5,
-     5
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "jHidcgVleB9n2Riv",
-    "type": "text",
-    "text": "Grupo de 1d10 fugados procedentes del Elephant Lodge.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     6,
-     6
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "dpuIVhMJ5gFu0XT1",
-    "type": "text",
-    "text": "Expedición científica de 1d10+3 miembros del Parque Sullipsuma con aeronaves VTOL.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     7,
-     7
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "Il0LvoR0t7Ssp9j4",
-    "type": "text",
-    "text": "Silencio sofocante bajo el mar verde: hoy no hay encuentro.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     8,
-     9
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   },
-   {
-    "_id": "lMIBrJ50qzgGnDfs",
-    "type": "text",
-    "text": "Descubrimiento en la espesura: rastro hacia el Parque Sullipsuma, el Elephant Lodge o la Colonia de Fuga.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-    "weight": 1,
-    "range": [
-     10,
-     10
-    ],
-    "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
-   }
-  ],
-  "formula": "1d10",
-  "replacement": true,
-  "displayRoll": true,
-  "folder": null,
-  "sort": 108000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "infierno-verde-encuentros"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "NQNSklmyUl9uyMtQ",
-  "name": "10 · Fauna de Offit (1d6, págs. 306–310)",
-  "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
-  "description": "<p>Tabla oficial de <em>Wages of Sin</em> en español.</p>",
-  "results": [
-   {
-    "_id": "M3sjEIkjN4SCLbrn",
-    "type": "text",
-    "text": "1. Gusanos barrenadores («Larvas») [C:20 Aguijón 1d10 + Salv. Cuerpo I:20 PA:1 H:1(15)]. Aparecen 1d100.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), serpiente asesina (mascota sintética) con mira inteligente.",
     "weight": 1,
     "range": [
      1,
      1
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "5DQtR2UMLw9Mfatn",
+    "_id": "oKO6tLmZITc7DnFe",
     "type": "text",
-    "text": "2. Chupaárboles («Pájaro carpintero») [C:40 Pico 3d10 I:30 PA:3 H:4(30)]. Reptil hexápodo territorial.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Traje espacial (PA 3), cortador láser (3 disparos), explosivos y detonador.",
     "weight": 1,
     "range": [
      2,
      2
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "ToyeytRAE4FhbSBS",
+    "_id": "yVzPGdYwAlg1SWsW",
     "type": "text",
-    "text": "3. Pseudohiena («Crías») [C:30 Dientes 2d10 I:30 PA:1 H:2(15)]. Aparecen 3d10 imitando voces humanas.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), pistola automática de plástico (24 cargas), cavidad corporal a prueba de rayos X.",
     "weight": 1,
     "range": [
      3,
      3
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "n04sOly64M0cC8fc",
+    "_id": "SgKHkZcjGVwtxIei",
     "type": "text",
-    "text": "4. Basilisco («Lagarto tonto») [C:50 Garras 4d10 I:10 PA:5 H:5(40)]. Mole acorazada de 16 toneladas; da 18 raciones.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Atuendo estándar de tripulación (PA 1), bisturí (x10), botiquín de primeros auxilios, rostro humano (x10).",
     "weight": 1,
     "range": [
      4,
      4
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "aB9WBlTUlUJcQBpS",
+    "_id": "gh5v3B1NIYKHNT9v",
     "type": "text",
-    "text": "5. Acechador del dosel [C:55 Colmillos 3d10 I:45 PA:2 H:3(25)]. Embosca desde las copas de los árboles.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Uniforme de combate estándar (PA 7), escopeta de combate (8 cargas), soldador de mano, botas magnéticas.",
     "weight": 1,
     "range": [
      5,
      5
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
    },
    {
-    "_id": "obgu7sBZpmPrXUtR",
+    "_id": "N87sBpclBJ2uRMOr",
     "type": "text",
-    "text": "6. Cazadores de trofeos del Elephant Lodge [C:45 Rifle de caza 3d10 I:40 PA:5 H:2(20)]. Turistas ricos armados.",
-    "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
+    "text": "Traje corporativo (PA 0), chaleco blindado ultrafino (PA 4), dedos de nanohoja (2d10 DAÑO PA), bioescáner.",
     "weight": 1,
     "range": [
      6,
      6
     ],
     "drawn": false,
-    "flags": {},
-    "_stats": {
-     "systemId": null,
-     "systemVersion": null,
-     "coreVersion": "13",
-     "createdTime": 1762320000000,
-     "modifiedTime": 1762320000000
-    }
+    "flags": {}
+   },
+   {
+    "_id": "XJjy9MR6BaLS61h4",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), granada de fragmentación (x10), detonador.",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "1U6vQogbgLOah3bA",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), porra aturdidora (x2), camilla plegable, cordón de paracaídas.",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "InXcZWuV2FIRBiPy",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), Pilluelo del vacío muy leal† (x5. +20 Lealtad, cuenta como mascota orgánica para Estrés/ Pánico.).",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "2WDHNx8AlQuo6nnG",
+    "type": "text",
+    "text": "Uniforme de combate estándar (PA 7), pistola de aparejos (5 disparos), inhibidor de radio.",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
    }
   ],
-  "formula": "1d6",
+  "formula": "1d10",
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 109000,
+  "sort": 100000,
   "ownership": {
    "default": 0
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "fauna-offit"
+    "clave": "equipo-androides"
    }
+  }
+ },
+ {
+  "_id": "vNnzgq8XONpXFaZM",
+  "name": "Equipo inicial: Científicos (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "results": [
+   {
+    "_id": "dwKt2DFu0bYjS1qK",
+    "type": "text",
+    "text": "Traje NBQ (PA 1), rebreather, kit de química móvil, veneno letal (x2), veneno soporífero (x3).",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "6LRgBknY0Ar0Te7I",
+    "type": "text",
+    "text": "Traje ejecutivo (PA 1), atuendo de capataz (PA 1), identificación corporativa, de sindicato y de inspector.",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "viIbap9PWL3PpThC",
+    "type": "text",
+    "text": "Mono de trabajo, herramientas variadas, kit de herramientas electrónicas, ganzúas, terminal de ordenador portátil.",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "cZPZt12kGDazjsik",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), unidad de emisión de radio, comunicaciones de largo alcance.",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ldOqJJpNDdbN5GeD",
+    "type": "text",
+    "text": "Atuendo de médico (PA 1), bisturí, botiquín de primeros auxilios, esposas, medescáner.",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "chvD14zZgiivajpk",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver recortado (8 cargas), estimulante (x3), estimulante adulterado (x3), estimulantes (x5).",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "G9eQ1SuDREv8oJYU",
+    "type": "text",
+    "text": "Bata de laboratorio (PA 1), pistola tranquilizante (5 cargas), gorila modificado (mascota orgánica, [+] a Combate. 3(20) Heridas. 3d10 DAÑO.).",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "J7XbavwSm7KW2Xjr",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), manta de mylar (correas autoajustables), jeringa (paralizante).",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "syuAzOnZSoIcGPt7",
+    "type": "text",
+    "text": "Traje de explorador misionero (PA 3), rifle de supervivencia (10 cargas), unidad MoHab, rebreather, texto religioso.",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "C84feErfyX5y06gf",
+    "type": "text",
+    "text": "Traje espacial (PA 3), pistola de aparejos (5 disparos), terminal de ordenador portátil.",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+   "default": 0
   },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "equipo-cient-ficos"
+   }
+  }
+ },
+ {
+  "_id": "W677484u003Rmul2",
+  "name": "Equipo inicial: Transportistas (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "results": [
+   {
+    "_id": "tQjr4SXS4lIHN5xg",
+    "type": "text",
+    "text": "Traje espacial (PA 3), pistola de clavos (64 disparos), mochila propulsora, cordón de paracaídas.",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Ik2vh15OVURMzq31",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), navaja multiusos (como bisturí), herramientas variadas, baliza de rastreo magnética,† escáner de diagnóstico de vehículos.",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RdIaGOpcDmY2Yut6",
+    "type": "text",
+    "text": "Atuendo de gama alta (PA 0), juego de ganzúas a medida, gafas de visión nocturna.",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xkY3t8kNJD1UWnFo",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver (5 cargas), cigarrillos, petaca, comunicaciones de corto alcance.",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "YI8DE7MqefwTFxOx",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), dron de desguace (bioescáner, cortador láser), HUD.",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "FlE5dXviG1vIyqCl",
+    "type": "text",
+    "text": "Uniforme de combate estándar (PA 7), lanzallamas (4 disparos), extrusor de monofilamento (50m), botas magnéticas.",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "smPuxAkVQdGcOAgw",
+    "type": "text",
+    "text": "Traje de riesgo (PA 5), pistola de aparejos (6 disparos), bioescáner.",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "yVgOQXfhcaTEyTO5",
+    "type": "text",
+    "text": "Traje espacial (PA 3), palanca, explosivos y detonador, ganzúas, botas magnéticas.",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "x2ut2iismVl48Nsf",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), exocargador obsoleto.",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "fEopUGgAqMLlGw0X",
+    "type": "text",
+    "text": "Mono de trabajo (PA 1), herramientas variadas, bolsa de azúcar, palanca, electroimán.",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "equipo-transportistas"
+   }
+  }
+ },
+ {
+  "_id": "lqkcqSVrO6cCP8Il",
+  "name": "Equipo inicial: Presos (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "results": [
+   {
+    "_id": "hmtb4QhX47Wv60Mc",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), daga, cigarrillos, mechero desechable.",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "b5aKDycmEdS04zgc",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), puñal de lata de atún, barrita de chocolate de la marca Reginald Squarepig (x15).",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "1KnGKLVEA52NMhEH",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), puñal de hoja de sierra, estimulante, Triumph.",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "tzKnkxV1uN7r1WJ0",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), puñal de cepillo de dientes, botella a presión de salsa picante, cepillo de dientes.",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Su45sFcEMyTEXsw3",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), látigo de cuchillas de afeitar, comunicaciones de corto alcance.",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GS2hfVFR9HpYo5Qw",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), puñal de madera, revista porno (x3).",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GIItxTfIgijvpcG4",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), hacha de mano, ganzúas, comunicaciones de corto alcance.",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "iAnx7GEcQlrBrvZu",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), anillos de pelea, botas con puntera de acero, automed.",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "jQJNLPDFAyH3eIwq",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), piedra en una cuerda (x2), tatuaje grotesco.",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "JGo3V0RDrGivudn2",
+    "type": "text",
+    "text": "Mono carcelario (PA 0), jabón en un calcetín, hierba cristal (x3).",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "equipo-presos"
+   }
+  }
+ },
+ {
+  "_id": "kNZnCi6A1GFlmPuI",
+  "name": "Equipo inicial: Cazarrecompensas (1d10)",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "results": [
+   {
+    "_id": "NHqRYlD8iNTZpkf0",
+    "type": "text",
+    "text": "Atuendo de TEM (PA 2), camilla plegable, estimulante (x2), jeringa (soporífero).",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "9BwDzIaNdfHOtLYo",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), maletín (200kcr, falsos. Rastreador.),† esposas.",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "WyfNeoT0MGz7Ukka",
+    "type": "text",
+    "text": "Traje espacial (PA 3), soldador de mano (x2), inhibidor de radio, mochila propulsora.",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "HIZ5nQTMlhGOT4Pg",
+    "type": "text",
+    "text": "Traje de riesgo (PA 5), fusil de pulsos (10 cargas), palanca, granada de gas (x2).",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "7D9KjOZyEr7a3ROh",
+    "type": "text",
+    "text": "Uniforme de combate avanzado (PA 10, RD 3), vibmachete, hacha de abordaje, daga, escapulario de orejas.",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xPkaQaOscdCiJe2k",
+    "type": "text",
+    "text": "Uniforme de combate estándar (PA 7), cortador láser (2 disparos), sabueso (mascota orgánica), cordón de paracaídas.",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RL8NekDVE4e8JgKz",
+    "type": "text",
+    "text": "Atuendo estándar de tripulación (PA 1), ballesta (2d10 DAÑO), 3x flechas explosivas (como granada de fragmentación), 3x flecha rastreadora, 3x flecha normal.",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "7qmFwauqYfeSfl2f",
+    "type": "text",
+    "text": "Traje ejecutivo (PA 0), carné de miembro del Grupo de Trabajo Antipiratería.",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "uI4KbEWkAdPARe9g",
+    "type": "text",
+    "text": "Armadura casera (PA 5), escopeta de combate (6 cargas), dron de desguace (bioescáner, inhibidor de radio).",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "XnCmsYV8GMX4swgL",
+    "type": "text",
+    "text": "Uniforme de combate estándar (PA 7), pistola de espuma (6 cargas), pistola tranquilizante (3 cargas), bioescáner.",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "equipo-cazarrecompensas"
+   }
   }
  }
 ]

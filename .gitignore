@@ -6,3 +6,4 @@ logs/
 *.zip
 .DS_Store
 __pycache__/
+art_src/

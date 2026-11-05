@@ -4,3 +4,6 @@
 - **Diseño, programación, Terminal interactiva y adaptación a Foundry VTT:** Manu Romera (MR · Digital RPG Design).
 - **Integración con el ecosistema MR-:** Diseñado para funcionar conjuntamente con **MR- Mothership en español** (`mr-mothership-es`), **MR- Kit del Desguazador** (`mr-kit-desguazador`) y **MR- Dirección** (`mr-direccion`).
 - **Licencia:** MIT para el código del módulo.
+
+- **Arte:** el de las fichas, mapas, escenas, figuras, fauna y armas es el de *Wages of Sin*, recortado del libro. Los retratos del personal de dirección de la ODC y de dos presos, y los iconos de las macros, se generaron para este módulo con IA (Codex) y se indican como tales.
+- **Marca:** el monograma MR de las imágenes identifica el trabajo de adaptación.

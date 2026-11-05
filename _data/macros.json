@@ -1,11 +1,12 @@
 [
  {
-  "_id": "GHKxUT7zGdS4ZOSk",
-  "name": "Terminal de Recompensas y ODC",
+  "_id": "ghkXut7ZgDs4zosK",
+  "name": "Terminal de recompensas",
   "type": "script",
   "img": "modules/mr-wages-of-sin/assets/iconos/terminal.webp",
   "scope": "global",
   "command": "game.mrWages.abrirTerminal();",
+  "author": "0000000000000000",
   "folder": null,
   "sort": 100000,
   "ownership": {
@@ -25,12 +26,13 @@
   }
  },
  {
-  "_id": "HmXNV22PmqxhqucD",
-  "name": "Generar Orden de Busca al azar",
+  "_id": "hMxnv22pMQXHQUCd",
+  "name": "Orden de busca al azar (1d100)",
   "type": "script",
   "img": "modules/mr-wages-of-sin/assets/iconos/orden.webp",
   "scope": "global",
   "command": "game.mrWages.macros.generarOrden();",
+  "author": "0000000000000000",
   "folder": null,
   "sort": 101000,
   "ownership": {
@@ -50,12 +52,13 @@
   }
  },
  {
-  "_id": "y8WiIu5wTajsidF7",
-  "name": "Rastrear Objetivo (Localizar)",
+  "_id": "Ih1rsV9b3hMrpBoJ",
+  "name": "Oráculo de Nivel de Recompensa",
   "type": "script",
   "img": "modules/mr-wages-of-sin/assets/iconos/rastreo.webp",
   "scope": "global",
-  "command": "game.mrWages.macros.rastrear();",
+  "command": "game.mrWages.macros.oraculoBL();",
+  "author": "0000000000000000",
   "folder": null,
   "sort": 102000,
   "ownership": {
@@ -63,7 +66,7 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "rastrear"
+    "clave": "oraculo-bl"
    }
   },
   "_stats": {
@@ -75,12 +78,13 @@
   }
  },
  {
-  "_id": "plSzvJVEACTP2Saa",
-  "name": "Delito de Jugadores y Nivel BL",
+  "_id": "uP25Xj67i0iB3QUh",
+  "name": "Intentar un soborno en la ODC",
   "type": "script",
-  "img": "modules/mr-wages-of-sin/assets/iconos/delito.webp",
+  "img": "modules/mr-wages-of-sin/assets/iconos/soborno.webp",
   "scope": "global",
-  "command": "game.mrWages.macros.delitoJugadores();",
+  "command": "game.mrWages.macros.sobornoODC();",
+  "author": "0000000000000000",
   "folder": null,
   "sort": 103000,
   "ownership": {
@@ -88,57 +92,7 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "delito-jugadores"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "Up25xJ67I0Ib3quH",
-  "name": "Intentar Soborno en la ODC",
-  "type": "script",
-  "img": "modules/mr-wages-of-sin/assets/iconos/soborno.webp",
-  "scope": "global",
-  "command": "game.mrWages.macros.sobornoODC();",
-  "folder": null,
-  "sort": 104000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
     "clave": "soborno-odc"
-   }
-  },
-  "_stats": {
-   "systemId": "mosh",
-   "systemVersion": "0.6.1",
-   "coreVersion": "13",
-   "createdTime": 1762320000000,
-   "modifiedTime": 1762320000000
-  }
- },
- {
-  "_id": "YJzR9IYogdP4h9C7",
-  "name": "Jornada en el Infierno Verde (Offit)",
-  "type": "script",
-  "img": "modules/mr-wages-of-sin/assets/iconos/jungla.webp",
-  "scope": "global",
-  "command": "game.mrWages.macros.infiernoVerde();",
-  "folder": null,
-  "sort": 105000,
-  "ownership": {
-   "default": 0
-  },
-  "flags": {
-   "mr-wages-of-sin": {
-    "clave": "infierno-verde"
    }
   },
   "_stats": {

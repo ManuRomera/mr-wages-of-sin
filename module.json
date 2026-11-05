@@ -1,8 +1,8 @@
 {
   "id": "mr-wages-of-sin",
   "title": "MR- Wages of Sin: Kit de Cazarrecompensas y La Luna Carcelaria",
-  "description": "Contenido completo en español de Wages of Sin (MRPG-M6) para Mothership 1e en Foundry VTT v13/v14: las 100 Órdenes de Busca con carteles para jugadores, retratos e informes del Guardián; generador procedural de recompensas, delitos y complicaciones; reglas de rastreo, delitos de jugadores, juicios y los 10 Cazarrecompensas rivales; el módulo completo «La ODC: Baclite» (La Luna Carcelaria y el Infierno Verde) con bandas, más de 80 presos (#YYXX), los 50 miembros del personal (S YY/XX), fauna de Offit, armas de prisión, las 3 naves nuevas (MPT «Bus», Hunter-Seeker y Veil of Night) con sus planos de cubierta, 60 equipos iniciales, Terminal interactiva de Recompensas y paquete para MR- Dirección.",
-  "version": "1.0.0",
+  "description": "El libro completo de Wages of Sin (MRPG-M6) en español para Mothership 1e en Foundry VTT v13/v14: las 100 órdenes de busca con carteles para la mesa, los 10 cazarrecompensas rivales, la prisión ODC de Baclite con su personal, presos y fauna, las 3 naves, mapas y tablas. Se instala solo en un mundo vacío, cada cosa en su carpeta.",
+  "version": "1.1.1",
   "authors": [
     {
       "name": "Manu Romera",

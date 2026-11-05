@@ -1,0 +1,176 @@
+{
+ "estilo": {
+  "retrato": "Rough expressive hand-inked sketch portrait, head and shoulders, scratchy ink and chalk strokes in rust-orange and off-white on a near-black textured background, like an inmate/staff file illustration from a gritty sci-fi prison sourcebook. No text, no border, no logo. Square composition, face centred.",
+  "icono": "Bold single-subject pictogram icon, heavy black ink silhouette with a few flat red accents, rough screen-print texture, high contrast, centred with generous margin, on a plain flat off-white (#f3efe8) background. No text, no letters, no border, no frame."
+ },
+ "imagenes": [
+  {
+   "id": "stephen-bognar",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Stephen Bognar, 57, prison superintendent: genial, smiling, jovial heavyset man with a thick moustache, short grey hair, warm eyes that hide corruption, wearing a pressed uniform jacket with a small lapel pin."
+  },
+  {
+   "id": "christof-bognar",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Christof Bognar, 35, deputy superintendent: soft, nervous, sweaty man with slicked hair and a forced smirk, ill-fitting uniform, ambitious and petty, looks like he got the job from his uncle."
+  },
+  {
+   "id": "kyou-aoki",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Kyou Aoki, 41, chief of correctional officers who joined the service to collect bribes: affable polite smile that never reaches cold calculating eyes, neat short hair, high-collar guard uniform with insignia."
+  },
+  {
+   "id": "rani-kartall",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Rani Kartall, 45, chief technician of a prison moon: South Asian woman with hair tied back, safety goggles pushed up on forehead, grease-stained work overalls, tired and competent."
+  },
+  {
+   "id": "asad-sivert",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Dr. Asad Sivert, 52, chief prison surgeon, ex-marine medic: weary bearded man with deep eye bags and a worn surgical cap, scrubs under a stained coat."
+  },
+  {
+   "id": "rey-brun",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Rey Brun, 25, inmate and union man: broad-chested, easy affable smile worn like a mask, short hair, friendly open face with a hint of radicalised hardness in the eyes, patched prison jumpsuit."
+  },
+  {
+   "id": "zazil-herbertsson",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Zazil Herbertsson, 43 but looks sixty-three: worn, sallow, sagging face, leering lecherous half-smile, thin greasy hair, prison jumpsuit with a nurse's smock collar."
+  },
+  {
+   "id": "icono-terminal",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a retro bounty-hunter computer terminal with a crosshair on its screen"
+  },
+  {
+   "id": "icono-orden",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a torn WANTED poster pinned to a wall, silhouette of a face on it, no readable text"
+  },
+  {
+   "id": "icono-rastreo",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "bare boot footprints trail leading to a radar/magnifying glass"
+  },
+  {
+   "id": "icono-delito",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a pair of handcuffs over a broken evidence bag"
+  },
+  {
+   "id": "icono-juicio",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a judge's gavel striking a block, with a small scale of justice"
+  },
+  {
+   "id": "icono-odc",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a prison guard watchtower with searchlight and barbed wire"
+  },
+  {
+   "id": "icono-soborno",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a credit chip passing from one hand to another under a table"
+  },
+  {
+   "id": "icono-jungla",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a giant alien tree trunk wrapped in fog with hanging vines"
+  },
+  {
+   "id": "icono-arma-prision",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "an improvised prison shiv made from a sharpened toothbrush wrapped in tape"
+  },
+  {
+   "id": "icono-equipo",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a bounty hunter's stun pistol with a coil of restraint cuffs"
+  },
+  {
+   "id": "icono-nave",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a bulky armed hunter spaceship seen from the side"
+  },
+  {
+   "id": "icono-porra",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "an electric stun baton with blue spark coils"
+  },
+  {
+   "id": "icono-revolver",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a heavy frontier revolver pistol seen from the side"
+  },
+  {
+   "id": "icono-escopeta",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a pump-action combat shotgun seen from the side"
+  },
+  {
+   "id": "icono-mono-odc",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "an orange prison jumpsuit hanging on a hook with a printed number on the chest"
+  },
+  {
+   "id": "icono-chaleco",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a riot-control tactical vest with armor plates"
+  },
+  {
+   "id": "icono-traje-cazador",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a bounty hunter's full tactical armor suit with a visor helmet"
+  },
+  {
+   "id": "icono-grilletes",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a pair of heavy magnetic titanium shackles joined by a chain"
+  },
+  {
+   "id": "icono-baliza",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a small magnetic tracking beacon puck with a blinking red light and antenna"
+  },
+  {
+   "id": "icono-bolsa-azucar",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a small sealed plastic baggie of white contraband powder tied with string"
+  },
+  {
+   "id": "icono-criojaula",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "an upright portable stasis coffin pod with a frosted window"
+  }
+ ]
+}
