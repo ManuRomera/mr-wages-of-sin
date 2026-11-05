@@ -1446,12 +1446,60 @@
   "_id": "cc1nS77Hzd7ulXGS",
   "name": "Equipo inicial: Marines (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 318. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "sI4uvgHhXFgKd0sR",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), escopeta de combate (6 cartuchos de bolsa de balines - pág. 230), esposas.",
+    "_id": "jA3du4qhipGTMgTR",
+    "type": "document",
+    "name": "Traje de camuflaje",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.aOiQ6C2Pqed72eVt",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "OcDvUb6szY0ezkUD",
+    "type": "document",
+    "name": "Fusil de pulsos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.GOD29c33foWh6qfA",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ZHKfBFAoZu5eUmyp",
+    "type": "document",
+    "name": "Comunicaciones de largo alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.eqHOATWw5J2mlBWf",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "JdmZQhSzceVwb3B7",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
     "weight": 1,
     "range": [
      1,
@@ -1461,9 +1509,42 @@
     "flags": {}
    },
    {
-    "_id": "8nIQ18aB3wK2Rchi",
-    "type": "text",
-    "text": "Hábito monástico (PA 1), años de entrenamiento (obtienes la habilidad de Maestro «Artes marciales»).",
+    "_id": "gwAkm1JYPmKuxKUJ",
+    "type": "document",
+    "name": "Escopeta de combate",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.dtCbkvO2FFRA1Lxr",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "8TovJZJSbpZHGjT3",
+    "type": "document",
+    "name": "Esposas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.OMKw2WOL5bri4gFM",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "S3OCO0UlYimazNjj",
+    "type": "document",
+    "name": "Hábito monástico",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.FjZ4u8Cd1OF4vwjb",
     "weight": 1,
     "range": [
      2,
@@ -1473,9 +1554,27 @@
     "flags": {}
    },
    {
-    "_id": "tMtUTmbRWnQxmdqG",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), máscara horripilante, vibmachete, drogas de combate.",
+    "_id": "GdPUAdgRIQqWTUFE",
+    "type": "document",
+    "name": "Artes marciales",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.LqnlC7SomGdx25Yx",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "2e7CoYRp2SwZai8F",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      3,
@@ -1485,9 +1584,57 @@
     "flags": {}
    },
    {
-    "_id": "CBM4PGHSsoszf7dd",
-    "type": "text",
-    "text": "Traje de riesgo (PA 5), revólver (12 cargas), prismáticos de visión nocturna, RCM (x7), filtro de agua.",
+    "_id": "POAPqdOIFKwQAWPX",
+    "type": "document",
+    "name": "Máscara horripilante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.0uKANxaNv3fuwiLy",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "eoEN0ez3ClXdcwjD",
+    "type": "document",
+    "name": "Vibmachete",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.u0AdhscKfaUfTGsf",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "pHKoLL1d9WS9y81m",
+    "type": "document",
+    "name": "Drogas de combate",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.07mA6jcLsgXNTnFv",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "KtKRKSM15T5nB7cQ",
+    "type": "document",
+    "name": "Traje de riesgo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.de6WdwyJCH9nrMEp",
     "weight": 1,
     "range": [
      4,
@@ -1497,9 +1644,162 @@
     "flags": {}
    },
    {
-    "_id": "YnJLOoakOlUcA4X5",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver con mira inteligente (24 cargas).",
+    "_id": "ysb5fNXvHNXuwzN0",
+    "type": "document",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.UsFCq58ozKNbvpUa",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "JtdDIKHUmcsrjwOs",
+    "type": "document",
+    "name": "Prismáticos de visión nocturna",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.uHXpit5IqMoxWpuq",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "17RI6AWydccLcdtW",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "4LYfMpDIpRvxoiDS",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "uOX16tpZlML9Wuz6",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "wZvJvTi1ab02nhNU",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3lM9XTE2WwUCDMA0",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "I8LgbrChfBsBG3zs",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "6f15qOVAV4O09cC3",
+    "type": "document",
+    "name": "RCM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KRDMIlrNnSZKktPI",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "27uheAzN8ivBKag3",
+    "type": "document",
+    "name": "Filtro de agua",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.mNx1oPzqzfqbDto3",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "hGFbDyB8JvK7R3Hg",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      5,
@@ -1509,9 +1809,27 @@
     "flags": {}
    },
    {
-    "_id": "0ibCXvrl0CoUX5bX",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), pistola de espuma, porra aturdidora, esposas.",
+    "_id": "A3boaPb7fUFp4Ht9",
+    "type": "document",
+    "name": "Revólver con mira inteligente",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.YAlkojOiObcUcjCs",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "4vIVOiW0HQlQb3oY",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
     "weight": 1,
     "range": [
      6,
@@ -1521,9 +1839,57 @@
     "flags": {}
    },
    {
-    "_id": "I1dZRC7COMoDpZxf",
-    "type": "text",
-    "text": "Traje de riesgo (PA 5), lanzallamas (8 disparos), cámara desechable, baliza de emergencia.",
+    "_id": "DnyvqCVu0DOVbfZ5",
+    "type": "document",
+    "name": "Pistola de espuma",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.58xRcEsu2730bGcg",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ZeGPCekGtMYCifw7",
+    "type": "document",
+    "name": "Porra aturdidora",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.MVbLb5sCqQjrJpec",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "TxCYi3R4RtPnvOsJ",
+    "type": "document",
+    "name": "Esposas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.OMKw2WOL5bri4gFM",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xzTS90AN2FdqhyIo",
+    "type": "document",
+    "name": "Traje de riesgo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.de6WdwyJCH9nrMEp",
     "weight": 1,
     "range": [
      7,
@@ -1533,9 +1899,57 @@
     "flags": {}
    },
    {
-    "_id": "ElIFisYJAucEYRcj",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), pistola de dardos localizadores (4 disparos), subfusil (10 cargas), comunicaciones de corto alcance.",
+    "_id": "ViKroklAPx8hvTBy",
+    "type": "document",
+    "name": "Lanzallamas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.T8mDOAMGKyAvdHpC",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "1gHCiBcocYjKfWhz",
+    "type": "document",
+    "name": "Cámara desechable",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.aZdRklGAho70j8BN",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "iMEuNrZTgq9A9gfo",
+    "type": "document",
+    "name": "Baliza de emergencia",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.AfiSQ6MTIcXp6MnL",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "rBp2Nz8ygN1Y1kTO",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      8,
@@ -1545,9 +1959,57 @@
     "flags": {}
    },
    {
-    "_id": "94U52BlZIx9ufokk",
-    "type": "text",
-    "text": "Uniforme de combate avanzado (PA 10, RD 3), subfusil (x2, 20 cargas), gafas IR, estimulante.",
+    "_id": "BBwTX4cYrXUaD32W",
+    "type": "document",
+    "name": "Pistola de dardos localizadores",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.6XXvxReV4qtDDIcn",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "TP6suEexFealw1uq",
+    "type": "document",
+    "name": "Subfusil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.2tjIJ7HvgGPBh5S7",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "5fzlKubPhyyJFWlN",
+    "type": "document",
+    "name": "Comunicaciones de corto alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.cYAbOj3RrGIXJ11K",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "XbNGrZudG6PFUNxl",
+    "type": "document",
+    "name": "Uniforme de combate avanzado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.GNz888sQ0nbYwnQo",
     "weight": 1,
     "range": [
      9,
@@ -1557,13 +2019,61 @@
     "flags": {}
    },
    {
-    "_id": "lJuSUe04H5JvXPNw",
-    "type": "text",
-    "text": "Traje de camuflaje (PA 5), fusil de pulsos (10 cargas), comunicaciones de largo alcance.",
+    "_id": "9JWxJHF5iFCRjtm3",
+    "type": "document",
+    "name": "Subfusil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.FMXOorS7D9lBCM2E",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "UbNcMigWEiVMuEFI",
+    "type": "document",
+    "name": "Subfusil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.FMXOorS7D9lBCM2E",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3l89UMZMKT5zFUkd",
+    "type": "document",
+    "name": "Gafas IR",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.FOvB2qvoo8aHqLCH",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "d6D7YCN4d82mXXfy",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -1579,7 +2089,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-marines"
+    "clave": "equipo-marines",
+    "loadout": "marines"
    }
   }
  },
@@ -1587,12 +2098,60 @@
   "_id": "8VXz3rgpneQBmtqf",
   "name": "Equipo inicial: Androides (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 318. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "Hvrd7ekKWIvhIFAX",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), serpiente asesina (mascota sintética) con mira inteligente.",
+    "_id": "u7K4w5o9AP868RRh",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "pMGT6tziwCErDCZv",
+    "type": "document",
+    "name": "Pistola de aparejos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.m8tMs6YhDiLaGDhk",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "DFDb9WXc76IhVmnx",
+    "type": "document",
+    "name": "Inhibidor de radio",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4r1ylbWajhn8rpGy",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "nQcaXOXzFVpBp3cH",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      1,
@@ -1602,9 +2161,27 @@
     "flags": {}
    },
    {
-    "_id": "oKO6tLmZITc7DnFe",
-    "type": "text",
-    "text": "Traje espacial (PA 3), cortador láser (3 disparos), explosivos y detonador.",
+    "_id": "eL4QgxbMmpdk93DV",
+    "type": "document",
+    "name": "Serpiente asesina con mira inteligente",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.hdjkEGqcCLLLoOan",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "2DFbHw8fQN61Nu29",
+    "type": "document",
+    "name": "Traje espacial",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lgz6wlVLDWcFccP5",
     "weight": 1,
     "range": [
      2,
@@ -1614,9 +2191,42 @@
     "flags": {}
    },
    {
-    "_id": "yVzPGdYwAlg1SWsW",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), pistola automática de plástico (24 cargas), cavidad corporal a prueba de rayos X.",
+    "_id": "C8MRoDfO08Kmsq4n",
+    "type": "document",
+    "name": "Cortador láser",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.6EbVvvxONg6mhOnB",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "mexra9EgiHxIPzH8",
+    "type": "document",
+    "name": "Explosivos y detonador",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.zCBCQ5mHFOdRNBaY",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "z6ikqdcphDZhtsBJ",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      3,
@@ -1626,9 +2236,42 @@
     "flags": {}
    },
    {
-    "_id": "SgKHkZcjGVwtxIei",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), bisturí (x10), botiquín de primeros auxilios, rostro humano (x10).",
+    "_id": "Lh2ExaNQ52JrGrOL",
+    "type": "document",
+    "name": "Pistola automática de plástico",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.DIFC8jKyjdyzCQY8",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "vLuh5gbtfF9oXh4r",
+    "type": "document",
+    "name": "Cavidad corporal a prueba de rayos X",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.u1oovitfxgBKftza",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "goJgp4sjgzWcYSur",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      4,
@@ -1638,9 +2281,327 @@
     "flags": {}
    },
    {
-    "_id": "gh5v3B1NIYKHNT9v",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), escopeta de combate (8 cargas), soldador de mano, botas magnéticas.",
+    "_id": "GttV9rmH4H5t8cDV",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Sjxjlb4lCZPwnuuu",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "6B5x2FgeLAKwdEKe",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Oq0GYxcRMWCZmv8w",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "EprdjvO0AFILbz4z",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "9rLuRt5qXDLWyJdD",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xJnxl2rxyERfHeZl",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "dr50VD66T8jGnFj9",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AhIBacGLzMVWUCO1",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "FBLUAjh6RB09XVFd",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "EoLK3lCEVao3czbb",
+    "type": "document",
+    "name": "Botiquín de primeros auxilios",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jMy58Q2efLM8PI5b",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "BimF3Uncs8xtsjPC",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "PY9Y69sZKk2qhdNP",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "A4PpW60y40w8itXo",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "wbT3xx8mvvsALCzf",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "jZHTysEkAI0UzZ0t",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "hrPGhRsb5dux0PeM",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "BT3COgKIoWlVWR3W",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "COqGq8NMUYCyM6Kc",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "qn6Zk4O1AwF1Q4GU",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AvzFB1lxZfrOvr0P",
+    "type": "document",
+    "name": "Rostro humano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.QfiunQVjUkXa7Nss",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xdZcqiVkaVZ2LyhA",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
     "weight": 1,
     "range": [
      5,
@@ -1650,9 +2611,57 @@
     "flags": {}
    },
    {
-    "_id": "N87sBpclBJ2uRMOr",
-    "type": "text",
-    "text": "Traje corporativo (PA 0), chaleco blindado ultrafino (PA 4), dedos de nanohoja (2d10 DAÑO PA), bioescáner.",
+    "_id": "NTIPJo8UyWvSTqmE",
+    "type": "document",
+    "name": "Escopeta de combate",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.M8M6I9Q6YmKKuOxD",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "dIgCp7Yrxmp5Rc6d",
+    "type": "document",
+    "name": "Soldador de mano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.BhrABvwevneuTxOu",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "G2vfQNYL9QIMGTgG",
+    "type": "document",
+    "name": "Botas magnéticas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KcuBdjOrC7Wf1FmF",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "7IXxohcxZmCEvfdE",
+    "type": "document",
+    "name": "Traje corporativo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.7EGK1HpIaeXooW6k",
     "weight": 1,
     "range": [
      6,
@@ -1662,9 +2671,57 @@
     "flags": {}
    },
    {
-    "_id": "XJjy9MR6BaLS61h4",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), granada de fragmentación (x10), detonador.",
+    "_id": "z8RQvF0jOO4TVu52",
+    "type": "document",
+    "name": "Chaleco blindado ultrafino",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.92eut4im5hGcB4mi",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "5BeJIdEdMjvCyVTX",
+    "type": "document",
+    "name": "Dedos de nanohoja",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Sem0bywymfxJhdja",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "gdipQwmWoLdN25sl",
+    "type": "document",
+    "name": "Bioescáner",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.mv3kW6tNLHdxJabl",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "cT8PXC9lNqSpuTMk",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      7,
@@ -1674,9 +2731,177 @@
     "flags": {}
    },
    {
-    "_id": "1U6vQogbgLOah3bA",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), porra aturdidora (x2), camilla plegable, cordón de paracaídas.",
+    "_id": "UOgnH4xjUqmxAdT3",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "56JKUmcIMjQFvNWy",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "LVuK5DGNogxoBwRq",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RuFpp870D9EnDRMo",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "zrlPPq1Os7wNxG3e",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "U6fmQTLSQExdWGd4",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AvfY8KAmUloF5RDZ",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Vxv8meu5Q9lQqmuj",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xnoTZqaNyh7lpgoq",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "fbyjccgptC3gys95",
+    "type": "document",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4ehDwpJF3FpHgyQf",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "DRPCCCs2y7h1YU4o",
+    "type": "document",
+    "name": "Detonador",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.DApeZufWv033kYn4",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Wr14YnzYve0qbuxd",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      8,
@@ -1686,9 +2911,72 @@
     "flags": {}
    },
    {
-    "_id": "InXcZWuV2FIRBiPy",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), Pilluelo del vacío muy leal† (x5. +20 Lealtad, cuenta como mascota orgánica para Estrés/ Pánico.).",
+    "_id": "YyWw8S6b4rxQtzSc",
+    "type": "document",
+    "name": "Porra aturdidora",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.MVbLb5sCqQjrJpec",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "qqLXs6Iw5L1C8MEX",
+    "type": "document",
+    "name": "Porra aturdidora",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.MVbLb5sCqQjrJpec",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "MhdALlsQHDKGZf61",
+    "type": "document",
+    "name": "Camilla plegable",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Ay7h83zI5PcbCc7y",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "O1ZTFVDsM6toHJ1p",
+    "type": "document",
+    "name": "Cordón de paracaídas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.3pX6EqWDZJrDluDf",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "gUvU8I8uVltTryT5",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      9,
@@ -1698,13 +2986,76 @@
     "flags": {}
    },
    {
-    "_id": "2WDHNx8AlQuo6nnG",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), pistola de aparejos (5 disparos), inhibidor de radio.",
+    "_id": "uEkapLrzMsxpF1M0",
+    "type": "document",
+    "name": "Pilluelo del vacío muy leal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.F3hBAPmYOuV0edKl",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "yHIyXRWGFI3Ilkeo",
+    "type": "document",
+    "name": "Pilluelo del vacío muy leal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.F3hBAPmYOuV0edKl",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "86C4osA26LWIrRkz",
+    "type": "document",
+    "name": "Pilluelo del vacío muy leal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.F3hBAPmYOuV0edKl",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "IpY6PxNSTSMY5M1J",
+    "type": "document",
+    "name": "Pilluelo del vacío muy leal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.F3hBAPmYOuV0edKl",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ZxhG0rWB2azifODV",
+    "type": "document",
+    "name": "Pilluelo del vacío muy leal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.F3hBAPmYOuV0edKl",
+    "weight": 1,
+    "range": [
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -1720,7 +3071,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-androides"
+    "clave": "equipo-androides",
+    "loadout": "androides"
    }
   }
  },
@@ -1728,12 +3080,60 @@
   "_id": "vNnzgq8XONpXFaZM",
   "name": "Equipo inicial: Científicos (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 318: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 318. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "dwKt2DFu0bYjS1qK",
-    "type": "text",
-    "text": "Traje NBQ (PA 1), rebreather, kit de química móvil, veneno letal (x2), veneno soporífero (x3).",
+    "_id": "YZeYJoSrTlFsX0qo",
+    "type": "document",
+    "name": "Traje espacial",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lgz6wlVLDWcFccP5",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "mU29MLMpT5hVFrcu",
+    "type": "document",
+    "name": "Pistola de aparejos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.m8tMs6YhDiLaGDhk",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "EbVi1L2j42KI7v1A",
+    "type": "document",
+    "name": "Terminal de ordenador portátil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.XHT1BVzgFqjNEkwN",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "MI07LMqFvMWtJYoT",
+    "type": "document",
+    "name": "Traje NBQ",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.GGr3xtq7hgoVFz7t",
     "weight": 1,
     "range": [
      1,
@@ -1743,9 +3143,117 @@
     "flags": {}
    },
    {
-    "_id": "6LRgBknY0Ar0Te7I",
-    "type": "text",
-    "text": "Traje ejecutivo (PA 1), atuendo de capataz (PA 1), identificación corporativa, de sindicato y de inspector.",
+    "_id": "BEblP6Gxbt7XEBKT",
+    "type": "document",
+    "name": "Rebreather",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IKrL2iMoLrB9sZcR",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "bS3TZSZq50Tv3dRN",
+    "type": "document",
+    "name": "Kit de química móvil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.cIUun20ocBB5q4UB",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "lAdLXX5353fOWk8a",
+    "type": "document",
+    "name": "Veneno letal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.g2i5zpK8Yo5L3HWr",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3s5uew98X7xtMqD6",
+    "type": "document",
+    "name": "Veneno letal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.g2i5zpK8Yo5L3HWr",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "SABBb7rPTfeMcF0F",
+    "type": "document",
+    "name": "Veneno soporífero",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KiHVshvBMJ43eWcc",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "www9zngzgSI2tmzn",
+    "type": "document",
+    "name": "Veneno soporífero",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KiHVshvBMJ43eWcc",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3svFzGP9OD0feiZh",
+    "type": "document",
+    "name": "Veneno soporífero",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KiHVshvBMJ43eWcc",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ouQ8V85DKtlfRUtF",
+    "type": "document",
+    "name": "Traje ejecutivo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Em6Lhs3K4wV6Mqj8",
     "weight": 1,
     "range": [
      2,
@@ -1755,9 +3263,57 @@
     "flags": {}
    },
    {
-    "_id": "viIbap9PWL3PpThC",
-    "type": "text",
-    "text": "Mono de trabajo, herramientas variadas, kit de herramientas electrónicas, ganzúas, terminal de ordenador portátil.",
+    "_id": "ZNUj6q8lmT9w8oE1",
+    "type": "document",
+    "name": "Atuendo de capataz",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.9tgYuIPhuIzWI8Z1",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ImDHyUXcza8hwyYl",
+    "type": "document",
+    "name": "Identificación corporativa",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.hciWUApr8qTgLbgC",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "bQmbMUrmYdeoiqLn",
+    "type": "document",
+    "name": "De sindicato y de inspector",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.MbgFCfRxwj1hZqX4",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Qjw4p8dmENU8Pntq",
+    "type": "document",
+    "name": "Mono de trabajo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.RtujjvLEh3fx5F8s",
     "weight": 1,
     "range": [
      3,
@@ -1767,9 +3323,72 @@
     "flags": {}
    },
    {
-    "_id": "cZPZt12kGDazjsik",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), unidad de emisión de radio, comunicaciones de largo alcance.",
+    "_id": "0VOpql0yPd6TS2Qk",
+    "type": "document",
+    "name": "Herramientas variadas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5h83JO1uW6Hoyd94",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "0QovFOhlMVIBkD13",
+    "type": "document",
+    "name": "Kit de herramientas electrónicas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.RNGfFQDwMwmO1x2r",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "lwSDKMAmfPlweRMj",
+    "type": "document",
+    "name": "Ganzúas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.H5Kvuw0ZX8DNkUg2",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Tng4xyThLz24IrFh",
+    "type": "document",
+    "name": "Terminal de ordenador portátil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.XHT1BVzgFqjNEkwN",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "bgXcRUR4rPOsM8nZ",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      4,
@@ -1779,9 +3398,57 @@
     "flags": {}
    },
    {
-    "_id": "ldOqJJpNDdbN5GeD",
-    "type": "text",
-    "text": "Atuendo de médico (PA 1), bisturí, botiquín de primeros auxilios, esposas, medescáner.",
+    "_id": "a32rqGNMltrcImrT",
+    "type": "document",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ONn8Upwmn5ByIBdP",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "La13HMGpFvUzKdtB",
+    "type": "document",
+    "name": "Unidad de emisión de radio",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.OEzMf2tYbqx43Ydo",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "jaUiV8ELMuqoEldZ",
+    "type": "document",
+    "name": "Comunicaciones de largo alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.eqHOATWw5J2mlBWf",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GH34mtd5MGHaVBvU",
+    "type": "document",
+    "name": "Atuendo de médico",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5D2YEnyB0a2fHey8",
     "weight": 1,
     "range": [
      5,
@@ -1791,9 +3458,72 @@
     "flags": {}
    },
    {
-    "_id": "chvD14zZgiivajpk",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver recortado (8 cargas), estimulante (x3), estimulante adulterado (x3), estimulantes (x5).",
+    "_id": "jKXYum0cp91zL5S5",
+    "type": "document",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jkyb94VphgnznA2S",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "OZSM3Thujb1qWhOS",
+    "type": "document",
+    "name": "Botiquín de primeros auxilios",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jMy58Q2efLM8PI5b",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "B8tKzmOXPwzPxLSA",
+    "type": "document",
+    "name": "Esposas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.OMKw2WOL5bri4gFM",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "WouFM11GXgbuhVDQ",
+    "type": "document",
+    "name": "Medescáner",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.w3npwpS39nJfCq6B",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "aJN2V63Ef1DBlMF3",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      6,
@@ -1803,9 +3533,192 @@
     "flags": {}
    },
    {
-    "_id": "G9eQ1SuDREv8oJYU",
-    "type": "text",
-    "text": "Bata de laboratorio (PA 1), pistola tranquilizante (5 cargas), gorila modificado (mascota orgánica, [+] a Combate. 3(20) Heridas. 3d10 DAÑO.).",
+    "_id": "XED354xCuk5jPwet",
+    "type": "document",
+    "name": "Revólver recortado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5pBVyy2Cg6cT954P",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "BZljJUvbwPn6mOBn",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "XCYwf05BJb727huY",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "scLgRt1ClRHoLmVi",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "IZ4Ln1HjLbMq6usb",
+    "type": "document",
+    "name": "Estimulante adulterado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.L0FxQqXVnWYCJ3Ck",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "oxFSXmOupMdTJ35z",
+    "type": "document",
+    "name": "Estimulante adulterado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.L0FxQqXVnWYCJ3Ck",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3LBadEfRYdohuEHR",
+    "type": "document",
+    "name": "Estimulante adulterado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.L0FxQqXVnWYCJ3Ck",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "EUs3AIw9RRmbxIIL",
+    "type": "document",
+    "name": "Estimulantes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.c0EUt8fKfU0qG1Lo",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "j850LkOsSEL4ACHj",
+    "type": "document",
+    "name": "Estimulantes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.c0EUt8fKfU0qG1Lo",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "BpwEzq8ZEdxkbTbF",
+    "type": "document",
+    "name": "Estimulantes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.c0EUt8fKfU0qG1Lo",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ER1nzyv63bFYO08q",
+    "type": "document",
+    "name": "Estimulantes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.c0EUt8fKfU0qG1Lo",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Af6BkSMbGd7xWuzL",
+    "type": "document",
+    "name": "Estimulantes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.c0EUt8fKfU0qG1Lo",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "PIcP8m5NCOCydKGN",
+    "type": "document",
+    "name": "Bata de laboratorio",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.luLZdr6JZwU00Bsp",
     "weight": 1,
     "range": [
      7,
@@ -1815,9 +3728,42 @@
     "flags": {}
    },
    {
-    "_id": "J7XbavwSm7KW2Xjr",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), manta de mylar (correas autoajustables), jeringa (paralizante).",
+    "_id": "iE72hZObRjq0iBdV",
+    "type": "document",
+    "name": "Pistola tranquilizante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.otSyl1iiideD713w",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "wnsy63xdfqzJ3UOs",
+    "type": "document",
+    "name": "Gorila modificado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4rHChMaWjhe2Uozj",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "9CGz7pjGc33NlIDk",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      8,
@@ -1827,9 +3773,57 @@
     "flags": {}
    },
    {
-    "_id": "syuAzOnZSoIcGPt7",
-    "type": "text",
-    "text": "Traje de explorador misionero (PA 3), rifle de supervivencia (10 cargas), unidad MoHab, rebreather, texto religioso.",
+    "_id": "i8OpWtNLWldXzFre",
+    "type": "document",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ONn8Upwmn5ByIBdP",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "L7FkE89CYTfSjnHt",
+    "type": "document",
+    "name": "Manta de mylar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.BAKVxCvWPZTm4ikm",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "qGvgO4WE2pD0N9LM",
+    "type": "document",
+    "name": "Jeringa",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HYXOBuarn4vhvjMz",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "tT28kBSZ4ZtKZHvQ",
+    "type": "document",
+    "name": "Traje de explorador misionero",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.dmSqGGQ73hxxnHvV",
     "weight": 1,
     "range": [
      9,
@@ -1839,13 +3833,61 @@
     "flags": {}
    },
    {
-    "_id": "C84feErfyX5y06gf",
-    "type": "text",
-    "text": "Traje espacial (PA 3), pistola de aparejos (5 disparos), terminal de ordenador portátil.",
+    "_id": "CKci1eebZtmWrSBa",
+    "type": "document",
+    "name": "Rifle de supervivencia",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.vQrkr2o6SxvOUNjr",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "JmnOF2142p35VVou",
+    "type": "document",
+    "name": "Unidad MoHab",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.6DjKxlWkr5RIqR97",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "FArFt0YYtEHuNJS6",
+    "type": "document",
+    "name": "Rebreather",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IKrL2iMoLrB9sZcR",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "TJUePeOezAV5N9Co",
+    "type": "document",
+    "name": "Texto religioso",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.yqE3WyCIQCLW3hGh",
+    "weight": 1,
+    "range": [
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -1861,7 +3903,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-cient-ficos"
+    "clave": "equipo-cient-ficos",
+    "loadout": "cient-ficos"
    }
   }
  },
@@ -1869,12 +3912,90 @@
   "_id": "W677484u003Rmul2",
   "name": "Equipo inicial: Transportistas (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 319. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "tQjr4SXS4lIHN5xg",
-    "type": "text",
-    "text": "Traje espacial (PA 3), pistola de clavos (64 disparos), mochila propulsora, cordón de paracaídas.",
+    "_id": "LsXOlChSyS2cQnct",
+    "type": "document",
+    "name": "Mono de trabajo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.K7jn0XvWOsok6VC0",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "wMu89EYDB7wTErcy",
+    "type": "document",
+    "name": "Herramientas variadas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5h83JO1uW6Hoyd94",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ibeIDzZn0q3rWaXk",
+    "type": "document",
+    "name": "Bolsa de azúcar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.bNMXTPkEjR9E3usR",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "FkIDTpME4BhQBTOV",
+    "type": "document",
+    "name": "Palanca",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.AN37UwJBnGShH7pA",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "lqBYhhQafXtLY2jH",
+    "type": "document",
+    "name": "Electroimán",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.XHDxQZ1ApOyLshSg",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "W3iFlvx0JohKjccJ",
+    "type": "document",
+    "name": "Traje espacial",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lgz6wlVLDWcFccP5",
     "weight": 1,
     "range": [
      1,
@@ -1884,9 +4005,57 @@
     "flags": {}
    },
    {
-    "_id": "Ik2vh15OVURMzq31",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), navaja multiusos (como bisturí), herramientas variadas, baliza de rastreo magnética,† escáner de diagnóstico de vehículos.",
+    "_id": "Rn1sl03RHepdu2yt",
+    "type": "document",
+    "name": "Pistola de clavos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.9Qb0VeYgongpEOpI",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "iIiAM84qXgegHPXZ",
+    "type": "document",
+    "name": "Mochila propulsora",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.te8sWyeB3s9BsZxx",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Jr0kbPTosnoIfoT9",
+    "type": "document",
+    "name": "Cordón de paracaídas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.3pX6EqWDZJrDluDf",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "mx8vwJhmD6Nb9Lsz",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      2,
@@ -1896,9 +4065,72 @@
     "flags": {}
    },
    {
-    "_id": "RdIaGOpcDmY2Yut6",
-    "type": "text",
-    "text": "Atuendo de gama alta (PA 0), juego de ganzúas a medida, gafas de visión nocturna.",
+    "_id": "DobQyD7tYESbmeMN",
+    "type": "document",
+    "name": "Navaja multiusos",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.A7skKSraokQtMZ0z",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "76h70YfVKhWH3LZV",
+    "type": "document",
+    "name": "Herramientas variadas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5h83JO1uW6Hoyd94",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "znCWDkkOThsgyYYm",
+    "type": "document",
+    "name": "Baliza de rastreo magnética",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.x8KzRrgBHY5rzvJE",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AicRRM2f45I0RpFh",
+    "type": "document",
+    "name": "Escáner de diagnóstico de vehículos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.8yBzGqMUcCM8AsVC",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "NpDgy29UdsZojHkj",
+    "type": "document",
+    "name": "Atuendo de gama alta",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Ts3gcKHnCQgKfHPm",
     "weight": 1,
     "range": [
      3,
@@ -1908,9 +4140,42 @@
     "flags": {}
    },
    {
-    "_id": "xkY3t8kNJD1UWnFo",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver (5 cargas), cigarrillos, petaca, comunicaciones de corto alcance.",
+    "_id": "CdSd54MAdNpvMh81",
+    "type": "document",
+    "name": "Juego de ganzúas a medida",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.POun2kPWLVSXUEl5",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "buTJry0AesGfTUFm",
+    "type": "document",
+    "name": "Gafas de visión nocturna",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.pLY4pGlmALSBccaC",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "uQ3wI0pOEFVHxYNV",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      4,
@@ -1920,9 +4185,72 @@
     "flags": {}
    },
    {
-    "_id": "YI8DE7MqefwTFxOx",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), dron de desguace (bioescáner, cortador láser), HUD.",
+    "_id": "RNaIVp4dRG3GzN5l",
+    "type": "document",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.EriZHc7r4zDZcM4x",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "2IEPz4dBccqsLBza",
+    "type": "document",
+    "name": "Cigarrillos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.N1Ydg0xa1TsqSFFv",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GIMbjMCwpCRtMBmn",
+    "type": "document",
+    "name": "Petaca",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.9QOTuV1TIkTjNNqk",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RTHHriN3pRoWz13M",
+    "type": "document",
+    "name": "Comunicaciones de corto alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.cYAbOj3RrGIXJ11K",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Vq4Dt9En0QcrDsOR",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      5,
@@ -1932,9 +4260,42 @@
     "flags": {}
    },
    {
-    "_id": "FlE5dXviG1vIyqCl",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), lanzallamas (4 disparos), extrusor de monofilamento (50m), botas magnéticas.",
+    "_id": "ZMrD6zpetYKSG9CK",
+    "type": "document",
+    "name": "Dron de desguace",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HvyKf9XG5odP4y1N",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "yMwFiYhG3yroNxSH",
+    "type": "document",
+    "name": "HUD",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ZN8ai5U2hT9laD89",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "gULN55N4aZmfIvIX",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
     "weight": 1,
     "range": [
      6,
@@ -1944,9 +4305,57 @@
     "flags": {}
    },
    {
-    "_id": "smPuxAkVQdGcOAgw",
-    "type": "text",
-    "text": "Traje de riesgo (PA 5), pistola de aparejos (6 disparos), bioescáner.",
+    "_id": "YQPdfjU21ARqcTN5",
+    "type": "document",
+    "name": "Lanzallamas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.1CzWk6zDtEmFkct1",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "302fE3FHVHOEqTWM",
+    "type": "document",
+    "name": "Extrusor de monofilamento",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.tfMzHpsSwIP49rVw",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "rHpGE9npFF1L1X3h",
+    "type": "document",
+    "name": "Botas magnéticas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KcuBdjOrC7Wf1FmF",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "YE8nl51b0GkW7r1p",
+    "type": "document",
+    "name": "Traje de riesgo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.de6WdwyJCH9nrMEp",
     "weight": 1,
     "range": [
      7,
@@ -1956,9 +4365,42 @@
     "flags": {}
    },
    {
-    "_id": "yVgOQXfhcaTEyTO5",
-    "type": "text",
-    "text": "Traje espacial (PA 3), palanca, explosivos y detonador, ganzúas, botas magnéticas.",
+    "_id": "stBqPwXiLnGiECwJ",
+    "type": "document",
+    "name": "Pistola de aparejos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IZoa3Lv9BxOHSk05",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "6RBXn5r3aFqGXGbB",
+    "type": "document",
+    "name": "Bioescáner",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.mv3kW6tNLHdxJabl",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "rkL1wcq8uqJit2n9",
+    "type": "document",
+    "name": "Traje espacial",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lgz6wlVLDWcFccP5",
     "weight": 1,
     "range": [
      8,
@@ -1968,9 +4410,72 @@
     "flags": {}
    },
    {
-    "_id": "x2ut2iismVl48Nsf",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), exocargador obsoleto.",
+    "_id": "ufwW2qs0Cx3TOzbQ",
+    "type": "document",
+    "name": "Palanca",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.AN37UwJBnGShH7pA",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RqxIASRez16O2cLc",
+    "type": "document",
+    "name": "Explosivos y detonador",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.zCBCQ5mHFOdRNBaY",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "XQglyxq2gArm8Xao",
+    "type": "document",
+    "name": "Ganzúas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.H5Kvuw0ZX8DNkUg2",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "4JbojqSIBuC2UVvw",
+    "type": "document",
+    "name": "Botas magnéticas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.KcuBdjOrC7Wf1FmF",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "IGI7FYlAyRLkMOd8",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      9,
@@ -1980,13 +4485,16 @@
     "flags": {}
    },
    {
-    "_id": "fEopUGgAqMLlGw0X",
-    "type": "text",
-    "text": "Mono de trabajo (PA 1), herramientas variadas, bolsa de azúcar, palanca, electroimán.",
+    "_id": "dz05jcxnslwzt4Rn",
+    "type": "document",
+    "name": "Exocargador obsoleto",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.yOtZVVK0htOD42YL",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -2002,7 +4510,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-transportistas"
+    "clave": "equipo-transportistas",
+    "loadout": "transportistas"
    }
   }
  },
@@ -2010,12 +4519,90 @@
   "_id": "lqkcqSVrO6cCP8Il",
   "name": "Equipo inicial: Presos (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 319. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "hmtb4QhX47Wv60Mc",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), daga, cigarrillos, mechero desechable.",
+    "_id": "JtHc2njfDxuc0d8K",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "HzaUcisTshfFS2Fz",
+    "type": "document",
+    "name": "Pilas / Jabón / Candado en calcetín",
+    "img": "modules/mr-wages-of-sin/assets/armas/pilas-calcetin.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.pfyE9uwzhQflaH0i",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "lZHvccoFlPKkkCGt",
+    "type": "document",
+    "name": "Hierba cristal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Qz8OjQMRIUoff4rr",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "yN1sxIDmeSGSP7EM",
+    "type": "document",
+    "name": "Hierba cristal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Qz8OjQMRIUoff4rr",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "r5hkFp6bC4Ob9kED",
+    "type": "document",
+    "name": "Hierba cristal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Qz8OjQMRIUoff4rr",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "RJaxMe3T837chmWE",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      1,
@@ -2025,9 +4612,57 @@
     "flags": {}
    },
    {
-    "_id": "b5aKDycmEdS04zgc",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), puñal de lata de atún, barrita de chocolate de la marca Reginald Squarepig (x15).",
+    "_id": "zwbRqnlLP9O3LJ2A",
+    "type": "document",
+    "name": "Daga",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ERbIsZvRDyPUtLFF",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "bX75clHlENAG8O1j",
+    "type": "document",
+    "name": "Cigarrillos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.N1Ydg0xa1TsqSFFv",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ouz28eIIDUawjswf",
+    "type": "document",
+    "name": "Mechero desechable",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.CJB89K7QU1if2D6W",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "kHHerOqdCuEk3l45",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      2,
@@ -2037,9 +4672,252 @@
     "flags": {}
    },
    {
-    "_id": "1KnGKLVEA52NMhEH",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), puñal de hoja de sierra, estimulante, Triumph.",
+    "_id": "mkIXbreA6PhpNasu",
+    "type": "document",
+    "name": "Pincho de lata de atún /  Cepillo de dientes / Tijera",
+    "img": "modules/mr-wages-of-sin/assets/armas/pincho-lata.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.RSLr7B3zFgbGrrWo",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "7qWeCyLZ7nc1YMuF",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "s03W2p61qsIc2Nhs",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "7gi9Y5gz2jMLwSBD",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "3pQi8MUW9mRUOSRA",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "VE8UWZuBn9KIi4er",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "mCmlqpzxuQec2ip2",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "9s9NqvdlFXg3EUKH",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Z4yoFtk9oNqEsAXD",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ajMNLJWGomSw0J5U",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "byRbBOU8GvNoEiEA",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "XeCXsKs3gt4F26af",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "bBlrx6CguWhP8kW6",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "w0DEKHItAUbImvsg",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "CStN94z5OrpvKE7n",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ba8p8kUOFO6AYOrR",
+    "type": "document",
+    "name": "Barrita de chocolate de la marca Reginald Squarepig",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.PIWe6FIO5d1ZQGKJ",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GqjC5UvNMixVi332",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      3,
@@ -2049,9 +4927,57 @@
     "flags": {}
    },
    {
-    "_id": "tzKnkxV1uN7r1WJ0",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), puñal de cepillo de dientes, botella a presión de salsa picante, cepillo de dientes.",
+    "_id": "pGfG2vavxpPTTUJn",
+    "type": "document",
+    "name": "Pincho de hoja de sierra",
+    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Cl7NCdfITjDWP2BL",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "gibuyWmNVaKm4Zaf",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ExD1ZHKQmM3kFO17",
+    "type": "document",
+    "name": "Triumph",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.qCAajFLg5YIw6ev9",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "zK4o70TILhUxiFTf",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      4,
@@ -2061,9 +4987,57 @@
     "flags": {}
    },
    {
-    "_id": "Su45sFcEMyTEXsw3",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), látigo de cuchillas de afeitar, comunicaciones de corto alcance.",
+    "_id": "6kZrTMKEKa9b33vr",
+    "type": "document",
+    "name": "Pincho de lata de atún /  Cepillo de dientes / Tijera",
+    "img": "modules/mr-wages-of-sin/assets/armas/pincho-lata.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.RSLr7B3zFgbGrrWo",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "F89yrCtNU6ccICGE",
+    "type": "document",
+    "name": "Botella a presión de salsa picante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.0EQ4N3DnQ7REHvSv",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ncDZDNhWCnq7mcMl",
+    "type": "document",
+    "name": "Cepillo de dientes",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lea5rhaMnpvKU6Ht",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "VYT4MTX0Zc03qExc",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      5,
@@ -2073,9 +5047,42 @@
     "flags": {}
    },
    {
-    "_id": "GS2hfVFR9HpYo5Qw",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), puñal de madera, revista porno (x3).",
+    "_id": "EWKr5wBoOOuGZhxp",
+    "type": "document",
+    "name": "Látigo de cuchillas",
+    "img": "modules/mr-wages-of-sin/assets/armas/latigo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.TWXxF5aHVbItjnlU",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "i0TYAIsNcl4ISaod",
+    "type": "document",
+    "name": "Comunicaciones de corto alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.cYAbOj3RrGIXJ11K",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "YMX8KiSJBzztELZB",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      6,
@@ -2085,9 +5092,72 @@
     "flags": {}
    },
    {
-    "_id": "GIItxTfIgijvpcG4",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), hacha de mano, ganzúas, comunicaciones de corto alcance.",
+    "_id": "XX4ULC0tYpM1Veyc",
+    "type": "document",
+    "name": "Pincho de madera",
+    "img": "modules/mr-wages-of-sin/assets/armas/pincho-madera.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.jwdjXxmM4unXf9xf",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "s3gvmZLtHRHxODzf",
+    "type": "document",
+    "name": "Revista porno",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.thyiGfrnlGvHTRT3",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "HjBFz5ln5YX7tei2",
+    "type": "document",
+    "name": "Revista porno",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.thyiGfrnlGvHTRT3",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "rBgJmAroue4iO9zq",
+    "type": "document",
+    "name": "Revista porno",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.thyiGfrnlGvHTRT3",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "yWkXFklRG9Ke4Qw1",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      7,
@@ -2097,9 +5167,57 @@
     "flags": {}
    },
    {
-    "_id": "iAnx7GEcQlrBrvZu",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), anillos de pelea, botas con puntera de acero, automed.",
+    "_id": "9rtCOnTIeK8t7agg",
+    "type": "document",
+    "name": "Hachuela",
+    "img": "modules/mr-wages-of-sin/assets/armas/hachuela.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.gJBNomgeHZLAgVs4",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "FFW7BpUOMjvUd6zc",
+    "type": "document",
+    "name": "Ganzúas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.H5Kvuw0ZX8DNkUg2",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "YRVfJnjxfxCnPm8e",
+    "type": "document",
+    "name": "Comunicaciones de corto alcance",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.cYAbOj3RrGIXJ11K",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "jPjdYaEdyPY8ZWOR",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      8,
@@ -2109,9 +5227,57 @@
     "flags": {}
    },
    {
-    "_id": "jQJNLPDFAyH3eIwq",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), piedra en una cuerda (x2), tatuaje grotesco.",
+    "_id": "VOFrcyGU82tcUTaD",
+    "type": "document",
+    "name": "Anillos de combate",
+    "img": "modules/mr-wages-of-sin/assets/armas/anillos.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.WiVWqDcOVvXEmrdu",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "nr1qnv8oZiouuMlg",
+    "type": "document",
+    "name": "Botas con puntera de acero",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.uTiVFZlcJpLQ8zSE",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "oB3TvcKMGMxfPmRN",
+    "type": "document",
+    "name": "Automed",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.K4GaIB7ftjFavZ3x",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "nsPlxDC1DFU8TMHn",
+    "type": "document",
+    "name": "Mono carcelario",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.rjUzelb6xqV0Imob",
     "weight": 1,
     "range": [
      9,
@@ -2121,13 +5287,46 @@
     "flags": {}
    },
    {
-    "_id": "JGo3V0RDrGivudn2",
-    "type": "text",
-    "text": "Mono carcelario (PA 0), jabón en un calcetín, hierba cristal (x3).",
+    "_id": "VubZlzs4swjbDV2y",
+    "type": "document",
+    "name": "Piedra con cuerda",
+    "img": "modules/mr-wages-of-sin/assets/armas/piedra-cuerda.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.tDr5Csz0ecJbBxb3",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "T6bqSFHOuGWavEwr",
+    "type": "document",
+    "name": "Piedra con cuerda",
+    "img": "modules/mr-wages-of-sin/assets/armas/piedra-cuerda.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.tDr5Csz0ecJbBxb3",
+    "weight": 1,
+    "range": [
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "LMqA0hH7r3hjJDpG",
+    "type": "document",
+    "name": "Tatuaje grotesco",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.a50egPOarw5SqQjl",
+    "weight": 1,
+    "range": [
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -2143,7 +5342,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-presos"
+    "clave": "equipo-presos",
+    "loadout": "presos"
    }
   }
  },
@@ -2151,12 +5351,75 @@
   "_id": "kNZnCi6A1GFlmPuI",
   "name": "Equipo inicial: Cazarrecompensas (1d10)",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
-  "description": "<p>Págs. 319: tira 1d10 (el 10 es el «00» del libro).</p>",
+  "description": "<p>Págs. 319. Tira 1d10 (el 10 es el «00» del libro). El creador de personajes de MoSh usa esta tabla para las clases de este nombre.</p>",
   "results": [
    {
-    "_id": "NHqRYlD8iNTZpkf0",
-    "type": "text",
-    "text": "Atuendo de TEM (PA 2), camilla plegable, estimulante (x2), jeringa (soporífero).",
+    "_id": "pWQP41Wt3uyNsVcD",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xaoxNYS7q9IraZpP",
+    "type": "document",
+    "name": "Pistola de espuma",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.fGm6Jsz6fviZdi8u",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Pt6wZbEwkCmTD1iE",
+    "type": "document",
+    "name": "Pistola tranquilizante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.8MEtq8xPUTiF4t5o",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AIvqGWVMlRH67pRs",
+    "type": "document",
+    "name": "Bioescáner",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.mv3kW6tNLHdxJabl",
+    "weight": 1,
+    "range": [
+     10,
+     10
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "mOIsfMPKw82fzBEi",
+    "type": "document",
+    "name": "Atuendo de TEM",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.9IB4EJZ2k0tEao6Y",
     "weight": 1,
     "range": [
      1,
@@ -2166,9 +5429,72 @@
     "flags": {}
    },
    {
-    "_id": "9BwDzIaNdfHOtLYo",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), revólver (6 cargas), maletín (200kcr, falsos. Rastreador.),† esposas.",
+    "_id": "9UDWvJYnW1RYUwyc",
+    "type": "document",
+    "name": "Camilla plegable",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Ay7h83zI5PcbCc7y",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Ds6g4TI2qH6Q3DO5",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "LpYTWtBDZS8SkHoy",
+    "type": "document",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.JFFLruLpFdGAq6Dw",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "N1GfDoscLQvvy5dT",
+    "type": "document",
+    "name": "Jeringa",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HYXOBuarn4vhvjMz",
+    "weight": 1,
+    "range": [
+     1,
+     1
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "0oqRpWbOJHQvvhgY",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      2,
@@ -2178,9 +5504,57 @@
     "flags": {}
    },
    {
-    "_id": "WyfNeoT0MGz7Ukka",
-    "type": "text",
-    "text": "Traje espacial (PA 3), soldador de mano (x2), inhibidor de radio, mochila propulsora.",
+    "_id": "HrrM2wgyb10dsOIV",
+    "type": "document",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ONn8Upwmn5ByIBdP",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "LbZzpV7icnIw2QZA",
+    "type": "document",
+    "name": "Maletín",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.SqkQirnuqkmpYmvn",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "dxEdv9RWL3fUF8Wz",
+    "type": "document",
+    "name": "Esposas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.OMKw2WOL5bri4gFM",
+    "weight": 1,
+    "range": [
+     2,
+     2
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "tFOb6YGDQH5GV7l9",
+    "type": "document",
+    "name": "Traje espacial",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.Lgz6wlVLDWcFccP5",
     "weight": 1,
     "range": [
      3,
@@ -2190,9 +5564,72 @@
     "flags": {}
    },
    {
-    "_id": "HIZ5nQTMlhGOT4Pg",
-    "type": "text",
-    "text": "Traje de riesgo (PA 5), fusil de pulsos (10 cargas), palanca, granada de gas (x2).",
+    "_id": "eC4nTDdW0XN68RUs",
+    "type": "document",
+    "name": "Soldador de mano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.BhrABvwevneuTxOu",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "BbMt96iQp4O7DP1k",
+    "type": "document",
+    "name": "Soldador de mano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.BhrABvwevneuTxOu",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "eDoU3jfBeE1Iugey",
+    "type": "document",
+    "name": "Inhibidor de radio",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.4r1ylbWajhn8rpGy",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ptEEeCwe1baMD3mg",
+    "type": "document",
+    "name": "Mochila propulsora",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.te8sWyeB3s9BsZxx",
+    "weight": 1,
+    "range": [
+     3,
+     3
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "zrygg3gFxIuOrDAg",
+    "type": "document",
+    "name": "Traje de riesgo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.de6WdwyJCH9nrMEp",
     "weight": 1,
     "range": [
      4,
@@ -2202,9 +5639,72 @@
     "flags": {}
    },
    {
-    "_id": "7D9KjOZyEr7a3ROh",
-    "type": "text",
-    "text": "Uniforme de combate avanzado (PA 10, RD 3), vibmachete, hacha de abordaje, daga, escapulario de orejas.",
+    "_id": "afMnIb3S1RrpllqR",
+    "type": "document",
+    "name": "Fusil de pulsos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.GOD29c33foWh6qfA",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "NkenKXZSPcqw4XFs",
+    "type": "document",
+    "name": "Palanca",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.AN37UwJBnGShH7pA",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "W0YdaOuNTS4HviI9",
+    "type": "document",
+    "name": "Granada de gas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.2UAdy4n7orB8zuzt",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "p0AMuDCYjLdgLEeC",
+    "type": "document",
+    "name": "Granada de gas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.2UAdy4n7orB8zuzt",
+    "weight": 1,
+    "range": [
+     4,
+     4
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "ZtU8KtI8Yx38UMYl",
+    "type": "document",
+    "name": "Uniforme de combate avanzado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.GNz888sQ0nbYwnQo",
     "weight": 1,
     "range": [
      5,
@@ -2214,9 +5714,72 @@
     "flags": {}
    },
    {
-    "_id": "xPkaQaOscdCiJe2k",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), cortador láser (2 disparos), sabueso (mascota orgánica), cordón de paracaídas.",
+    "_id": "pzGu17Au7VyCQcaw",
+    "type": "document",
+    "name": "Vibmachete",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.u0AdhscKfaUfTGsf",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "JJYukL3Xh717u14E",
+    "type": "document",
+    "name": "Hacha de abordaje",
+    "img": "modules/mr-wages-of-sin/assets/armas/hachuela.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.5Dkgoycaib0eNLkN",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "rWvHHeWg8Rlcj0KT",
+    "type": "document",
+    "name": "Daga",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.ERbIsZvRDyPUtLFF",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "CmxFRDbl1nf1aR2h",
+    "type": "document",
+    "name": "Escapulario de orejas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.xYzVhwZsuLeOgTOA",
+    "weight": 1,
+    "range": [
+     5,
+     5
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "Gafn2hj0Lr4gnJwp",
+    "type": "document",
+    "name": "Uniforme de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.IvgbwpMvAQwZr5DE",
     "weight": 1,
     "range": [
      6,
@@ -2226,9 +5789,57 @@
     "flags": {}
    },
    {
-    "_id": "RL8NekDVE4e8JgKz",
-    "type": "text",
-    "text": "Atuendo estándar de tripulación (PA 1), ballesta (2d10 DAÑO), 3x flechas explosivas (como granada de fragmentación), 3x flecha rastreadora, 3x flecha normal.",
+    "_id": "67ye7yg7RnHCvmCN",
+    "type": "document",
+    "name": "Cortador láser",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.gJsb8DpSLhbuy4W3",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "zlQWCzoy1CGzSw3a",
+    "type": "document",
+    "name": "Sabueso",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.vg9HXhSqP9OUEdBp",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "tYznUdu8m7FQJsIa",
+    "type": "document",
+    "name": "Cordón de paracaídas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.3pX6EqWDZJrDluDf",
+    "weight": 1,
+    "range": [
+     6,
+     6
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "OXPRjMlNtLgrgGEq",
+    "type": "document",
+    "name": "Atuendo estándar de tripulación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.s0Af5aHrCRlYBwat",
     "weight": 1,
     "range": [
      7,
@@ -2238,9 +5849,162 @@
     "flags": {}
    },
    {
-    "_id": "7qmFwauqYfeSfl2f",
-    "type": "text",
-    "text": "Traje ejecutivo (PA 0), carné de miembro del Grupo de Trabajo Antipiratería.",
+    "_id": "InsonacPSSch7QxQ",
+    "type": "document",
+    "name": "Ballesta",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.WSmAgbclRr6Pypjd",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "CJhuh3BfkowUfk1l",
+    "type": "document",
+    "name": "Flechas explosivas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.lvgVyZDRFm5UG6cV",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "GIpRoxP9pKgPO4uI",
+    "type": "document",
+    "name": "Flechas explosivas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.lvgVyZDRFm5UG6cV",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "xqyF1AW0qkDayVdg",
+    "type": "document",
+    "name": "Flechas explosivas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.lvgVyZDRFm5UG6cV",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "zIErgoFJDR9rEbc7",
+    "type": "document",
+    "name": "Flecha rastreadora",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.oDKcIfXiWG3mfGea",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "0dhD0IgTsxCVWX1q",
+    "type": "document",
+    "name": "Flecha rastreadora",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.oDKcIfXiWG3mfGea",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "o1zAERVlyVIEXVk1",
+    "type": "document",
+    "name": "Flecha rastreadora",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.oDKcIfXiWG3mfGea",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "eFqGVdIbcAFvopP9",
+    "type": "document",
+    "name": "Flecha normal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HstrBpGlUIb2gxrT",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "5sbXPZMC0U0zEArN",
+    "type": "document",
+    "name": "Flecha normal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HstrBpGlUIb2gxrT",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "q4qnXYosqnxTT8ek",
+    "type": "document",
+    "name": "Flecha normal",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HstrBpGlUIb2gxrT",
+    "weight": 1,
+    "range": [
+     7,
+     7
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "d3DDhssoYa25LJuj",
+    "type": "document",
+    "name": "Traje ejecutivo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.O0KBoJhiDBAYmNW3",
     "weight": 1,
     "range": [
      8,
@@ -2250,9 +6014,27 @@
     "flags": {}
    },
    {
-    "_id": "uI4KbEWkAdPARe9g",
-    "type": "text",
-    "text": "Armadura casera (PA 5), escopeta de combate (6 cargas), dron de desguace (bioescáner, inhibidor de radio).",
+    "_id": "aWhE0JoF3fJBdrKt",
+    "type": "document",
+    "name": "Carné de miembro del Grupo de Trabajo Antipiratería",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.X84RvJYLmOFiVwws",
+    "weight": 1,
+    "range": [
+     8,
+     8
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "AgTni9CMdatB9dp2",
+    "type": "document",
+    "name": "Armadura casera",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.wDs0zMTYQWLgiD5P",
     "weight": 1,
     "range": [
      9,
@@ -2262,13 +6044,31 @@
     "flags": {}
    },
    {
-    "_id": "XnCmsYV8GMX4swgL",
-    "type": "text",
-    "text": "Uniforme de combate estándar (PA 7), pistola de espuma (6 cargas), pistola tranquilizante (3 cargas), bioescáner.",
+    "_id": "wltPY74MzpT7e6B1",
+    "type": "document",
+    "name": "Escopeta de combate",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.dtCbkvO2FFRA1Lxr",
     "weight": 1,
     "range": [
-     10,
-     10
+     9,
+     9
+    ],
+    "drawn": false,
+    "flags": {}
+   },
+   {
+    "_id": "qDn0N6gx90KSt0Sq",
+    "type": "document",
+    "name": "Dron de desguace",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "description": "",
+    "documentUuid": "Compendium.mr-wages-of-sin.equipo.Item.HvyKf9XG5odP4y1N",
+    "weight": 1,
+    "range": [
+     9,
+     9
     ],
     "drawn": false,
     "flags": {}
@@ -2284,7 +6084,8 @@
   },
   "flags": {
    "mr-wages-of-sin": {
-    "clave": "equipo-cazarrecompensas"
+    "clave": "equipo-cazarrecompensas",
+    "loadout": "cazarrecompensas"
    }
   }
  }

@@ -171,6 +171,60 @@
    "tipo": "icono",
    "size": "1024x1024",
    "prompt": "an upright portable stasis coffin pod with a frosted window"
+  },
+  {
+   "id": "icono-cat-armadura",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a sci-fi space survival suit with chest plate and helmet, front view"
+  },
+  {
+   "id": "icono-cat-arma-fuego",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a chunky sci-fi pulse rifle seen from the side"
+  },
+  {
+   "id": "icono-cat-explosivo",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a cluster of frag grenades with a detonator remote"
+  },
+  {
+   "id": "icono-cat-medico",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a first-aid medkit box with a cross and a syringe"
+  },
+  {
+   "id": "icono-cat-herramienta",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a crowbar crossed with a hand welder and a toolbox"
+  },
+  {
+   "id": "icono-cat-electronica",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a handheld scanner device with antenna and a small screen"
+  },
+  {
+   "id": "icono-cat-mascota",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a small sci-fi companion drone creature, six-legged, friendly silhouette"
+  },
+  {
+   "id": "icono-cat-varios",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "a cigarette pack, a hip flask and a lighter together"
+  },
+  {
+   "id": "icono-cat-habilidad",
+   "tipo": "icono",
+   "size": "1024x1024",
+   "prompt": "an open hand with a glowing star above it, symbol of a trained skill"
   }
  ]
 }

@@ -1,5 +1,12 @@
 # Cambios
 
+## 1.1.3 (2026-11-05)
+
+- **Macros arregladas:** fallaban en Foundry 13 al publicar en el chat (pedían un ajuste que solo existe en la 14). Ahora funcionan en 13 y 14.
+- **Creador de personajes:** al elegir Marine, Androide, Científico o Transportista usa el equipo inicial de este libro; clases nuevas «Preso» y «Cazarrecompensas». Macro «Equipo inicial» para cualquier ficha.
+- **Fichas completas:** el equipo ya no es solo texto en la biografía. Hay ~180 objetos (armaduras con PA y RD, armas con cargas y daño del libro, objetos, habilidades) y cada cazarrecompensas (ahora uno por miembro), preso, criatura y nave los lleva como objetos de la ficha; las habilidades especiales de Emira Churchill son objetos de habilidad.
+- Las tablas de equipo inicial pasan a enlazar cada pieza con su objeto. Iconos de categoría para el equipo.
+
 ## 1.1.2 (2026-11-05)
 
 - **Elección al principio:** al activar el módulo en un mundo vacío pregunta si importar **todo al mundo** o dejarlo solo en compendios (se puede hacer después desde Configuración).

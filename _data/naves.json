@@ -73,7 +73,80 @@
     "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "Alz91wCGaTwcAdHr",
+    "name": "Hangar",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Hangar. Pág. 326.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "nOc3dfH98ydAYDt3",
+    "name": "Lanzadera",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Lanzadera. Pág. 326.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "q4PjBdjrGoOYXojm",
+    "name": "Enfermería",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Enfermería. Pág. 326.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -175,7 +248,106 @@
     "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "N689S0b7KLjTWGIB",
+    "name": "Cañón automático",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "weapon",
+    "system": {
+     "description": "<p>x2. Megadaño de la nave: Megadaño: 1d5.</p>",
+     "damage": "",
+     "shots": 2,
+     "curShots": 2,
+     "useAmmo": false,
+     "ranges": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "_id": "OTjq6thlFeYQ5T31",
+    "name": "Lancha de abordaje",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Lancha de abordaje. Pág. 328.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "U3K3oIDpSF7RL29v",
+    "name": "Reducción de firma",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Reducción de firma. Pág. 328.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "KCzZMqR7m1rEmFbB",
+    "name": "Sensores de tiro",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Sensores de tiro. Pág. 328.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -205,7 +377,7 @@
  },
  {
   "_id": "VbPKjxIj1JpadX34",
-  "name": "Veil Of Night",
+  "name": "Veil of Night",
   "type": "ship",
   "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
   "system": {
@@ -270,14 +442,287 @@
    }
   },
   "prototypeToken": {
-   "name": "Veil Of Night",
+   "name": "Veil of Night",
    "displayName": 20,
    "actorLink": true,
    "texture": {
     "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "BL7wDqfNSN4fFu83",
+    "name": "Cañón de raíles",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "weapon",
+    "system": {
+     "description": "<p>x2. Megadaño de la nave: Megadaño: 1d10+3 [+].</p>",
+     "damage": "",
+     "shots": 2,
+     "curShots": 2,
+     "useAmmo": false,
+     "ranges": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "_id": "oj9ND5dVQjRGmC2g",
+    "name": "Cañón automático",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "weapon",
+    "system": {
+     "description": "<p>x6. Megadaño de la nave: Megadaño: 1d10+3 [+].</p>",
+     "damage": "",
+     "shots": 6,
+     "curShots": 6,
+     "useAmmo": false,
+     "ranges": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "_id": "rwiNk2RQVNlxMOhe",
+    "name": "Sistema de defensa láser",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Sistema de defensa láser. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "qe7BBLzHiZhqrJ49",
+    "name": "Lanzamisiles pesado",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "weapon",
+    "system": {
+     "description": "<p>x3. Megadaño de la nave: Megadaño: 1d10+3 [+].</p>",
+     "damage": "",
+     "shots": 3,
+     "curShots": 3,
+     "useAmmo": false,
+     "ranges": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "_id": "HlvdHqwEXCLTwKkV",
+    "name": "Cañón axial",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "weapon",
+    "system": {
+     "description": "<p>x1. Megadaño de la nave: Megadaño: 1d10+3 [+].</p>",
+     "damage": "",
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "_id": "zht9tKftKPDjq4vF",
+    "name": "Amortiguador de agar",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Amortiguador de agar. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "5AjH7uk46vxFay0o",
+    "name": "Inhibidor de comunic",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Inhibidor de comunic. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "PSt6BUmmXTH1wpMe",
+    "name": "Escáner de esp. profundo",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Escáner de esp. profundo. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "vFWS9ATuxNN619Pr",
+    "name": "Sistemas de emergencia",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Sistemas de emergencia. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "ZkERdB1GSxsvwe3f",
+    "name": "Taller mecánico",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Taller mecánico. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   },
+   {
+    "_id": "hYGVLx1KJgrDun5R",
+    "name": "Enfermería",
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "type": "module",
+    "system": {
+     "description": "<p>Enfermería. Pág. 330.</p>",
+     "quantity": 1,
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "",
+     "offline": false
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {

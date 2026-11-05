@@ -78,9 +78,9 @@
     "_id": "NU2DG7bDzoK7VXE8",
     "name": "Puños",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 01 · Ianeria Grimm, deudora.</p>",
+     "description": "<p>Ataque de 01 · Ianeria Grimm, deudora (del libro).</p>",
      "damage": "2",
      "shots": 1,
      "curShots": 1,
@@ -202,9 +202,9 @@
     "_id": "SqS0IM6N8rUX6M41",
     "name": "Subfusil",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 02 · Cadoc Geisler, general rebelde.</p>",
+     "description": "<p>Ataque de 02 · Cadoc Geisler, general rebelde (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -914,9 +914,9 @@
     "_id": "cAzIWBVTnXKlIUab",
     "name": "Cuchillas",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 09 · Yamis Robertson Joven Rebelde.</p>",
+     "description": "<p>Ataque de 09 · Yamis Robertson Joven Rebelde (del libro).</p>",
      "damage": "1d10",
      "shots": 1,
      "curShots": 1,
@@ -1038,9 +1038,9 @@
     "_id": "yCl49KQshBqowICM",
     "name": "Garras y dientes",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 10 · Raffael Ebner, zoólogo.</p>",
+     "description": "<p>Ataque de 10 · Raffael Ebner, zoólogo (del libro).</p>",
      "damage": "1d10",
      "shots": 1,
      "curShots": 1,
@@ -1358,9 +1358,9 @@
     "_id": "5QpCfawGdw2mJU9C",
     "name": "Púas aplastantes",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 13 · Muestra #78.</p>",
+     "description": "<p>Ataque de 13 · Muestra #78 (del libro).</p>",
      "damage": "4d10",
      "shots": 1,
      "curShots": 1,
@@ -1678,9 +1678,9 @@
     "_id": "HzQHUQ8TJlCzOB2A",
     "name": "Subfusil",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 16 · Nazar Balog, rompebloqueos.</p>",
+     "description": "<p>Ataque de 16 · Nazar Balog, rompebloqueos (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -1802,9 +1802,9 @@
     "_id": "G3E37t7wBspRoz6b",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 17 · Milosh Yaromil, minero.</p>",
+     "description": "<p>Ataque de 17 · Milosh Yaromil, minero (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -1926,9 +1926,9 @@
     "_id": "DL1CFq25YbNdV0m0",
     "name": "Subfusil",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 18 · Szofia Woodhams, investigadora.</p>",
+     "description": "<p>Ataque de 18 · Szofia Woodhams, investigadora (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -2246,9 +2246,9 @@
     "_id": "L1bVzciNrnb8eWPb",
     "name": "Fusil de pulsos",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 21 · Noe Moore, arquitecto naval.</p>",
+     "description": "<p>Ataque de 21 · Noe Moore, arquitecto naval (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -2468,9 +2468,9 @@
     "_id": "tsi5Gzcqro7amWE4",
     "name": "Palanca",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 23 · Laxmi Riggi, organiza protestas.</p>",
+     "description": "<p>Ataque de 23 · Laxmi Riggi, organiza protestas (del libro).</p>",
      "damage": "1d5",
      "shots": 1,
      "curShots": 1,
@@ -2984,9 +2984,9 @@
     "_id": "GuEg0lA82yXr7iap",
     "name": "Estrangular",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 28 · Akoni Lafrenz, investigador de ia.</p>",
+     "description": "<p>Ataque de 28 · Akoni Lafrenz, investigador de ia (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -3402,9 +3402,9 @@
     "_id": "L4QkUJe2OSmnmwWs",
     "name": "Puño de androide",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 32 · Abe Coleman, titiritero.</p>",
+     "description": "<p>Ataque de 32 · Abe Coleman, titiritero (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -3526,9 +3526,9 @@
     "_id": "dvZEZDpOizEn6uQb",
     "name": "Subfusil",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 33 · Ksenija Lope Gallo.</p>",
+     "description": "<p>Ataque de 33 · Ksenija Lope Gallo (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -3650,9 +3650,9 @@
     "_id": "0Y12GCTEmiEnS3zf",
     "name": "Lanzallamas",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 34 · Roach, cocinero.</p>",
+     "description": "<p>Ataque de 34 · Roach, cocinero (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -3872,9 +3872,9 @@
     "_id": "6NA3i9rxN0YfJMR6",
     "name": "Rifle de pulsos",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 36 · Rade Furnadjiev, minero.</p>",
+     "description": "<p>Ataque de 36 · Rade Furnadjiev, minero (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -4192,9 +4192,9 @@
     "_id": "87vy2M7uytjgXZtf",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 39 · Esmaeil Kuipers, estafador.</p>",
+     "description": "<p>Ataque de 39 · Esmaeil Kuipers, estafador (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -4316,9 +4316,9 @@
     "_id": "Nh5ekRUaQrgMVCek",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 40 · Agostan Estrada, guardaespaldas.</p>",
+     "description": "<p>Ataque de 40 · Agostan Estrada, guardaespaldas (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -4832,9 +4832,9 @@
     "_id": "446PwaW1ilCclXdc",
     "name": "Contundente",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 45 · Dragica Ismat, ladrona.</p>",
+     "description": "<p>Ataque de 45 · Dragica Ismat, ladrona (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -4951,7 +4951,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "JWnmdLRKM07xQEmw",
+    "name": "Acceso a todas las armas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "acceso-a-todas-las-armas"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Acceso a todas las armas.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -5152,9 +5179,9 @@
     "_id": "nZE8Slbtn2mgRNL5",
     "name": "Vibromachete",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 48 · Jhon Rudowski, asesino en serie.</p>",
+     "description": "<p>Ataque de 48 · Jhon Rudowski, asesino en serie (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -5668,9 +5695,9 @@
     "_id": "etkivcJrMgHqVg8w",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 53 · Anu Maas, candidata política.</p>",
+     "description": "<p>Ataque de 53 · Anu Maas, candidata política (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -6282,9 +6309,9 @@
     "_id": "JKZzCkaIh2Ptny7v",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 59 · Loke Affini, expirata.</p>",
+     "description": "<p>Ataque de 59 · Loke Affini, expirata (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -6504,9 +6531,9 @@
     "_id": "PiilpZi9e4Q8FpCe",
     "name": "Vibromachete",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 61 · Cevdet Koziel, coacciona jurados.</p>",
+     "description": "<p>Ataque de 61 · Cevdet Koziel, coacciona jurados (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -7020,9 +7047,9 @@
     "_id": "6Ez2qkTHV70GPDnw",
     "name": "Vibromachete",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 66 · Alma Finch, portera.</p>",
+     "description": "<p>Ataque de 66 · Alma Finch, portera (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -7242,9 +7269,9 @@
     "_id": "0wsTBxNd0ffyIWNY",
     "name": "Subfusil",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 68 · Haraldr Kurzmann, ángel.</p>",
+     "description": "<p>Ataque de 68 · Haraldr Kurzmann, ángel (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -7464,9 +7491,9 @@
     "_id": "yDvr3HwllaXrlDY0",
     "name": "Revólver",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 70 · Otilia Golub, contable.</p>",
+     "description": "<p>Ataque de 70 · Otilia Golub, contable (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -7588,9 +7615,9 @@
     "_id": "WvfiBgSw3nEQ6L2m",
     "name": "Fusil de pulsos",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 71 · Darragh Havelkas, gángster.</p>",
+     "description": "<p>Ataque de 71 · Darragh Havelkas, gángster (del libro).</p>",
      "damage": "3D10",
      "shots": 1,
      "curShots": 1,
@@ -8202,9 +8229,9 @@
     "_id": "cGhtultn4iXwgidK",
     "name": "Fusil de pulsos",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 77 · Duygu Bourdillion, sargento.</p>",
+     "description": "<p>Ataque de 77 · Duygu Bourdillion, sargento (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -8620,9 +8647,9 @@
     "_id": "gxJv4z2NUiCyD1P2",
     "name": "Rifle de pulsos",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 81 · Gibbon Moon, waning.</p>",
+     "description": "<p>Ataque de 81 · Gibbon Moon, waning (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -9038,9 +9065,9 @@
     "_id": "M8kTfCNkuSkz6LBy",
     "name": "Brazos segadores",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 85 · Dr. Sabien Lowe, xenolingüista.</p>",
+     "description": "<p>Ataque de 85 · Dr. Sabien Lowe, xenolingüista (del libro).</p>",
      "damage": "4d10",
      "shots": 1,
      "curShots": 1,
@@ -9162,9 +9189,9 @@
     "_id": "OP6I6J9534vyanYm",
     "name": "Pinzas pequeñas",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 86 · Reidar Beech, cangrejero.</p>",
+     "description": "<p>Ataque de 86 · Reidar Beech, cangrejero (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -9286,9 +9313,9 @@
     "_id": "ef64VCdqJWQGCPI0",
     "name": "Bisturí",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 87 · Surya Hersch, enchufado.</p>",
+     "description": "<p>Ataque de 87 · Surya Hersch, enchufado (del libro).</p>",
      "damage": "1d5",
      "shots": 1,
      "curShots": 1,
@@ -9704,9 +9731,9 @@
     "_id": "lHSDDuRq8qOZqh1p",
     "name": "Vibromachete",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 91 · Varpu Marudoch, gladiadora.</p>",
+     "description": "<p>Ataque de 91 · Varpu Marudoch, gladiadora (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -10318,9 +10345,9 @@
     "_id": "87G0TdzYq5jUiDSm",
     "name": "Agarre androide",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 97 · Aias Joshi, ceo de starfucker.</p>",
+     "description": "<p>Ataque de 97 · Aias Joshi, ceo de starfucker (del libro).</p>",
      "damage": "1d10+1",
      "shots": 1,
      "curShots": 1,
@@ -10540,9 +10567,9 @@
     "_id": "qAJWCda7Ygk82Saj",
     "name": "Exterior afilado",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 99 · Florette Watts, ceo.</p>",
+     "description": "<p>Ataque de 99 · Florette Watts, ceo (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -10689,8 +10716,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-01.webp",
   "system": {
-   "biography": "<p><b>Salario:</b> 16kcr al mes más gastos, incluidos viajes. Mínimo 2 meses de sueldo.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>La Langosta</h4><p><b>[C:70 I:60 PA:10 H:4(30) RD:3]</b> <b>Lealtad:</b> 60</p><ul><li>Traje comb. avanzado único</li><li>Escop. de tambor†</li><li>Vibromach.</li></ul>",
-   "description": "<p><b>Salario:</b> 16kcr al mes más gastos, incluidos viajes. Mínimo 2 meses de sueldo.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>La Langosta</h4><p><b>[C:70 I:60 PA:10 H:4(30) RD:3]</b> <b>Lealtad:</b> 60</p><ul><li>Traje comb. avanzado único</li><li>Escop. de tambor†</li><li>Vibromach.</li></ul>",
+   "biography": "<p><b>Salario:</b> 16kcr al mes más gastos, incluidos viajes. Mínimo 2 meses de sueldo.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:70 I:60 PA:10 H:4(30) RD:3]</b> <b>Lealtad:</b> 60</p><p><strong>Equipo:</strong> Traje de combate avanzado único; Escopeta de tambor; Vibmachete</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.Qz3GlZHLyrnIuLB9]{Ficha completa del libro}</p>",
+   "description": "<p><b>Salario:</b> 16kcr al mes más gastos, incluidos viajes. Mínimo 2 meses de sueldo.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:70 I:60 PA:10 H:4(30) RD:3]</b> <b>Lealtad:</b> 60</p><p><strong>Equipo:</strong> Traje de combate avanzado único; Escopeta de tambor; Vibmachete</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.Qz3GlZHLyrnIuLB9]{Ficha completa del libro}</p>",
    "health": {
     "value": 30,
     "min": 0,
@@ -10757,7 +10784,114 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "gqESpTAzCxmf52sv",
+    "name": "Traje de combate avanzado único",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "traje-de-combate-avanzado-unico"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "armor",
+    "system": {
+     "description": "<p>Traje de combate avanzado único.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "armorPoints": 0,
+     "damageReduction": 0,
+     "speed": "",
+     "oxygenMax": 0,
+     "oxygenCurrent": 0,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "4s8tDiV0GCU4wyJ9",
+    "name": "Escopeta de tambor",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "escopeta-de-tambor"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Escopeta de tambor.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "aSJWtgOhRexp5Amh",
+    "name": "Vibmachete",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "vibmachete"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Vibmachete.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -10779,6 +10913,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-01.webp"
    }
   },
@@ -10791,13 +10926,13 @@
   }
  },
  {
-  "_id": "ICS0qnJRR2Kfukf3",
-  "name": "02 · Assassin Kult",
+  "_id": "ncuKZNWJd9HRiY8m",
+  "name": "02 · Vilma Achterkamp (Assassin Kult)",
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-02.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Vilma Achterkamp</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Pistola de bengalas</li><li>«La fiel» (equipo de pirateo modificado)</li></ul><h4>Hanno Dimitrova</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Clavadora doble (clavadora con daño doble)</li><li>«7h3 b3@s7» (equipo de pirateo modificado)</li></ul><h4>Zola Baun</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Subf.</li><li>Granada frag. oculta</li><li>«impotent_tool» (hack propio)</li></ul><h4>Hillar Vilar</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Revólver</li><li>5x Estimul.</li><li>«Arma predilecta» (hackeo a medida)</li></ul>",
-   "description": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Vilma Achterkamp</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Pistola de bengalas</li><li>«La fiel» (equipo de pirateo modificado)</li></ul><h4>Hanno Dimitrova</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Clavadora doble (clavadora con daño doble)</li><li>«7h3 b3@s7» (equipo de pirateo modificado)</li></ul><h4>Zola Baun</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Subf.</li><li>Granada frag. oculta</li><li>«impotent_tool» (hack propio)</li></ul><h4>Hillar Vilar</h4><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><ul><li>Revólver</li><li>5x Estimul.</li><li>«Arma predilecta» (hackeo a medida)</li></ul>",
+   "biography": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Pistola de bengalas; «La fiel»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Pistola de bengalas; «La fiel»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -10846,7 +10981,7 @@
    }
   },
   "prototypeToken": {
-   "name": "Assassin Kult",
+   "name": "Vilma Achterkamp (Assassin Kul",
    "displayName": 20,
    "actorLink": false,
    "width": 1,
@@ -10864,7 +10999,72 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "lno7I78okTY7umUQ",
+    "name": "Pistola de bengalas",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pistola-de-bengalas"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Pistola de bengalas.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "jZlo2obEmXr5qBGB",
+    "name": "«La fiel»",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "la-fiel"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>«La fiel».</p><p>equipo de pirateo modificado</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -10886,6 +11086,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-02.webp"
    }
   },
@@ -10898,13 +11099,572 @@
   }
  },
  {
-  "_id": "YoW2XrJJXEq4UCOH",
-  "name": "03 · Veteranos",
+  "_id": "p8NGftvZtT9F1fhG",
+  "name": "02 · Hanno Dimitrova (Assassin Kult)",
+  "type": "creature",
+  "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-02.webp",
+  "system": {
+   "biography": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Clavadora doble; «7h3 b3@s7»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Clavadora doble; «7h3 b3@s7»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "health": {
+    "value": 20,
+    "min": 0,
+    "max": 20,
+    "label": "Salud"
+   },
+   "hits": {
+    "value": 0,
+    "min": 0,
+    "max": 2,
+    "label": "Heridas"
+   },
+   "stats": {
+    "combat": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Combate",
+     "rollLabel": "Tirada de Combate",
+     "enabled": true
+    },
+    "instinct": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Instinto",
+     "rollLabel": "Tirada de Instinto",
+     "enabled": true
+    },
+    "armor": {
+     "value": 0,
+     "mod": 0,
+     "min": 0,
+     "max": 99,
+     "damageReduction": 0,
+     "label": "Armadura",
+     "enabled": false
+    },
+    "loyalty": {
+     "value": 10,
+     "min": 0,
+     "max": 99,
+     "label": "Lealtad",
+     "enabled": true
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Hanno Dimitrova (Assassin Kult",
+   "displayName": 20,
+   "actorLink": false,
+   "width": 1,
+   "height": 1,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/tokens/cazador-02.webp",
+    "fit": "contain",
+    "scaleX": 1,
+    "scaleY": 1
+   },
+   "bar1": {
+    "attribute": "health"
+   },
+   "bar2": {
+    "attribute": "hits"
+   }
+  },
+  "items": [
+   {
+    "_id": "sNvHXvW0G2HaIoJp",
+    "name": "Clavadora doble",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "clavadora-doble"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Clavadora doble.</p><p>clavadora con daño doble</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "qb5kr22Mj1icK1Be",
+    "name": "«7h3 b3@s7»",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "7h3-b3-s7"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>«7h3 b3@s7».</p><p>equipo de pirateo modificado</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "tipo": "pnj",
+    "categoria": "cazarrecompensas",
+    "num": 2,
+    "bls": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "equipo": false,
+    "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-02.webp"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "RvQ6WJFyTte3hHIo",
+  "name": "02 · Zola Baun (Assassin Kult)",
+  "type": "creature",
+  "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-02.webp",
+  "system": {
+   "biography": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Subfusil; Granada de fragmentación oculta; «impotent_tool»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Subfusil; Granada de fragmentación oculta; «impotent_tool»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "health": {
+    "value": 20,
+    "min": 0,
+    "max": 20,
+    "label": "Salud"
+   },
+   "hits": {
+    "value": 0,
+    "min": 0,
+    "max": 2,
+    "label": "Heridas"
+   },
+   "stats": {
+    "combat": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Combate",
+     "rollLabel": "Tirada de Combate",
+     "enabled": true
+    },
+    "instinct": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Instinto",
+     "rollLabel": "Tirada de Instinto",
+     "enabled": true
+    },
+    "armor": {
+     "value": 0,
+     "mod": 0,
+     "min": 0,
+     "max": 99,
+     "damageReduction": 0,
+     "label": "Armadura",
+     "enabled": false
+    },
+    "loyalty": {
+     "value": 10,
+     "min": 0,
+     "max": 99,
+     "label": "Lealtad",
+     "enabled": true
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Zola Baun (Assassin Kult)",
+   "displayName": 20,
+   "actorLink": false,
+   "width": 1,
+   "height": 1,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/tokens/cazador-02.webp",
+    "fit": "contain",
+    "scaleX": 1,
+    "scaleY": 1
+   },
+   "bar1": {
+    "attribute": "health"
+   },
+   "bar2": {
+    "attribute": "hits"
+   }
+  },
+  "items": [
+   {
+    "_id": "QVOjgmn5LtM3Fvb0",
+    "name": "Subfusil",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "subfusil"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Subfusil.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "MpRG6wGyvmtbB0bg",
+    "name": "Granada de fragmentación oculta",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "granada-de-fragmentacion-oculta"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Granada de fragmentación oculta.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "i04fCTKZGfWWTZFH",
+    "name": "«impotent_tool»",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "impotent-tool"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>«impotent_tool».</p><p>hack propio</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "tipo": "pnj",
+    "categoria": "cazarrecompensas",
+    "num": 2,
+    "bls": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "equipo": false,
+    "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-02.webp"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "qoufjLeagg93Qxzp",
+  "name": "02 · Hillar Vilar (Assassin Kult)",
+  "type": "creature",
+  "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-02.webp",
+  "system": {
+   "biography": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Revólver; Estimulante; «Arma predilecta»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 20kcr al mes, más viajes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:20 I:30 H:2(20)]</b> <b>Lealtad:</b> 10</p><p><strong>Equipo:</strong> Revólver; Estimulante; «Arma predilecta»</p><p>Equipo con varios miembros: <em>Assassin Kult</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.CxSTZtKOqehGFgsE]{Ficha completa del libro}</p>",
+   "health": {
+    "value": 20,
+    "min": 0,
+    "max": 20,
+    "label": "Salud"
+   },
+   "hits": {
+    "value": 0,
+    "min": 0,
+    "max": 2,
+    "label": "Heridas"
+   },
+   "stats": {
+    "combat": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Combate",
+     "rollLabel": "Tirada de Combate",
+     "enabled": true
+    },
+    "instinct": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Instinto",
+     "rollLabel": "Tirada de Instinto",
+     "enabled": true
+    },
+    "armor": {
+     "value": 0,
+     "mod": 0,
+     "min": 0,
+     "max": 99,
+     "damageReduction": 0,
+     "label": "Armadura",
+     "enabled": false
+    },
+    "loyalty": {
+     "value": 10,
+     "min": 0,
+     "max": 99,
+     "label": "Lealtad",
+     "enabled": true
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Hillar Vilar (Assassin Kult)",
+   "displayName": 20,
+   "actorLink": false,
+   "width": 1,
+   "height": 1,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/tokens/cazador-02.webp",
+    "fit": "contain",
+    "scaleX": 1,
+    "scaleY": 1
+   },
+   "bar1": {
+    "attribute": "health"
+   },
+   "bar2": {
+    "attribute": "hits"
+   }
+  },
+  "items": [
+   {
+    "_id": "DTtZwloFVsqdtxYa",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "revolver"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "GLQCXoAcRTFBLCT4",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "estimulante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Estimulante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 5,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "DZjdAwnqM4MXZqQs",
+    "name": "«Arma predilecta»",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "arma-predilecta"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>«Arma predilecta».</p><p>hackeo a medida</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "tipo": "pnj",
+    "categoria": "cazarrecompensas",
+    "num": 2,
+    "bls": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "equipo": false,
+    "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-02.webp"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "ctxilNJ66Q13Mw3y",
+  "name": "03 · Crius Gross (Veteranos)",
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-03.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Crius Gross</h4><p><b>[C:35 I:50 H:2(20)]</b> <b>Lealtad:</b> 15</p><ul><li>Revólver</li><li>Estimul.</li><li>Granada frag.</li><li>Granada de goma (como frag., con traumatismo contuso [-])</li><li>Porra eléc.</li><li>Pistola sedante</li></ul><h4>Andra Arlotti</h4><p><b>[C:65 I:48 PA:10 RD:3 H:3(20)]</b></p><ul><li>Traje comb. av.</li><li>AMET. POLIVALENTE</li><li>Revólver</li><li>Porra eléc.</li><li>Pistola sedante</li></ul><h4>Reigo Moses</h4><p><b>[C:45 I:60 PA:7 H:2(20)]</b> <b>Lealtad:</b> 15</p><ul><li>Traje comb. est.</li><li>Fusil intel.</li><li>Porra eléc.</li><li>Pistola sedante</li><li>Pac.</li></ul>",
-   "description": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Crius Gross</h4><p><b>[C:35 I:50 H:2(20)]</b> <b>Lealtad:</b> 15</p><ul><li>Revólver</li><li>Estimul.</li><li>Granada frag.</li><li>Granada de goma (como frag., con traumatismo contuso [-])</li><li>Porra eléc.</li><li>Pistola sedante</li></ul><h4>Andra Arlotti</h4><p><b>[C:65 I:48 PA:10 RD:3 H:3(20)]</b></p><ul><li>Traje comb. av.</li><li>AMET. POLIVALENTE</li><li>Revólver</li><li>Porra eléc.</li><li>Pistola sedante</li></ul><h4>Reigo Moses</h4><p><b>[C:45 I:60 PA:7 H:2(20)]</b> <b>Lealtad:</b> 15</p><ul><li>Traje comb. est.</li><li>Fusil intel.</li><li>Porra eléc.</li><li>Pistola sedante</li><li>Pac.</li></ul>",
+   "biography": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:35 I:50 H:2(20)]</b> <b>Lealtad:</b> 15</p><p><strong>Equipo:</strong> Revólver; Estimulante; Granada de fragmentación; Granada de goma; Porra eléctrica; Pistola sedante</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:35 I:50 H:2(20)]</b> <b>Lealtad:</b> 15</p><p><strong>Equipo:</strong> Revólver; Estimulante; Granada de fragmentación; Granada de goma; Porra eléctrica; Pistola sedante</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -10953,7 +11713,7 @@
    }
   },
   "prototypeToken": {
-   "name": "Veteranos",
+   "name": "Crius Gross (Veteranos)",
    "displayName": 20,
    "actorLink": false,
    "width": 1,
@@ -10971,7 +11731,200 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "z7Qay5jhNlSP7jZ4",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "revolver"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "29iTdW2qFl37U3pz",
+    "name": "Estimulante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "estimulante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Estimulante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "4FGt97DubVCJVPwB",
+    "name": "Granada de fragmentación",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "granada-de-fragmentacion"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Granada de fragmentación.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "C47TSMJA2HMIDCCX",
+    "name": "Granada de goma",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "granada-de-goma"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Granada de goma.</p><p>como frag., con traumatismo contuso [-]</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "ryaZQp0gOH1ssDgc",
+    "name": "Porra eléctrica",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "porra-electrica"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Porra eléctrica.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "o2NYh1R4WflPO0Z9",
+    "name": "Pistola sedante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pistola-sedante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Pistola sedante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -10993,6 +11946,565 @@
      8,
      9
     ],
+    "equipo": true,
+    "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-03.webp"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "GMs0G4CWNxQcDn24",
+  "name": "03 · Andra Arlotti (Veteranos)",
+  "type": "creature",
+  "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-03.webp",
+  "system": {
+   "biography": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:65 I:48 PA:10 RD:3 H:3(20)]</b></p><p><strong>Equipo:</strong> Traje de combate avanzado; Ametralladora polivalente; Revólver; Porra eléctrica; Pistola sedante</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:65 I:48 PA:10 RD:3 H:3(20)]</b></p><p><strong>Equipo:</strong> Traje de combate avanzado; Ametralladora polivalente; Revólver; Porra eléctrica; Pistola sedante</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
+   "health": {
+    "value": 20,
+    "min": 0,
+    "max": 20,
+    "label": "Salud"
+   },
+   "hits": {
+    "value": 0,
+    "min": 0,
+    "max": 3,
+    "label": "Heridas"
+   },
+   "stats": {
+    "combat": {
+     "value": 65,
+     "min": 0,
+     "max": 99,
+     "label": "Combate",
+     "rollLabel": "Tirada de Combate",
+     "enabled": true
+    },
+    "instinct": {
+     "value": 48,
+     "min": 0,
+     "max": 99,
+     "label": "Instinto",
+     "rollLabel": "Tirada de Instinto",
+     "enabled": true
+    },
+    "armor": {
+     "value": 10,
+     "mod": 0,
+     "min": 0,
+     "max": 99,
+     "damageReduction": 3,
+     "label": "Armadura",
+     "enabled": true
+    },
+    "loyalty": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Lealtad",
+     "enabled": false
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Andra Arlotti (Veteranos)",
+   "displayName": 20,
+   "actorLink": false,
+   "width": 1,
+   "height": 1,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/tokens/cazador-03.webp",
+    "fit": "contain",
+    "scaleX": 1,
+    "scaleY": 1
+   },
+   "bar1": {
+    "attribute": "health"
+   },
+   "bar2": {
+    "attribute": "hits"
+   }
+  },
+  "items": [
+   {
+    "_id": "r3kqKsXQS6XpIcrB",
+    "name": "Traje de combate avanzado",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "traje-de-combate-avanzado"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "armor",
+    "system": {
+     "description": "<p>Traje de combate avanzado.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "armorPoints": 0,
+     "damageReduction": 0,
+     "speed": "",
+     "oxygenMax": 0,
+     "oxygenCurrent": 0,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "yvVm9DukvYKpyP5R",
+    "name": "Ametralladora polivalente",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "ametralladora-polivalente"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Ametralladora polivalente.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "CBwaUulLMPibxCpN",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "revolver"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "yL4KCQP2QTvTInhO",
+    "name": "Porra eléctrica",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "porra-electrica"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Porra eléctrica.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "yLoQiuw902VemSZR",
+    "name": "Pistola sedante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pistola-sedante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Pistola sedante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "tipo": "pnj",
+    "categoria": "cazarrecompensas",
+    "num": 3,
+    "bls": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "equipo": false,
+    "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-03.webp"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "ylPIpQIlk9vdTxU2",
+  "name": "03 · Reigo Moses (Veteranos)",
+  "type": "creature",
+  "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-03.webp",
+  "system": {
+   "biography": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:45 I:60 PA:7 H:2(20)]</b> <b>Lealtad:</b> 15</p><p><strong>Equipo:</strong> Traje de combate estándar; Fusil inteligente; Porra eléctrica; Pistola sedante; Pac.</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 18kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:45 I:60 PA:7 H:2(20)]</b> <b>Lealtad:</b> 15</p><p><strong>Equipo:</strong> Traje de combate estándar; Fusil inteligente; Porra eléctrica; Pistola sedante; Pac.</p><p>Equipo con varios miembros: <em>Veteranos</em>.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.hNaBBBVpH8E7mJtH]{Ficha completa del libro}</p>",
+   "health": {
+    "value": 20,
+    "min": 0,
+    "max": 20,
+    "label": "Salud"
+   },
+   "hits": {
+    "value": 0,
+    "min": 0,
+    "max": 2,
+    "label": "Heridas"
+   },
+   "stats": {
+    "combat": {
+     "value": 45,
+     "min": 0,
+     "max": 99,
+     "label": "Combate",
+     "rollLabel": "Tirada de Combate",
+     "enabled": true
+    },
+    "instinct": {
+     "value": 60,
+     "min": 0,
+     "max": 99,
+     "label": "Instinto",
+     "rollLabel": "Tirada de Instinto",
+     "enabled": true
+    },
+    "armor": {
+     "value": 7,
+     "mod": 0,
+     "min": 0,
+     "max": 99,
+     "damageReduction": 0,
+     "label": "Armadura",
+     "enabled": true
+    },
+    "loyalty": {
+     "value": 15,
+     "min": 0,
+     "max": 99,
+     "label": "Lealtad",
+     "enabled": true
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Reigo Moses (Veteranos)",
+   "displayName": 20,
+   "actorLink": false,
+   "width": 1,
+   "height": 1,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/tokens/cazador-03.webp",
+    "fit": "contain",
+    "scaleX": 1,
+    "scaleY": 1
+   },
+   "bar1": {
+    "attribute": "health"
+   },
+   "bar2": {
+    "attribute": "hits"
+   }
+  },
+  "items": [
+   {
+    "_id": "23hpUcn4aGuLk31A",
+    "name": "Traje de combate estándar",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "traje-de-combate-estandar"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "armor",
+    "system": {
+     "description": "<p>Traje de combate estándar.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "armorPoints": 0,
+     "damageReduction": 0,
+     "speed": "",
+     "oxygenMax": 0,
+     "oxygenCurrent": 0,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "AQ4vyyn0HvgAzNbz",
+    "name": "Fusil inteligente",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "fusil-inteligente"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Fusil inteligente.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "Qjb91JRScbWTu2ez",
+    "name": "Porra eléctrica",
+    "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "porra-electrica"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Porra eléctrica.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "vlqv5353XB7VBg02",
+    "name": "Pistola sedante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pistola-sedante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Pistola sedante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "8YMZaN3d1zsPkFFW",
+    "name": "Pac.",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pac"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pac..</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "tipo": "pnj",
+    "categoria": "cazarrecompensas",
+    "num": 3,
+    "bls": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "equipo": false,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-03.webp"
    }
   },
@@ -11010,8 +12522,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-04.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 8kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Ivo Salomon, Parásito</h4><p><b>[C:50 I:50 PA:3 H:3(20)]</b> <b>Lealtad:</b> 40</p><ul><li>Traje vacío ad hoc</li><li>Guantes magnéticos (como porra aturdidora; Androides: Salvación de Cuerpo [-] contra aturdimiento)</li><li>Cúter láser</li><li>Pistola anclaje</li><li>Hacha abord.</li><li>Bist.</li><li>Escáner diagn. cibernético</li></ul>",
-   "description": "<p><b>Paga:</b> 8kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Ivo Salomon, Parásito</h4><p><b>[C:50 I:50 PA:3 H:3(20)]</b> <b>Lealtad:</b> 40</p><ul><li>Traje vacío ad hoc</li><li>Guantes magnéticos (como porra aturdidora; Androides: Salvación de Cuerpo [-] contra aturdimiento)</li><li>Cúter láser</li><li>Pistola anclaje</li><li>Hacha abord.</li><li>Bist.</li><li>Escáner diagn. cibernético</li></ul>",
+   "biography": "<p><b>Paga:</b> 8kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:50 I:50 PA:3 H:3(20)]</b> <b>Lealtad:</b> 40</p><p><strong>Equipo:</strong> Traje vacío ad hoc; Guantes magnéticos; Cúter láser; Pistola anclaje; Hacha de abordaje; Bisturí; Escáner diagn. cibernético</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.eLrVwow1AXQ2sZly]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 8kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:50 I:50 PA:3 H:3(20)]</b> <b>Lealtad:</b> 40</p><p><strong>Equipo:</strong> Traje vacío ad hoc; Guantes magnéticos; Cúter láser; Pistola anclaje; Hacha de abordaje; Bisturí; Escáner diagn. cibernético</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.eLrVwow1AXQ2sZly]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11078,7 +12590,230 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "B3HVRRE0vcny6As1",
+    "name": "Traje vacío ad hoc",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "traje-vacio-ad-hoc"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "armor",
+    "system": {
+     "description": "<p>Traje vacío ad hoc.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "armorPoints": 0,
+     "damageReduction": 0,
+     "speed": "",
+     "oxygenMax": 0,
+     "oxygenCurrent": 0,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "RiGn18iKuAMCrDTY",
+    "name": "Guantes magnéticos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "guantes-magneticos"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Guantes magnéticos.</p><p>como porra aturdidora; Androides: Salvación de Cuerpo [-] contra aturdimiento</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "8Dpel6yaDPGLKXfr",
+    "name": "Cúter láser",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "cuter-laser"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Cúter láser.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "yVLR9NqUy9jDCiL0",
+    "name": "Pistola anclaje",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pistola-anclaje"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Pistola anclaje.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "BLqMQwvglXCPjcez",
+    "name": "Hacha de abordaje",
+    "img": "modules/mr-wages-of-sin/assets/armas/hachuela.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "hacha-de-abordaje"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Hacha de abordaje.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "1GMIT3ozMswnptr6",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "bisturi"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Bisturí.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "2L0phkqcn5WiVa0G",
+    "name": "Escáner diagn. cibernético",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "escaner-diagn-cibernetico"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Escáner diagn. cibernético.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -11100,6 +12835,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-04.webp"
    }
   },
@@ -11117,8 +12853,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-05.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 15kcr al mes, más gastos de viaje.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Un Reparto de Miles, Dirigido por Maria Roman</h4><p><b>[C:25 I:45 H:2(20)]</b> <b>Lealtad:</b> 24</p><ul><li>Revólver</li><li>TaskMaster pers.</li></ul>",
-   "description": "<p><b>Paga:</b> 15kcr al mes, más gastos de viaje.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Un Reparto de Miles, Dirigido por Maria Roman</h4><p><b>[C:25 I:45 H:2(20)]</b> <b>Lealtad:</b> 24</p><ul><li>Revólver</li><li>TaskMaster pers.</li></ul>",
+   "biography": "<p><b>Paga:</b> 15kcr al mes, más gastos de viaje.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:25 I:45 H:2(20)]</b> <b>Lealtad:</b> 24</p><p><strong>Equipo:</strong> Revólver; TaskMaster pers.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.azSAP2SPWaca6Kwv]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 15kcr al mes, más gastos de viaje.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:25 I:45 H:2(20)]</b> <b>Lealtad:</b> 24</p><p><strong>Equipo:</strong> Revólver; TaskMaster pers.</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.azSAP2SPWaca6Kwv]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11185,7 +12921,72 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "eUhWtPoOaSIVsi7R",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "revolver"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "J9QbjAwFJKEayaE3",
+    "name": "TaskMaster pers.",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "taskmaster-pers"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>TaskMaster pers..</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -11207,6 +13008,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-05.webp"
    }
   },
@@ -11224,8 +13026,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-06.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 18kcr al mes, más gastos.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Emira Churchill, Desmontada</h4><p><b>[C:55 I:55 PA:5 H:3(20) [-] en toda Herida. Sin Sangrado.]</b> <b>Lealtad:</b> 40</p><ul><li>Manos asesinas: 2d10 DAÑO. Desgarro. Fuerza: soltarse.</li><li>Uñas de control - Cada dedo controla un rato a su víctima si accede al cerebro. Salvación de Cuerpo para resistir; acciones con [-].</li><li>Miembros constrictores - 3d10 DAÑO. Traumatismo [+]. Fuerza para escapar de su presa.</li><li>Aliento de dragón - Lanzallamas, una vez por combate.</li><li>Mordisco nocturno: 1d10 DAÑO. Sangrado [-]. Salvación de Cuerpo o desmayo.</li><li>Escáner diagn. cibernético</li></ul>",
-   "description": "<p><b>Paga:</b> 18kcr al mes, más gastos.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Emira Churchill, Desmontada</h4><p><b>[C:55 I:55 PA:5 H:3(20) [-] en toda Herida. Sin Sangrado.]</b> <b>Lealtad:</b> 40</p><ul><li>Manos asesinas: 2d10 DAÑO. Desgarro. Fuerza: soltarse.</li><li>Uñas de control - Cada dedo controla un rato a su víctima si accede al cerebro. Salvación de Cuerpo para resistir; acciones con [-].</li><li>Miembros constrictores - 3d10 DAÑO. Traumatismo [+]. Fuerza para escapar de su presa.</li><li>Aliento de dragón - Lanzallamas, una vez por combate.</li><li>Mordisco nocturno: 1d10 DAÑO. Sangrado [-]. Salvación de Cuerpo o desmayo.</li><li>Escáner diagn. cibernético</li></ul>",
+   "biography": "<p><b>Paga:</b> 18kcr al mes, más gastos.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:55 I:55 PA:5 H:3(20) [-] en toda Herida. Sin Sangrado.]</b> <b>Lealtad:</b> 40</p><p><strong>Equipo:</strong> Escáner diagn. cibernético</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.dhbyIgKFtyM0toUs]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 18kcr al mes, más gastos.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:55 I:55 PA:5 H:3(20) [-] en toda Herida. Sin Sangrado.]</b> <b>Lealtad:</b> 40</p><p><strong>Equipo:</strong> Escáner diagn. cibernético</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.dhbyIgKFtyM0toUs]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11292,7 +13094,139 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "KCbBO5pokYIfSrZI",
+    "name": "Escáner diagn. cibernético",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "escaner-diagn-cibernetico"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Escáner diagn. cibernético.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "fgkfFJB57qTCLreW",
+    "name": "Manos asesinas",
+    "type": "ability",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "system": {
+     "description": "<p>2d10 DAÑO. Desgarro. Fuerza: soltarse.</p>",
+     "text": "2d10 DAÑO. Desgarro. Fuerza: soltarse.",
+     "roll": ""
+    },
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "a80y7VQaiFBP40lj",
+    "name": "Uñas de control",
+    "type": "ability",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "system": {
+     "description": "<p>Cada dedo controla un rato a su víctima si accede al cerebro. Salvación de Cuerpo para resistir; acciones con [-].</p>",
+     "text": "Cada dedo controla un rato a su víctima si accede al cerebro. Salvación de Cuerpo para resistir; acciones con [-].",
+     "roll": ""
+    },
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "HgXh5gUCc56uhfT8",
+    "name": "Miembros constrictores",
+    "type": "ability",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "system": {
+     "description": "<p>3d10 DAÑO. Traumatismo [+]. Fuerza para escapar de su presa.</p>",
+     "text": "3d10 DAÑO. Traumatismo [+]. Fuerza para escapar de su presa.",
+     "roll": ""
+    },
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "ENE1ewVLoNQOBAAq",
+    "name": "Aliento de dragón",
+    "type": "ability",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "system": {
+     "description": "<p>Lanzallamas, una vez por combate.</p>",
+     "text": "Lanzallamas, una vez por combate.",
+     "roll": ""
+    },
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "6KMPBAAdk4f2jHJW",
+    "name": "Mordisco nocturno",
+    "type": "ability",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+    "system": {
+     "description": "<p>1d10 DAÑO. Sangrado [-]. Salvación de Cuerpo o desmayo.</p>",
+     "text": "1d10 DAÑO. Sangrado [-]. Salvación de Cuerpo o desmayo.",
+     "roll": ""
+    },
+    "effects": [],
+    "flags": {},
+    "folder": null,
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -11314,6 +13248,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-06.webp"
    }
   },
@@ -11331,8 +13266,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-07.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 35kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>El Soñador: Alf Moss</h4><p><b>[C:30 I:35 H:2(20). Las víctimas ganan 1 de Estrés por semana y no pueden reducirlo.]</b></p><ul><li>Ninguna</li></ul>",
-   "description": "<p><b>Paga:</b> 35kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>El Soñador: Alf Moss</h4><p><b>[C:30 I:35 H:2(20). Las víctimas ganan 1 de Estrés por semana y no pueden reducirlo.]</b></p><ul><li>Ninguna</li></ul>",
+   "biography": "<p><b>Paga:</b> 35kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:30 I:35 H:2(20). Las víctimas ganan 1 de Estrés por semana y no pueden reducirlo.]</b></p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.fO4oqRTSTQXJTanR]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 35kcr al mes.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:30 I:35 H:2(20). Las víctimas ganan 1 de Estrés por semana y no pueden reducirlo.]</b></p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.fO4oqRTSTQXJTanR]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11421,6 +13356,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-07.webp"
    }
   },
@@ -11438,8 +13374,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-08.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Edgars Crismondi</h4><p><b>[C:43 I:39 H:2(10)]</b> <b>Lealtad:</b> 50</p>",
-   "description": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Edgars Crismondi</h4><p><b>[C:43 I:39 H:2(10)]</b> <b>Lealtad:</b> 50</p>",
+   "biography": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:43 I:39 H:2(10)]</b> <b>Lealtad:</b> 50</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.rX3wwZMKKDKrDWry]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:43 I:39 H:2(10)]</b> <b>Lealtad:</b> 50</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.rX3wwZMKKDKrDWry]{Ficha completa del libro}</p>",
    "health": {
     "value": 10,
     "min": 0,
@@ -11528,6 +13464,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-08.webp"
    }
   },
@@ -11545,8 +13482,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-09.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 50kcr</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Amaruq Borges, Memorius</h4><p><b>[C:50 I:60 PA:5 H:3(20)]</b> <b>Lealtad:</b> 13</p><ul><li>La maquinaria</li><li>Fusil de pulsos</li><li>Vibromach.</li><li>3x Granada de humo</li><li>3x Espray tranquilizante (como pistola tranquilizante, alcance Adyacente)</li></ul>",
-   "description": "<p><b>Paga:</b> 50kcr</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Amaruq Borges, Memorius</h4><p><b>[C:50 I:60 PA:5 H:3(20)]</b> <b>Lealtad:</b> 13</p><ul><li>La maquinaria</li><li>Fusil de pulsos</li><li>Vibromach.</li><li>3x Granada de humo</li><li>3x Espray tranquilizante (como pistola tranquilizante, alcance Adyacente)</li></ul>",
+   "biography": "<p><b>Paga:</b> 50kcr</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:50 I:60 PA:5 H:3(20)]</b> <b>Lealtad:</b> 13</p><p><strong>Equipo:</strong> La maquinaria; Fusil de pulsos; Vibmachete; Granada de humo; Espray tranquilizante</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.QyzilMvE2qId3Dh6]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 50kcr</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:50 I:60 PA:5 H:3(20)]</b> <b>Lealtad:</b> 13</p><p><strong>Equipo:</strong> La maquinaria; Fusil de pulsos; Vibmachete; Granada de humo; Espray tranquilizante</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.QyzilMvE2qId3Dh6]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11613,7 +13550,162 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "PKht9wTUDmER0uE1",
+    "name": "La maquinaria",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "la-maquinaria"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>La maquinaria.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "AfuVN2BhqWb0RrEB",
+    "name": "Fusil de pulsos",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "fusil-de-pulsos"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Fusil de pulsos.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "Fwl89poUqVvISAef",
+    "name": "Vibmachete",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "vibmachete"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Vibmachete.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
+    "_id": "rQtItlOO2J77GHvi",
+    "name": "Granada de humo",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "granada-de-humo"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Granada de humo.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 3,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "qvzEphsC71m5vYT0",
+    "name": "Espray tranquilizante",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "espray-tranquilizante"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Espray tranquilizante.</p><p>como pistola tranquilizante, alcance Adyacente</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 3,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -11635,6 +13727,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-09.webp"
    }
   },
@@ -11652,8 +13745,8 @@
   "type": "creature",
   "img": "modules/mr-wages-of-sin/assets/cazadores/cazador-10.webp",
   "system": {
-   "biography": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Cazador 854 Alias «Sr. Bichos»</h4><p><b>[C:65 Roer 2d10 DAÑO I:70 H:5(20)]</b> 854 inflige 2d10 de DAÑO</p><ul><li>Gabardina</li><li>Sombrero alón</li><li>Vibromach.</li></ul>",
-   "description": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><h4>Cazador 854 Alias «Sr. Bichos»</h4><p><b>[C:65 Roer 2d10 DAÑO I:70 H:5(20)]</b> 854 inflige 2d10 de DAÑO</p><ul><li>Gabardina</li><li>Sombrero alón</li><li>Vibromach.</li></ul>",
+   "biography": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:65 Roer 2d10 DAÑO I:70 H:5(20)]</b> 854 inflige 2d10 de DAÑO</p><p><strong>Equipo:</strong> Gabardina; Sombrero alón; Vibmachete</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.YjgaQdzgZ0LiRXWa]{Ficha completa del libro}</p>",
+   "description": "<p><b>Paga:</b> 40kcr.</p><p><em>Aceptan órdenes de BL: 1, 2, 3, 4, 5, 6, 7, 8, 9.</em></p><p><b>[C:65 Roer 2d10 DAÑO I:70 H:5(20)]</b> 854 inflige 2d10 de DAÑO</p><p><strong>Equipo:</strong> Gabardina; Sombrero alón; Vibmachete</p><p>@UUID[Compendium.mr-wages-of-sin.manual.JournalEntry.rMbvqFmxJtPTHSkn.JournalEntryPage.YjgaQdzgZ0LiRXWa]{Ficha completa del libro}</p>",
    "health": {
     "value": 20,
     "min": 0,
@@ -11722,12 +13815,102 @@
   },
   "items": [
    {
+    "_id": "rZmcmv5uRJa0n83Y",
+    "name": "Gabardina",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "gabardina"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Gabardina.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "MibFTpV2DuuVq8AH",
+    "name": "Sombrero alón",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "sombrero-alon"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Sombrero alón.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   },
+   {
+    "_id": "xNb0aHc8GZCNjmm3",
+    "name": "Vibmachete",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "vibmachete"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Vibmachete.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   },
+   {
     "_id": "f94Yr9wWKUF0JQWA",
     "name": "Roer",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de 10 · Cazador 854 Alias «Sr. Bichos».</p>",
+     "description": "<p>Ataque de 10 · Cazador 854 Alias «Sr. Bichos» (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -11768,6 +13951,7 @@
      8,
      9
     ],
+    "equipo": true,
     "figura": "modules/mr-wages-of-sin/assets/figuras/cazador-10.webp"
    }
   },
@@ -12328,7 +14512,44 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "khQlSmYcxrXWcgkg",
+    "name": "Látigo de cuchillas",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/armas/latigo.webp",
+    "system": {
+     "description": "<p>Adyac. | 1d10 DAÑO | Sangrado [+] | Ataques con [-].</p><p>60cr</p>",
+     "damage": "1d10",
+     "cost": 60,
+     "weight": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "Adyacente"
+     }
+    },
+    "effects": [],
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-wages-of-sin": {
+      "clave": "latigo",
+      "robar": false
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -12423,7 +14644,46 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "iyMfXjxpqEGFLxAS",
+    "name": "Revólver",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "revolver"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -12613,7 +14873,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "t3Wt6AEm4DoMy9Tt",
+    "name": "Pincho, Hoja de sierra",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-hoja-de-sierra"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho, Hoja de sierra.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -12708,7 +14995,44 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "idscOhKQKSZfggRS",
+    "name": "Daga",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "system": {
+     "description": "<p>Adyac. | 1d10 DAÑO <br>Sangrado | 300cr</p>",
+     "damage": "1d10",
+     "cost": 300,
+     "weight": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "Adyacente"
+     }
+    },
+    "effects": [],
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-wages-of-sin": {
+      "clave": "daga",
+      "robar": false
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -12993,7 +15317,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "pT6ixhHCHE1RWUB2",
+    "name": "Pincho, Hoja de sierra",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-hoja-de-sierra"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho, Hoja de sierra.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13183,7 +15534,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "ALwqQ5khvCdsNAQh",
+    "name": "Pincho de lata de atún",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-de-lata-de-atun"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho de lata de atún.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13278,7 +15656,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "9dBht54YTQBHei5C",
+    "name": "Pincho de madera",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-de-madera"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho de madera.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13468,7 +15873,44 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "9iocoomrkXn8Dkn1",
+    "name": "Daga",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "system": {
+     "description": "<p>Adyac. | 1d10 DAÑO <br>Sangrado | 300cr</p>",
+     "damage": "1d10",
+     "cost": 300,
+     "weight": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "Adyacente"
+     }
+    },
+    "effects": [],
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-wages-of-sin": {
+      "clave": "daga",
+      "robar": false
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13563,7 +16005,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "QIpJHmFBZWZ8Q28y",
+    "name": "Puño americano",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "puno-americano"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Puño americano.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13658,7 +16127,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "lPEyJh7rs8iimHUn",
+    "name": "Pincho, tijeras",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-tijeras"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho, tijeras.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13753,7 +16249,46 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "1o27T8h0ToxTBNaS",
+    "name": "Bisturí",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "bisturi"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "weapon",
+    "system": {
+     "description": "<p>Bisturí.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+     "damage": "1d10",
+     "ammo": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "",
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "weight": 0,
+     "cost": 0,
+     "bonus": 0,
+     "antiArmor": false
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13848,7 +16383,44 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "fSXCsji2vSqItJaM",
+    "name": "Daga",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+    "system": {
+     "description": "<p>Adyac. | 1d10 DAÑO <br>Sangrado | 300cr</p>",
+     "damage": "1d10",
+     "cost": 300,
+     "weight": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "Adyacente"
+     }
+    },
+    "effects": [],
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-wages-of-sin": {
+      "clave": "daga",
+      "robar": false
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -13943,7 +16515,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "cuaY75g75UHbnsu2",
+    "name": "Pincho de madera",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-de-madera"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho de madera.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -14418,7 +17017,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "2Br6vopbF6IujJFe",
+    "name": "Pilas en un calcetín",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pilas-en-un-calcetin"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pilas en un calcetín.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -14513,7 +17139,34 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "NDaC8w8SkVI0Unbu",
+    "name": "Pincho, Madera",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+    "effects": [],
+    "flags": {
+     "mr-wages-of-sin": {
+      "gear": "pincho-madera"
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    },
+    "type": "item",
+    "system": {
+     "description": "<p>Pincho, Madera.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+     "quantity": 1,
+     "weight": 0,
+     "cost": 0
+    },
+    "folder": null
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -14608,7 +17261,44 @@
     "attribute": "hits"
    }
   },
-  "items": [],
+  "items": [
+   {
+    "_id": "UGOuERYUZtTEyjKt",
+    "name": "Pilas / Jabón / Candado en calcetín",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/armas/pilas-calcetin.webp",
+    "system": {
+     "description": "<p>Adyac. | 1d5 DAÑO</p><p>Contundente | Gratis</p>",
+     "damage": "1d5",
+     "cost": 0,
+     "weight": 0,
+     "shots": 1,
+     "curShots": 1,
+     "useAmmo": false,
+     "ranges": {
+      "value": "Adyacente"
+     }
+    },
+    "effects": [],
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-wages-of-sin": {
+      "clave": "pilas-calcetin",
+      "robar": false
+     }
+    },
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
   "effects": [],
   "folder": null,
   "ownership": {
@@ -14898,9 +17588,9 @@
     "_id": "uojiwCl6Cq6k7Mfd",
     "name": "Aguijón",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Gusanos barrenadores (Larvas).</p>",
+     "description": "<p>Ataque de Gusanos barrenadores (Larvas) (del libro).</p>",
      "damage": "1d10",
      "shots": 1,
      "curShots": 1,
@@ -15020,9 +17710,9 @@
     "_id": "r82YAwrJGOp80fdB",
     "name": "Pico",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Chupaárboles (Pájaro carpintero).</p>",
+     "description": "<p>Ataque de Chupaárboles (Pájaro carpintero) (del libro).</p>",
      "damage": "3d10",
      "shots": 1,
      "curShots": 1,
@@ -15142,9 +17832,9 @@
     "_id": "mhLZ8QIwkhj1w7Rr",
     "name": "Dientes",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Pseudohiena (Crías).</p>",
+     "description": "<p>Ataque de Pseudohiena (Crías) (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -15264,9 +17954,9 @@
     "_id": "ZXFccEEWGS08hKS5",
     "name": "Garras",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Basilisco (Lagarto tonto).</p>",
+     "description": "<p>Ataque de Basilisco (Lagarto tonto) (del libro).</p>",
      "damage": "4d10",
      "shots": 1,
      "curShots": 1,
@@ -15482,9 +18172,9 @@
     "_id": "4V0krCHwKGZbvOb5",
     "name": "Puños",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Simios de Offit (Monos).</p>",
+     "description": "<p>Ataque de Simios de Offit (Monos) (del libro).</p>",
      "damage": "1d10",
      "shots": 1,
      "curShots": 1,
@@ -15604,9 +18294,9 @@
     "_id": "cYSJDoIZypCnq3lU",
     "name": "Coz",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Lagarto jirafa (Ciervo).</p>",
+     "description": "<p>Ataque de Lagarto jirafa (Ciervo) (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,
@@ -15726,9 +18416,9 @@
     "_id": "xRXpevDonpfkBwYx",
     "name": "Dientes y garras",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Dragón de Offit.</p>",
+     "description": "<p>Ataque de Dragón de Offit (del libro).</p>",
      "damage": "4d10",
      "shots": 1,
      "curShots": 1,
@@ -15848,9 +18538,9 @@
     "_id": "iMaU23vMc0ejo2Kj",
     "name": "Púa mandibular",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Sirena (Perro muerto).</p>",
+     "description": "<p>Ataque de Sirena (Perro muerto) (del libro).</p>",
      "damage": "6d10",
      "shots": 1,
      "curShots": 1,
@@ -15970,9 +18660,9 @@
     "_id": "wjrxWz4v0L599Ga6",
     "name": "Mordisco",
     "type": "weapon",
-    "img": "modules/mr-wages-of-sin/assets/armas/pincho-sierra.webp",
+    "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
     "system": {
-     "description": "<p>Ataque de Vándalos (Asesinos).</p>",
+     "description": "<p>Ataque de Vándalos (Asesinos) (del libro).</p>",
      "damage": "2d10",
      "shots": 1,
      "curShots": 1,

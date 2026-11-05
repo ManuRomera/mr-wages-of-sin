@@ -390,7 +390,7 @@ def etapa_armas(doc):
 
 # ───────────────────────── 6 · arte generado con Codex (personal sin ilustración e iconos) ─────────────────────────
 PERSONAL = ["stephen-bognar", "christof-bognar", "kyou-aoki", "rani-kartall", "asad-sivert", "rey-brun", "zazil-herbertsson"]
-ICONOS = ["terminal", "orden", "rastreo", "delito", "soborno", "equipo", "nave"]
+ICONOS = ["terminal", "orden", "rastreo", "delito", "soborno", "equipo", "nave"] + [f"cat-{c}" for c in ("armadura", "arma-fuego", "explosivo", "medico", "herramienta", "electronica", "mascota", "varios", "habilidad")]
 
 
 def duotono(im):

@@ -53,11 +53,20 @@ Activa el módulo en un **mundo nuevo** y, al entrar el Guardián, te pregunta s
 | **Escenas** | Sector y encargos (portada, mapa de salto, red de órdenes, muelles) · Estaciones (Absalom, Anvollapolis, Balonov, HypeLabs Domia, Utpala) · La ODC: Baclite (plano de mesa, plano del Guardián, celda, Infierno Verde) · Cubiertas de las 3 naves |
 | **Actores** | Las fichas de los 100 objetivos · Los 10 cazarrecompensas rivales · Personal de dirección de la ODC · 27 presos con retrato · 10 criaturas de la fauna de Offit · Las 3 naves |
 | **Diarios** | Empieza aquí · Manual y guías (capítulos del libro y estaciones del sector) · Órdenes de busca 01–100 · Cazarrecompensas rivales |
-| **Objetos** | Las 13 armas de prisión con su dibujo del libro |
-| **Tablas** | Las 100 órdenes (1d100) · Incidentes en la entrega · Tipo de cliente · 6 tablas de equipo inicial |
-| **Macros** | Terminal de recompensas · Orden al azar · Oráculo de Nivel de Recompensa · Soborno en la ODC (ya puestas en tu barra) |
+| **Objetos** | Las 13 armas de prisión con su dibujo del libro y todo el equipo de los equipos iniciales y de los cazarrecompensas (armaduras con su PA/RD, armas con sus cargas, objetos y habilidades) · Clases «Preso» y «Cazarrecompensas» |
+| **Tablas** | Las 100 órdenes (1d100) · Incidentes en la entrega · Tipo de cliente · Los 6 equipos iniciales del libro (Marines, Androides, Científicos, Transportistas, Presos y Cazarrecompensas) con cada pieza enlazada a su objeto |
+| **Macros** | Terminal de recompensas · Orden al azar · Oráculo de Nivel de Recompensa · Soborno en la ODC · Equipo inicial del libro para la ficha seleccionada (ya puestas en tu barra) |
 
 Todo está también en los compendios del módulo. Si ya tienes contenido propio en el mundo no se pregunta nada; puedes importar cuando quieras desde **Configuración → MR- Wages of Sin**. Los personajes de tus jugadores no se tocan al reimportar.
+
+---
+
+## 🧑‍🚀 Creador de personajes y equipo
+
+- **Creador de MoSh:** al elegir una clase Marine, Androide, Científico o Transportista, tira el **equipo inicial de este libro** (págs. 318-319) en lugar del genérico; las clases **Preso** y **Cazarrecompensas** traen el suyo. Se puede desactivar en Configuración.
+- **Fichas con su equipo:** cada cazarrecompensas (uno por miembro), preso, criatura y nave lleva sus armas, armaduras, objetos y habilidades como objetos de la ficha, no como texto en la biografía.
+- **Macro «Equipo inicial»:** da a la ficha seleccionada el equipo de una fila del libro (al azar o la que elijas).
+- Las cifras son las del libro (PA, RD, cargas, daño). Donde el libro no da el daño de un arma —remite a la Guía de Supervivencia—, el objeto lleva 1d10 por defecto y lo avisa en su descripción.
 
 ---
 

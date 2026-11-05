@@ -150,7 +150,7 @@
   "img": "modules/mr-wages-of-sin/assets/armas/garrote.webp",
   "system": {
    "description": "<p>Adyac. | Especial | Mata en 12 segundos a una persona desprevenida y sin casco. | 50cr</p>",
-   "damage": "",
+   "damage": "1d5",
    "cost": 50,
    "weight": 0,
    "shots": 1,
@@ -457,6 +457,5606 @@
    "mr-wages-of-sin": {
     "clave": "mazo",
     "robar": true
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "wDs0zMTYQWLgiD5P",
+  "name": "Armadura casera",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "armadura-casera-pa5"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Armadura casera.</p><p>PA 5</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "armorPoints": 5,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "9IB4EJZ2k0tEao6Y",
+  "name": "Atuendo de TEM",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "atuendo-de-tem-pa2"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Atuendo de TEM.</p><p>PA 2</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "armorPoints": 2,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "9tgYuIPhuIzWI8Z1",
+  "name": "Atuendo de capataz",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "atuendo-de-capataz-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Atuendo de capataz.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Ts3gcKHnCQgKfHPm",
+  "name": "Atuendo de gama alta",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "atuendo-de-gama-alta-pa0"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Atuendo de gama alta.</p><p>PA 0</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "5D2YEnyB0a2fHey8",
+  "name": "Atuendo de médico",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "atuendo-de-medico-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Atuendo de médico.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "s0Af5aHrCRlYBwat",
+  "name": "Atuendo estándar de tripulación",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "atuendo-estandar-de-tripulacion-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Atuendo estándar de tripulación.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "luLZdr6JZwU00Bsp",
+  "name": "Bata de laboratorio",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "bata-de-laboratorio-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Bata de laboratorio.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "92eut4im5hGcB4mi",
+  "name": "Chaleco blindado ultrafino",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "chaleco-blindado-ultrafino-pa4"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Chaleco blindado ultrafino.</p><p>PA 4</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "armorPoints": 4,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "FjZ4u8Cd1OF4vwjb",
+  "name": "Hábito monástico",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "habito-monastico-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Hábito monástico.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "rjUzelb6xqV0Imob",
+  "name": "Mono carcelario",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mono-carcelario-pa0"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Mono carcelario.</p><p>PA 0</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "K7jn0XvWOsok6VC0",
+  "name": "Mono de trabajo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mono-de-trabajo-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Mono de trabajo.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "GGr3xtq7hgoVFz7t",
+  "name": "Traje NBQ",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-nbq-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje NBQ.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "7EGK1HpIaeXooW6k",
+  "name": "Traje corporativo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-corporativo-pa0"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje corporativo.</p><p>PA 0</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "aOiQ6C2Pqed72eVt",
+  "name": "Traje de camuflaje",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-camuflaje-pa5"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de camuflaje.</p><p>PA 5</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 5,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "sDkZSGFb1cvMzbwk",
+  "name": "Traje de combate avanzado",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-combate-avanzado"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de combate avanzado.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "DjiYcEH6X38CITTy",
+  "name": "Traje de combate avanzado único",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-combate-avanzado-unico"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de combate avanzado único.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "N4q2UPdrVpwuPol7",
+  "name": "Traje de combate estándar",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-combate-estandar"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de combate estándar.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "dmSqGGQ73hxxnHvV",
+  "name": "Traje de explorador misionero",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-explorador-misionero-pa3"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de explorador misionero.</p><p>PA 3</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 3,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "de6WdwyJCH9nrMEp",
+  "name": "Traje de riesgo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-de-riesgo-pa5"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje de riesgo.</p><p>PA 5</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 5,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Em6Lhs3K4wV6Mqj8",
+  "name": "Traje ejecutivo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-ejecutivo-pa1"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje ejecutivo.</p><p>PA 1</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "armorPoints": 1,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "O0KBoJhiDBAYmNW3",
+  "name": "Traje ejecutivo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-ejecutivo-pa0"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje ejecutivo.</p><p>PA 0</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Lgz6wlVLDWcFccP5",
+  "name": "Traje espacial",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-espacial-pa3"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje espacial.</p><p>PA 3</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "armorPoints": 3,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "KKsUptoLRuVCrqd0",
+  "name": "Traje vacío ad hoc",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "traje-vacio-ad-hoc"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Traje vacío ad hoc.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "armorPoints": 0,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "GNz888sQ0nbYwnQo",
+  "name": "Uniforme de combate avanzado",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "uniforme-de-combate-avanzado-pa10-rd3"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Uniforme de combate avanzado.</p><p>PA 10, RD 3</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 10,
+   "damageReduction": 3,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "IvgbwpMvAQwZr5DE",
+  "name": "Uniforme de combate estándar",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-armadura.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "uniforme-de-combate-estandar-pa7"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "armor",
+  "system": {
+   "description": "<p>Uniforme de combate estándar.</p><p>PA 7</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "armorPoints": 7,
+   "damageReduction": 0,
+   "speed": "",
+   "oxygenMax": 0,
+   "oxygenCurrent": 0,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "uRSkS7XiaGMOqCpC",
+  "name": "Acceso a todas las armas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "acceso-a-todas-las-armas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Acceso a todas las armas.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Hy15suBlAMh0qPBp",
+  "name": "Ametralladora polivalente",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "ametralladora-polivalente"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Ametralladora polivalente.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "K4GaIB7ftjFavZ3x",
+  "name": "Automed",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "automed"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Automed.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "AfiSQ6MTIcXp6MnL",
+  "name": "Baliza de emergencia",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "baliza-de-emergencia"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Baliza de emergencia.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "x8KzRrgBHY5rzvJE",
+  "name": "Baliza de rastreo magnética",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "baliza-de-rastreo-magnetica"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Baliza de rastreo magnética.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "PIWe6FIO5d1ZQGKJ",
+  "name": "Barrita de chocolate de la marca Reginald Squarepig",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "barrita-de-chocolate-de-la-marca-reginald-squarepig"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Barrita de chocolate de la marca Reginald Squarepig.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "mv3kW6tNLHdxJabl",
+  "name": "Bioescáner",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "bioescaner"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Bioescáner.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "bNMXTPkEjR9E3usR",
+  "name": "Bolsa de azúcar",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "bolsa-de-azucar"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Bolsa de azúcar.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "uTiVFZlcJpLQ8zSE",
+  "name": "Botas con puntera de acero",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "botas-con-puntera-de-acero"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Botas con puntera de acero.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "KcuBdjOrC7Wf1FmF",
+  "name": "Botas magnéticas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "botas-magneticas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Botas magnéticas.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "0EQ4N3DnQ7REHvSv",
+  "name": "Botella a presión de salsa picante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "botella-a-presion-de-salsa-picante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Botella a presión de salsa picante.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "jMy58Q2efLM8PI5b",
+  "name": "Botiquín de primeros auxilios",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "botiquin-de-primeros-auxilios"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Botiquín de primeros auxilios.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Ay7h83zI5PcbCc7y",
+  "name": "Camilla plegable",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "camilla-plegable"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Camilla plegable.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "X84RvJYLmOFiVwws",
+  "name": "Carné de miembro del Grupo de Trabajo Antipiratería",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "carne-de-miembro-del-grupo-de-trabajo-antipirateria"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Carné de miembro del Grupo de Trabajo Antipiratería.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "u1oovitfxgBKftza",
+  "name": "Cavidad corporal a prueba de rayos X",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cavidad-corporal-a-prueba-de-rayos-x"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cavidad corporal a prueba de rayos X.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Lea5rhaMnpvKU6Ht",
+  "name": "Cepillo de dientes",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cepillo-de-dientes"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cepillo de dientes.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "N1Ydg0xa1TsqSFFv",
+  "name": "Cigarrillos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cigarrillos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cigarrillos.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "7ACkhKjKCKjmKkZC",
+  "name": "Clavadora doble",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "clavadora-doble"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Clavadora doble.</p><p>clavadora con daño doble</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "cYAbOj3RrGIXJ11K",
+  "name": "Comunicaciones de corto alcance",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "comunicaciones-de-corto-alcance"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Comunicaciones de corto alcance.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "eqHOATWw5J2mlBWf",
+  "name": "Comunicaciones de largo alcance",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "comunicaciones-de-largo-alcance"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Comunicaciones de largo alcance.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "3pX6EqWDZJrDluDf",
+  "name": "Cordón de paracaídas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cordon-de-paracaidas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cordón de paracaídas.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "6EbVvvxONg6mhOnB",
+  "name": "Cortador láser",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cortador-laser-3c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cortador láser.</p><p>3 disparos</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "gJsb8DpSLhbuy4W3",
+  "name": "Cortador láser",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cortador-laser-2c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cortador láser.</p><p>2 disparos</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "aZdRklGAho70j8BN",
+  "name": "Cámara desechable",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "camara-desechable"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cámara desechable.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "xiWMVXBRj4rxQxuC",
+  "name": "Cúter láser",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "cuter-laser"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Cúter láser.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "MbgFCfRxwj1hZqX4",
+  "name": "De sindicato y de inspector",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "de-sindicato-y-de-inspector"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>De sindicato y de inspector.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "DApeZufWv033kYn4",
+  "name": "Detonador",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "detonador"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Detonador.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "07mA6jcLsgXNTnFv",
+  "name": "Drogas de combate",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "drogas-de-combate"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Drogas de combate.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "HvyKf9XG5odP4y1N",
+  "name": "Dron de desguace",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "dron-de-desguace"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Dron de desguace.</p><p>bioescáner, cortador láser</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "XHDxQZ1ApOyLshSg",
+  "name": "Electroimán",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "electroiman"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Electroimán.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "xYzVhwZsuLeOgTOA",
+  "name": "Escapulario de orejas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escapulario-de-orejas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Escapulario de orejas.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "8yBzGqMUcCM8AsVC",
+  "name": "Escáner de diagnóstico de vehículos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escaner-de-diagnostico-de-vehiculos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Escáner de diagnóstico de vehículos.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "I9DQsL8yIAqiAoGk",
+  "name": "Escáner diagn. cibernético",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escaner-diagn-cibernetico"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Escáner diagn. cibernético.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "OMKw2WOL5bri4gFM",
+  "name": "Esposas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "esposas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Esposas.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "M606hKNoFRrEZRH2",
+  "name": "Espray tranquilizante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "espray-tranquilizante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Espray tranquilizante.</p><p>como pistola tranquilizante, alcance Adyacente</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "JFFLruLpFdGAq6Dw",
+  "name": "Estimulante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "estimulante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Estimulante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "L0FxQqXVnWYCJ3Ck",
+  "name": "Estimulante adulterado",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "estimulante-adulterado"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Estimulante adulterado.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "c0EUt8fKfU0qG1Lo",
+  "name": "Estimulantes",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "estimulantes"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Estimulantes.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "yOtZVVK0htOD42YL",
+  "name": "Exocargador obsoleto",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "exocargador-obsoleto"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Exocargador obsoleto.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "zCBCQ5mHFOdRNBaY",
+  "name": "Explosivos y detonador",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "explosivos-y-detonador"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Explosivos y detonador.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "tfMzHpsSwIP49rVw",
+  "name": "Extrusor de monofilamento",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "extrusor-de-monofilamento"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Extrusor de monofilamento.</p><p>50m</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "mNx1oPzqzfqbDto3",
+  "name": "Filtro de agua",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "filtro-de-agua"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Filtro de agua.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "HstrBpGlUIb2gxrT",
+  "name": "Flecha normal",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "flecha-normal"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Flecha normal.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "oDKcIfXiWG3mfGea",
+  "name": "Flecha rastreadora",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "flecha-rastreadora"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Flecha rastreadora.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "lvgVyZDRFm5UG6cV",
+  "name": "Flechas explosivas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "flechas-explosivas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Flechas explosivas.</p><p>como granada de fragmentación</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "PMspsPPG3lklKhtr",
+  "name": "Gabardina",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "gabardina"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Gabardina.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "FOvB2qvoo8aHqLCH",
+  "name": "Gafas IR",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "gafas-ir"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Gafas IR.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "pLY4pGlmALSBccaC",
+  "name": "Gafas de visión nocturna",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "gafas-de-vision-nocturna"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Gafas de visión nocturna.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "H5Kvuw0ZX8DNkUg2",
+  "name": "Ganzúas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "ganzuas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Ganzúas.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "4rHChMaWjhe2Uozj",
+  "name": "Gorila modificado",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "gorila-modificado"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Gorila modificado.</p><p>mascota orgánica, [+] a Combate. 3(20) Heridas. 3d10 DAÑO.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "4ehDwpJF3FpHgyQf",
+  "name": "Granada de fragmentación",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "granada-de-fragmentacion"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Granada de fragmentación.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "3kqnxYKDU9EIM20f",
+  "name": "Granada de fragmentación oculta",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "granada-de-fragmentacion-oculta"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Granada de fragmentación oculta.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "2UAdy4n7orB8zuzt",
+  "name": "Granada de gas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "granada-de-gas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Granada de gas.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "RwCyP1lu1CXNFME7",
+  "name": "Granada de goma",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "granada-de-goma"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Granada de goma.</p><p>como frag., con traumatismo contuso [-]</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "HsBJwIAEWOBBi6Mp",
+  "name": "Granada de humo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-explosivo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "granada-de-humo"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Granada de humo.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "eULdhCK4XOaDFwMP",
+  "name": "Guantes magnéticos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "guantes-magneticos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Guantes magnéticos.</p><p>como porra aturdidora; Androides: Salvación de Cuerpo [-] contra aturdimiento</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "ZN8ai5U2hT9laD89",
+  "name": "HUD",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "hud"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>HUD.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "5h83JO1uW6Hoyd94",
+  "name": "Herramientas variadas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "herramientas-variadas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Herramientas variadas.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Qz8OjQMRIUoff4rr",
+  "name": "Hierba cristal",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "hierba-cristal"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Hierba cristal.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "hciWUApr8qTgLbgC",
+  "name": "Identificación corporativa",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "identificacion-corporativa"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Identificación corporativa.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "4r1ylbWajhn8rpGy",
+  "name": "Inhibidor de radio",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "inhibidor-de-radio"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Inhibidor de radio.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "HYXOBuarn4vhvjMz",
+  "name": "Jeringa",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "jeringa"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Jeringa.</p><p>paralizante</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "POun2kPWLVSXUEl5",
+  "name": "Juego de ganzúas a medida",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "juego-de-ganzuas-a-medida"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Juego de ganzúas a medida.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "RNGfFQDwMwmO1x2r",
+  "name": "Kit de herramientas electrónicas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "kit-de-herramientas-electronicas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Kit de herramientas electrónicas.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "cIUun20ocBB5q4UB",
+  "name": "Kit de química móvil",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "kit-de-quimica-movil"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Kit de química móvil.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "9Xc0w25EMdecodT7",
+  "name": "La maquinaria",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "la-maquinaria"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>La maquinaria.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "SqkQirnuqkmpYmvn",
+  "name": "Maletín",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "maletin"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Maletín.</p><p>200kcr, falsos. Rastreador.</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "BAKVxCvWPZTm4ikm",
+  "name": "Manta de mylar",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "manta-de-mylar"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Manta de mylar.</p><p>correas autoajustables</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "CJB89K7QU1if2D6W",
+  "name": "Mechero desechable",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mechero-desechable"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Mechero desechable.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "w3npwpS39nJfCq6B",
+  "name": "Medescáner",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "medescaner"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Medescáner.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "te8sWyeB3s9BsZxx",
+  "name": "Mochila propulsora",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mochila-propulsora"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Mochila propulsora.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "RtujjvLEh3fx5F8s",
+  "name": "Mono de trabajo",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mono-de-trabajo"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Mono de trabajo.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "0uKANxaNv3fuwiLy",
+  "name": "Máscara horripilante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "mascara-horripilante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Máscara horripilante.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "QZgVL6bhOttiy2o9",
+  "name": "Pac.",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pac"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pac..</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "AN37UwJBnGShH7pA",
+  "name": "Palanca",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "palanca"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Palanca.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "9QOTuV1TIkTjNNqk",
+  "name": "Petaca",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "petaca"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Petaca.</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "0PiTyCmQmS5SYMeW",
+  "name": "Pilas en un calcetín",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pilas-en-un-calcetin"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pilas en un calcetín.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "F3hBAPmYOuV0edKl",
+  "name": "Pilluelo del vacío muy leal",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-mascota.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pilluelo-del-vacio-muy-leal"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pilluelo del vacío muy leal.</p><p>x5. +20 Lealtad, cuenta como mascota orgánica para Estrés/ Pánico.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "tTlLsoIPXZbgu01h",
+  "name": "Pincho de lata de atún",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pincho-de-lata-de-atun"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pincho de lata de atún.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "wbh3XY1agTm8i7vr",
+  "name": "Pincho de madera",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pincho-de-madera"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pincho de madera.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "lCh8Wb0RQrrwiVAk",
+  "name": "Pincho, Hoja de sierra",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pincho-hoja-de-sierra"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pincho, Hoja de sierra.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "1UTcP2YbjoU34uhs",
+  "name": "Pincho, Madera",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pincho-madera"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pincho, Madera.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "SRlZdb7n7shNwg3Q",
+  "name": "Pincho, tijeras",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pincho-tijeras"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Pincho, tijeras.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "uHXpit5IqMoxWpuq",
+  "name": "Prismáticos de visión nocturna",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "prismaticos-de-vision-nocturna"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Prismáticos de visión nocturna.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "PM4CAR4jfbKKqWTs",
+  "name": "Puño americano",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "puno-americano"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Puño americano.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "KRDMIlrNnSZKktPI",
+  "name": "RCM",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "rcm"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>RCM.</p><p><em>Equipo de Wages of Sin · Marines.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "IKrL2iMoLrB9sZcR",
+  "name": "Rebreather",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "rebreather"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Rebreather.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "thyiGfrnlGvHTRT3",
+  "name": "Revista porno",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revista-porno"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Revista porno.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "QfiunQVjUkXa7Nss",
+  "name": "Rostro humano",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "rostro-humano"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Rostro humano.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "vg9HXhSqP9OUEdBp",
+  "name": "Sabueso",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "sabueso"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Sabueso.</p><p>mascota orgánica</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "hdjkEGqcCLLLoOan",
+  "name": "Serpiente asesina con mira inteligente",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "serpiente-asesina-con-mira-inteligente"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Serpiente asesina con mira inteligente.</p><p>mascota sintética</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "BhrABvwevneuTxOu",
+  "name": "Soldador de mano",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-herramienta.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "soldador-de-mano"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Soldador de mano.</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "7vdXd0Du86Moo4NB",
+  "name": "Sombrero alón",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "sombrero-alon"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Sombrero alón.</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "HzUayKQHhgAsdrET",
+  "name": "TaskMaster pers.",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "taskmaster-pers"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>TaskMaster pers..</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "a50egPOarw5SqQjl",
+  "name": "Tatuaje grotesco",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "tatuaje-grotesco"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Tatuaje grotesco.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "XHT1BVzgFqjNEkwN",
+  "name": "Terminal de ordenador portátil",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "terminal-de-ordenador-portatil"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Terminal de ordenador portátil.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "yqE3WyCIQCLW3hGh",
+  "name": "Texto religioso",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "texto-religioso"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Texto religioso.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "qCAajFLg5YIw6ev9",
+  "name": "Triumph",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "triumph"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Triumph.</p><p><em>Equipo de Wages of Sin · Presos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "6DjKxlWkr5RIqR97",
+  "name": "Unidad MoHab",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "unidad-mohab"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Unidad MoHab.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "OEzMf2tYbqx43Ydo",
+  "name": "Unidad de emisión de radio",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-electronica.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "unidad-de-emision-de-radio"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Unidad de emisión de radio.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "g2i5zpK8Yo5L3HWr",
+  "name": "Veneno letal",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "veneno-letal"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Veneno letal.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "KiHVshvBMJ43eWcc",
+  "name": "Veneno soporífero",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-medico.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "veneno-soporifero"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>Veneno soporífero.</p><p><em>Equipo de Wages of Sin · Científicos.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Ig7E7T8kBSyiDCP8",
+  "name": "«7h3 b3@s7»",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "7h3-b3-s7"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>«7h3 b3@s7».</p><p>equipo de pirateo modificado</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "U4C3Pjgkm6AAH8s4",
+  "name": "«Arma predilecta»",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "arma-predilecta"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>«Arma predilecta».</p><p>hackeo a medida</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "EwZo7OCIVfBTANjb",
+  "name": "«La fiel»",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "la-fiel"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>«La fiel».</p><p>equipo de pirateo modificado</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "ZQPVeu1pM4OTBfT2",
+  "name": "«impotent_tool»",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-varios.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "impotent-tool"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "item",
+  "system": {
+   "description": "<p>«impotent_tool».</p><p>hack propio</p><p><em>Equipo de Wages of Sin · ficha.</em></p>",
+   "quantity": 1,
+   "weight": 0,
+   "cost": 0
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "LqnlC7SomGdx25Yx",
+  "name": "Artes marciales",
+  "type": "skill",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-habilidad.webp",
+  "system": {
+   "description": "<p>Habilidad de maestro que da el equipo inicial de Wages of Sin.</p>",
+   "rank": "Master",
+   "bonus": 30,
+   "prerequisite_ids": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "WSmAgbclRr6Pypjd",
+  "name": "Ballesta",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "ballesta"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Ballesta.</p><p>2d10 DAÑO</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p>",
+   "damage": "2d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "jkyb94VphgnznA2S",
+  "name": "Bisturí",
+  "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "bisturi"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Bisturí.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "Sem0bywymfxJhdja",
+  "name": "Dedos de nanohoja",
+  "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "dedos-de-nanohoja"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Dedos de nanohoja.</p><p>2d10 DAÑO PA</p><p><em>Equipo de Wages of Sin · Androides.</em></p>",
+   "damage": "2d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "dtCbkvO2FFRA1Lxr",
+  "name": "Escopeta de combate",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escopeta-de-combate-6c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Escopeta de combate.</p><p>6 cartuchos de bolsa de balines - pág. 230</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 6,
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "M8M6I9Q6YmKKuOxD",
+  "name": "Escopeta de combate",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escopeta-de-combate-8c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Escopeta de combate.</p><p>8 cargas</p><p><em>Equipo de Wages of Sin · Androides.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 8,
+   "shots": 8,
+   "curShots": 8,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "OkzChjbDhg1tDpr2",
+  "name": "Escopeta de tambor",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "escopeta-de-tambor"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Escopeta de tambor.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "13pQQPS2ltbxAMXa",
+  "name": "Fusil de pulsos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "fusil-de-pulsos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Fusil de pulsos.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "GOD29c33foWh6qfA",
+  "name": "Fusil de pulsos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "fusil-de-pulsos-10c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Fusil de pulsos.</p><p>10 cargas</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 10,
+   "shots": 10,
+   "curShots": 10,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "JinYSPzkQJ2HmQx6",
+  "name": "Fusil inteligente",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "fusil-inteligente"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Fusil inteligente.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "5Dkgoycaib0eNLkN",
+  "name": "Hacha de abordaje",
+  "img": "modules/mr-wages-of-sin/assets/armas/hachuela.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "hacha-de-abordaje"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Hacha de abordaje.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "T8mDOAMGKyAvdHpC",
+  "name": "Lanzallamas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "lanzallamas-8c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Lanzallamas.</p><p>8 disparos</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 8,
+   "shots": 8,
+   "curShots": 8,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "1CzWk6zDtEmFkct1",
+  "name": "Lanzallamas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "lanzallamas-4c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Lanzallamas.</p><p>4 disparos</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 4,
+   "shots": 4,
+   "curShots": 4,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "A7skKSraokQtMZ0z",
+  "name": "Navaja multiusos",
+  "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "navaja-multiusos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Navaja multiusos.</p><p>como bisturí</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "GrHY2ZeigIZ6w0hW",
+  "name": "Pistola anclaje",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-anclaje"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola anclaje.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "DIFC8jKyjdyzCQY8",
+  "name": "Pistola automática de plástico",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-automatica-de-plastico-24c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola automática de plástico.</p><p>24 cargas</p><p><em>Equipo de Wages of Sin · Androides.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 24,
+   "shots": 24,
+   "curShots": 24,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "m8tMs6YhDiLaGDhk",
+  "name": "Pistola de aparejos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-aparejos-5c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de aparejos.</p><p>5 disparos</p><p><em>Equipo de Wages of Sin · Androides.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 5,
+   "shots": 5,
+   "curShots": 5,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "IZoa3Lv9BxOHSk05",
+  "name": "Pistola de aparejos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-aparejos-6c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de aparejos.</p><p>6 disparos</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 6,
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "T1aK1q6h1tmfgMFg",
+  "name": "Pistola de bengalas",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-bengalas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de bengalas.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "9Qb0VeYgongpEOpI",
+  "name": "Pistola de clavos",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-clavos-64c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de clavos.</p><p>64 disparos</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 64,
+   "shots": 64,
+   "curShots": 64,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "6XXvxReV4qtDDIcn",
+  "name": "Pistola de dardos localizadores",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-dardos-localizadores-4c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de dardos localizadores.</p><p>4 disparos</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 4,
+   "shots": 4,
+   "curShots": 4,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "58xRcEsu2730bGcg",
+  "name": "Pistola de espuma",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-espuma"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de espuma.</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "fGm6Jsz6fviZdi8u",
+  "name": "Pistola de espuma",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-de-espuma-6c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola de espuma.</p><p>6 cargas</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 6,
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "QKgfT2QcYzHcpspN",
+  "name": "Pistola sedante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-sedante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola sedante.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "otSyl1iiideD713w",
+  "name": "Pistola tranquilizante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-tranquilizante-5c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola tranquilizante.</p><p>5 cargas</p><p><em>Equipo de Wages of Sin · Científicos.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 5,
+   "shots": 5,
+   "curShots": 5,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "8MEtq8xPUTiF4t5o",
+  "name": "Pistola tranquilizante",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "pistola-tranquilizante-3c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Pistola tranquilizante.</p><p>3 cargas</p><p><em>Equipo de Wages of Sin · Cazarrecompensas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 3,
+   "shots": 3,
+   "curShots": 3,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "MVbLb5sCqQjrJpec",
+  "name": "Porra aturdidora",
+  "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "porra-aturdidora"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Porra aturdidora.</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "oxtraGHslOemVZu0",
+  "name": "Porra eléctrica",
+  "img": "modules/mr-wages-of-sin/assets/armas/mazo.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "porra-electrica"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Porra eléctrica.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "dczH4Sb5gVYdMHYx",
+  "name": "Revólver",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "UsFCq58ozKNbvpUa",
+  "name": "Revólver",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver-12c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver.</p><p>12 cargas</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 12,
+   "shots": 12,
+   "curShots": 12,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "ONn8Upwmn5ByIBdP",
+  "name": "Revólver",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver-6c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver.</p><p>6 cargas</p><p><em>Equipo de Wages of Sin · Científicos.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 6,
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "EriZHc7r4zDZcM4x",
+  "name": "Revólver",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver-5c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver.</p><p>5 cargas</p><p><em>Equipo de Wages of Sin · Transportistas.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 5,
+   "shots": 5,
+   "curShots": 5,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "YAlkojOiObcUcjCs",
+  "name": "Revólver con mira inteligente",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver-con-mira-inteligente-24c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver con mira inteligente.</p><p>24 cargas</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 24,
+   "shots": 24,
+   "curShots": 24,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "5pBVyy2Cg6cT954P",
+  "name": "Revólver recortado",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "revolver-recortado-8c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Revólver recortado.</p><p>8 cargas</p><p><em>Equipo de Wages of Sin · Científicos.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 8,
+   "shots": 8,
+   "curShots": 8,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "vQrkr2o6SxvOUNjr",
+  "name": "Rifle de supervivencia",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "rifle-de-supervivencia-10c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Rifle de supervivencia.</p><p>10 cargas</p><p><em>Equipo de Wages of Sin · Científicos.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 10,
+   "shots": 10,
+   "curShots": 10,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "DHWmaFKBYrBvQX0h",
+  "name": "Subfusil",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "subfusil"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Subfusil.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "2tjIJ7HvgGPBh5S7",
+  "name": "Subfusil",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "subfusil-10c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Subfusil.</p><p>10 cargas</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 10,
+   "shots": 10,
+   "curShots": 10,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "FMXOorS7D9lBCM2E",
+  "name": "Subfusil",
+  "img": "modules/mr-wages-of-sin/assets/iconos/cat-arma-fuego.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "subfusil-20c"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Subfusil.</p><p>x2, 20 cargas</p><p><em>Equipo de Wages of Sin · Marines.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 20,
+   "shots": 20,
+   "curShots": 20,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "u0AdhscKfaUfTGsf",
+  "name": "Vibmachete",
+  "img": "modules/mr-wages-of-sin/assets/armas/daga.webp",
+  "effects": [],
+  "flags": {
+   "mr-wages-of-sin": {
+    "gear": "vibmachete"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  },
+  "type": "weapon",
+  "system": {
+   "description": "<p>Vibmachete.</p><p><em>Equipo de Wages of Sin · ficha.</em></p><p><em>El libro no da el daño de esta arma: aquí va 1d10 por defecto; ajústalo según la Guía de Supervivencia.</em></p>",
+   "damage": "1d10",
+   "ammo": 0,
+   "shots": 1,
+   "curShots": 1,
+   "useAmmo": false,
+   "ranges": {
+    "value": "",
+    "short": 0,
+    "medium": 0,
+    "long": 0
+   },
+   "weight": 0,
+   "cost": 0,
+   "bonus": 0,
+   "antiArmor": false
+  },
+  "folder": null,
+  "ownership": {
+   "default": 0
+  }
+ },
+ {
+  "_id": "53a2ktCoq54jn0DR",
+  "name": "Preso (Wages of Sin)",
+  "type": "class",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Clase de campaña para presos de la ODC: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>",
+   "source": "Wages of Sin",
+   "author": "",
+   "link": "",
+   "trauma_response": "",
+   "robotic": false,
+   "common_skills": [],
+   "base_adjustment": {
+    "strength": 0,
+    "speed": 0,
+    "intellect": 0,
+    "combat": 0,
+    "sanity": 0,
+    "fear": 0,
+    "body": 0,
+    "max_wounds": 0,
+    "skills_granted": []
+   },
+   "selected_adjustment": {
+    "choose_stat": [],
+    "choose_skill_and": {
+     "trained": 0,
+     "expert": 0,
+     "expert_full_set": 0,
+     "master": 0,
+     "master_full_set": 0
+    },
+    "choose_skill_or": []
+   },
+   "roll_tables": {
+    "loadout": "Compendium.mr-wages-of-sin.tablas.RollTable.lqkcqSVrO6cCP8Il",
+    "trinket": "",
+    "patch": ""
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clase": "preso"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "Dz2t3nDdbdQa5vhI",
+  "name": "Cazarrecompensas (Wages of Sin)",
+  "type": "class",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Clase de campaña para cazarrecompensas: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>",
+   "source": "Wages of Sin",
+   "author": "",
+   "link": "",
+   "trauma_response": "",
+   "robotic": false,
+   "common_skills": [],
+   "base_adjustment": {
+    "strength": 0,
+    "speed": 0,
+    "intellect": 0,
+    "combat": 0,
+    "sanity": 0,
+    "fear": 0,
+    "body": 0,
+    "max_wounds": 0,
+    "skills_granted": []
+   },
+   "selected_adjustment": {
+    "choose_stat": [],
+    "choose_skill_and": {
+     "trained": 0,
+     "expert": 0,
+     "expert_full_set": 0,
+     "master": 0,
+     "master_full_set": 0
+    },
+    "choose_skill_or": []
+   },
+   "roll_tables": {
+    "loadout": "Compendium.mr-wages-of-sin.tablas.RollTable.kNZnCi6A1GFlmPuI",
+    "trinket": "",
+    "patch": ""
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clase": "cazarrecompensas"
    }
   },
   "_stats": {

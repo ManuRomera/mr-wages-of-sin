@@ -466,6 +466,10 @@ def parsear_stats(txt):
     r["wounds"], r["health"] = (int(m.group(1)), int(m.group(2))) if m else (None, None)
     m = re.search(r"\bC\s*:\s*\d+\s+([^\[\]:]+?)\s+(\d+d\d+(?:[+-]\d+)?|\d+)\s*DAÑO", txt, re.I)
     r["arma"], r["danio"] = (m.group(1).strip(" .,-"), m.group(2)) if m else (None, None)
+    if not r["arma"]:
+        m = re.search(r"\bC\s*:\s*\d+\s*\(([^)]+)\)", txt)
+        if m:
+            r["arma"] = m.group(1).strip()
     return r
 
 

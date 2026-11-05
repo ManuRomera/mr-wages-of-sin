@@ -102,5 +102,31 @@
    "createdTime": 1762320000000,
    "modifiedTime": 1762320000000
   }
+ },
+ {
+  "_id": "MWNxTfzvXgof5vr9",
+  "name": "Equipo inicial del libro para la ficha seleccionada",
+  "type": "script",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "scope": "global",
+  "command": "game.mrWages.macros.equipoInicial();",
+  "author": "0000000000000000",
+  "folder": null,
+  "sort": 104000,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "equipo-inicial"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
  }
 ]

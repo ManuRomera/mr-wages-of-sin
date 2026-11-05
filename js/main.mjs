@@ -7,6 +7,7 @@ import { registrarAccesibilidad } from "./accesibilidad.mjs";
 import { registrarEventosChat, publicarCartelOrden } from "./chat.mjs";
 import { TerminalRecompensas, cargarIndiceOrdenes, ejecutarMacroGenerarOrden, ejecutarMacroOraculo, ejecutarMacroSoborno } from "./terminal.mjs";
 import { registrarCreditosMR } from "./mr-credits.mjs";
+import { registrarCreador, ejecutarMacroEquipo } from "./creador.mjs";
 
 const t = k => game.i18n.localize(`MRWOS.${k}`);
 
@@ -64,7 +65,7 @@ export async function importarAventura({ confirmar = false } = {}) {
   for (const m of game.macros) if (m.flags?.[MOD]?.clave && !game.users.get(m._source.author)) await m.update({ author: game.user.id });
   await game.settings.set(MOD, "versionImportada", game.modules.get(MOD)?.version || "0.0.0");
   // las macros del paquete a la barra de macros del Guardián, si está libre
-  const mac = ["terminal", "generar-orden", "oraculo-bl", "soborno-odc"].map(c => game.macros.find(m => m.flags?.[MOD]?.clave === c)).filter(Boolean);
+  const mac = ["terminal", "generar-orden", "oraculo-bl", "soborno-odc", "equipo-inicial"].map(c => game.macros.find(m => m.flags?.[MOD]?.clave === c)).filter(Boolean);
   for (const [i, m] of mac.entries()) if (!game.user.hotbar?.[i + 1]) await game.user.assignHotbarMacro(m, i + 1);
   game.scenes.find(s => s.flags?.[MOD]?.clave === "portada")?.activate();
   game.journal.find(j => j.flags?.[MOD]?.clave === "00-empieza-aqui")?.sheet.render(true);
@@ -77,9 +78,10 @@ Hooks.once("init", () => {
   registrarAccesibilidad();
   registrarCreditosMR();
   registrarEventosChat();
+  registrarCreador();
   game.mrWages = {
     abrirTerminal, importarAventura,
-    macros: { abrirTerminal, generarOrden: ejecutarMacroGenerarOrden, oraculoBL: ejecutarMacroOraculo, sobornoODC: ejecutarMacroSoborno },
+    macros: { abrirTerminal, generarOrden: ejecutarMacroGenerarOrden, oraculoBL: ejecutarMacroOraculo, sobornoODC: ejecutarMacroSoborno, equipoInicial: ejecutarMacroEquipo },
   };
 });
 

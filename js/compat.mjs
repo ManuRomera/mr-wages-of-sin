@@ -5,9 +5,20 @@
 
 export const MOD = "mr-wages-of-sin";
 
+/** Modo de mensaje actual: `messageMode` en v14, `rollMode` en v13 (pedir un ajuste que no existe lanza un error). */
+function modoActual() {
+  for (const k of ["messageMode", "rollMode"]) {
+    try {
+      const v = game.settings.get("core", k);
+      if (v) return v;
+    } catch { /* este ajuste no existe en esta versión */ }
+  }
+  return CONST.DICE_ROLL_MODES?.PUBLIC || "public";
+}
+
 /** Aplica el modo de mensaje/tirada actual tanto en v13 como en v14. */
 export function aplicarModoMensaje(datos = {}, modo = null) {
-  const m = modo || game.settings?.get?.("core", "messageMode") || game.settings?.get?.("core", "rollMode") || CONST.DICE_ROLL_MODES?.PUBLIC || "public";
+  const m = modo || modoActual();
   if (typeof ChatMessage.applyMode === "function") return ChatMessage.applyMode(datos, m);
   if (typeof ChatMessage.applyRollMode === "function") return ChatMessage.applyRollMode(datos, m);
   return datos;
