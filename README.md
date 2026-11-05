@@ -46,18 +46,18 @@
 
 ## ⚡ Se instala solo
 
-Activa el módulo en un **mundo nuevo** y, al entrar el Guardián, se importa todo ordenado en una carpeta **Wages of Sin** de cada pestaña:
+Activa el módulo en un **mundo nuevo** y, al entrar el Guardián, te pregunta si quieres **importar todo al mundo** o dejarlo solo en los compendios. Si lo importas, queda ordenado en una carpeta **Wages of Sin** de cada pestaña:
 
 | Pestaña | Qué trae |
 |---|---|
 | **Escenas** | Sector y encargos (portada, mapa de salto, red de órdenes, muelles) · Estaciones (Absalom, Anvollapolis, Balonov, HypeLabs Domia, Utpala) · La ODC: Baclite (plano de mesa, plano del Guardián, celda, Infierno Verde) · Cubiertas de las 3 naves |
-| **Actores** | Los 10 cazarrecompensas rivales · Personal de dirección de la ODC · 27 presos con retrato · 10 criaturas de la fauna de Offit · Las 3 naves |
+| **Actores** | Las fichas de los 100 objetivos · Los 10 cazarrecompensas rivales · Personal de dirección de la ODC · 27 presos con retrato · 10 criaturas de la fauna de Offit · Las 3 naves |
 | **Diarios** | Empieza aquí · Manual y guías (capítulos del libro y estaciones del sector) · Órdenes de busca 01–100 · Cazarrecompensas rivales |
 | **Objetos** | Las 13 armas de prisión con su dibujo del libro |
 | **Tablas** | Las 100 órdenes (1d100) · Incidentes en la entrega · Tipo de cliente · 6 tablas de equipo inicial |
 | **Macros** | Terminal de recompensas · Orden al azar · Oráculo de Nivel de Recompensa · Soborno en la ODC (ya puestas en tu barra) |
 
-Las fichas de los 100 objetivos están en el compendio **Objetivos, cazadores y ODC**. Si ya tienes contenido propio en el mundo no se importa nada solo; puedes hacerlo cuando quieras desde **Configuración → MR- Wages of Sin**. Los personajes de tus jugadores no se tocan al reimportar.
+Todo está también en los compendios del módulo. Si ya tienes contenido propio en el mundo no se pregunta nada; puedes importar cuando quieras desde **Configuración → MR- Wages of Sin**. Los personajes de tus jugadores no se tocan al reimportar.
 
 ---
 

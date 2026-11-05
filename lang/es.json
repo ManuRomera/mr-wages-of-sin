@@ -8,6 +8,11 @@
     "SinPack": "MR- Wages of Sin: no se encuentra el compendio de la aventura.",
     "Terminal": "Abrir la Terminal de recompensas",
     "Actualizar": "Actualizar MR- Wages of Sin",
-    "ActualizarAviso": "Hay una versión nueva de MR- Wages of Sin ({version}). ¿Quieres volver a importar el contenido? Los personajes de los jugadores se respetan."
+    "ActualizarAviso": "Hay una versión nueva de MR- Wages of Sin ({version}). ¿Quieres volver a importar el contenido? Los personajes de los jugadores se respetan.",
+    "BienvenidaTitulo": "MR- Wages of Sin",
+    "BienvenidaTexto": "¿Quieres importar ahora todo al mundo (escenas, actores —incluidas las fichas de los 100 objetivos—, diarios, tablas, objetos y macros, cada cosa en su carpeta «Wages of Sin») o prefieres dejarlo solo en los compendios del módulo? Podrás importarlo cuando quieras desde Configuración.",
+    "ImportarTodo": "Importar todo al mundo",
+    "SoloCompendios": "Solo compendios",
+    "SoloCompendiosAviso": "MR- Wages of Sin: contenido disponible en los compendios. Para importarlo al mundo, usa Configuración → MR- Wages of Sin."
   }
 }

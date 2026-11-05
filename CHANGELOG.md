@@ -1,5 +1,11 @@
 # Cambios
 
+## 1.1.2 (2026-11-05)
+
+- **Elección al principio:** al activar el módulo en un mundo vacío pregunta si importar **todo al mundo** o dejarlo solo en compendios (se puede hacer después desde Configuración).
+- La importación incluye ahora las fichas de los **100 objetivos** (carpeta «Objetivos de las órdenes de busca»).
+- Si ves retratos negros o «Objetivo #01», es la 1.0.0: actualiza el módulo y reimporta desde Configuración.
+
 ## 1.1.1 (2026-11-05)
 
 Revisión completa: el módulo se instala solo, está ordenado y todo sale del libro.

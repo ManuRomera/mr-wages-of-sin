@@ -143,7 +143,22 @@ Hooks.once("ready", async () => {
   const verMod = game.modules.get(MOD)?.version || "0.0.0";
   const verImp = game.settings.get(MOD, "versionImportada") || "0.0.0";
   if (verImp === "0.0.0" && mundoVacio()) {
-    try { await importarAventura(); } catch (e) { console.error(`${MOD} | importación automática fallida`, e); ui.notifications.error(t("ErrorImportar")); }
+    // al principio: ¿todo al mundo o solo compendios?
+    const eleccion = await foundry.applications.api.DialogV2.wait({
+      window: { title: t("BienvenidaTitulo"), icon: "fa-solid fa-crosshairs" },
+      content: `<p>${t("BienvenidaTexto")}</p>`,
+      buttons: [
+        { action: "todo", label: t("ImportarTodo"), icon: "fa-solid fa-file-import", default: true },
+        { action: "compendios", label: t("SoloCompendios"), icon: "fa-solid fa-book" },
+      ],
+      rejectClose: false,
+    });
+    if (eleccion === "todo") {
+      try { await importarAventura(); } catch (e) { console.error(`${MOD} | importación fallida`, e); ui.notifications.error(t("ErrorImportar")); }
+    } else {
+      await game.settings.set(MOD, "versionImportada", verMod);   // no se vuelve a preguntar; queda el botón de Configuración
+      ui.notifications.info(t("SoloCompendiosAviso"));
+    }
   } else if (verImp !== "0.0.0" && foundry.utils.isNewerVersion(verMod, verImp)) {
     const ok = await foundry.applications.api.DialogV2.confirm({
       window: { title: t("Actualizar"), icon: "fa-solid fa-crosshairs" },

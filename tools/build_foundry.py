@@ -417,7 +417,7 @@ def guia_inicio(n_ordenes):
   <li><strong>Tablas, objetos y macros</strong>: incidentes de entrega, equipos iniciales, armas de prisión y la Terminal de recompensas.</li>
 </ul>
 <h3>Compendios</h3>
-<p>Las {n_ordenes} fichas de objetivo están en el compendio <em>Objetivos, cazadores y ODC</em>. Abre la <strong>Terminal de recompensas</strong> desde los controles de escena (icono <i class="fa-solid fa-crosshairs"></i>) o con su macro.</p>
+<p>Las {n_ordenes} fichas de objetivo están en la carpeta <em>Objetivos de las órdenes de busca</em> (y también en el compendio <em>Objetivos, cazadores y ODC</em>). Abre la <strong>Terminal de recompensas</strong> desde los controles de escena (icono <i class="fa-solid fa-crosshairs"></i>) o con su macro.</p>
 <h3>Para el Guardián</h3>
 <p>Las órdenes de busca, el manual y las fichas solo las ve el Guardián. El botón «Mostrar cartel a la mesa» publica en el chat el cartel público de cada orden sin revelar nada secreto.</p>
 """.strip()
@@ -503,6 +503,7 @@ def main():
     ordenes = datos_ordenes()
     carp = {tipo: carpeta(tipo, "raiz", "Wages of Sin") for tipo in ("Scene", "Actor", "JournalEntry", "Item", "RollTable", "Macro")}
     cs = {k: carpeta("Scene", k, n, carp["Scene"]) for k, n in (("sector", "Sector y encargos"), ("estaciones", "Estaciones"), ("odc", "La ODC: Baclite"), ("naves", "Naves"))}
+    c_obj = carpeta("Actor", "objetivos", "Objetivos de las órdenes de busca", carp["Actor"])
     c_caz = carpeta("Actor", "cazadores", "Cazarrecompensas rivales", carp["Actor"])
     c_staff = carpeta("Actor", "personal", "La ODC · Personal", carp["Actor"])
     c_presos = carpeta("Actor", "presos", "La ODC · Presos", carp["Actor"])
@@ -530,8 +531,8 @@ def main():
 
     aventura = [{"_id": fid("adventure:wages-of-sin"), "name": "Wages of Sin · Cazarrecompensas y La ODC: Baclite", "img": ruta("escenas/thumbs/portada.webp"),
                  "caption": "El libro completo en español: escenas, actores, diarios, tablas y macros, cada cosa en su carpeta.",
-                 "description": "<p>Importa las escenas y los mapas, los diez cazarrecompensas rivales, el personal, los presos y la fauna de la ODC, las tres naves, el manual y las 100 órdenes de busca.</p>",
-                 "scenes": escenas, "actors": a_caz + a_odc + naves, "items": equipo, "tables": tablas, "journal": d_man + [d_caz] + d_ord, "macros": macros,
+                 "description": "<p>Importa las escenas y los mapas, las fichas de los 100 objetivos, los diez cazarrecompensas rivales, el personal, los presos y la fauna de la ODC, las tres naves, el manual y las 100 órdenes de busca.</p>",
+                 "scenes": escenas, "actors": [dict(copy.deepcopy(a), folder=c_obj["_id"]) for a in objetivos] + a_caz + a_odc + naves, "items": equipo, "tables": tablas, "journal": d_man + [d_caz] + d_ord, "macros": macros,
                  "folders": CARPETAS, "sort": 100000, "flags": {MOD: {"aventura": "baclite"}}, "_stats": stats_doc()}]
 
     todos_actores = [copy.deepcopy(a) for a in objetivos + a_caz + a_odc]
