@@ -140,7 +140,7 @@ class Catalogo:
             nombre = habil.group(2)
             k = "habilidad-" + clave(nombre)
             rango = {"Maestro": "Master", "Experto": "Expert", "Entrenado": "Trained"}[habil.group(1)]
-            bono = {"Master": 30, "Expert": 20, "Trained": 10}[rango]
+            bono = {"Master": 20, "Expert": 15, "Trained": 10}[rango]
             if k not in self.items:
                 self.items[k] = {"_id": self.fid(f"gear:{k}"), "name": nombre, "type": "skill", "img": self.ruta("iconos/cat-habilidad.webp") if self.existe("iconos/cat-habilidad.webp") else self.ruta("iconos/equipo.webp"),
                                  "system": {"description": f"<p>Habilidad de {habil.group(1).lower()} que da el equipo inicial de Wages of Sin.</p>", "rank": rango, "bonus": bono, "prerequisite_ids": []},

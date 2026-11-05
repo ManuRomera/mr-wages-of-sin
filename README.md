@@ -66,6 +66,7 @@ Todo está también en los compendios del módulo. Si ya tienes contenido propio
 - **Creador de MoSh:** al elegir una clase Marine, Androide, Científico o Transportista, tira el **equipo inicial de este libro** (págs. 318-319) en lugar del genérico; las clases **Preso** y **Cazarrecompensas** traen el suyo. Se puede desactivar en Configuración.
 - **Fichas con su equipo:** cada cazarrecompensas (uno por miembro), preso, criatura y nave lleva sus armas, armaduras, objetos y habilidades como objetos de la ficha, no como texto en la biografía.
 - **Macro «Equipo inicial»:** da a la ficha seleccionada el equipo de una fila del libro (al azar o la que elijas).
+- **Habilidades:** el libro no da habilidades a sus personajes, así que las propone el módulo (marcadas aquí como propuesta): cada cazarrecompensas, personal, preso y objetivo lleva entre 1 y 3 habilidades de Mothership 1e que encajan con su oficio, delito o trabajo en la ODC. Las clases **Preso** y **Cazarrecompensas** traen ajustes, habilidades concedidas y a elegir, como las demás clases del creador.
 - Las cifras son las del libro (PA, RD, cargas, daño). Donde el libro no da el daño de un arma —remite a la Guía de Supervivencia—, el objeto lleva 1d10 por defecto y lo avisa en su descripción.
 
 ---
@@ -89,6 +90,9 @@ Todo el texto sale de la tradumaquetación en español y todo el arte (retratos,
 ---
 
 ## ⚡ Instalar
+
+> [!NOTE]
+> Necesita **MR- Mothership en español** (se instala como dependencia): de él salen las habilidades y las clases.
 
 ### Desde Foundry VTT (recomendado)
 

@@ -4374,7 +4374,7 @@
   "system": {
    "description": "<p>Habilidad de maestro que da el equipo inicial de Wages of Sin.</p>",
    "rank": "Master",
-   "bonus": 30,
+   "bonus": 20,
    "prerequisite_ids": []
   },
   "effects": [],
@@ -5955,9 +5955,9 @@
   "type": "class",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
   "system": {
-   "description": "<p>Clase de campaña para presos de la ODC: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>",
+   "description": "<p><em>Clase de campaña para presos de la ODC.</em></p><p>El libro (pág. 319) da el equipo inicial; los ajustes y las habilidades de esta clase los propone el módulo, con el mismo formato que las clases de Mothership 1e: conocimiento de la calle y aguante físico.</p>",
    "source": "Wages of Sin",
-   "author": "",
+   "author": "MR- Wages of Sin",
    "link": "",
    "trauma_response": "",
    "robotic": false,
@@ -5966,12 +5966,15 @@
     "strength": 0,
     "speed": 0,
     "intellect": 0,
-    "combat": 0,
+    "combat": 5,
     "sanity": 0,
-    "fear": 0,
-    "body": 0,
+    "fear": 5,
+    "body": 10,
     "max_wounds": 0,
-    "skills_granted": []
+    "skills_granted": [
+     "Compendium.mr-mothership-es.habilidades.Item.Cy0kXrqAxV8ujK96",
+     "Compendium.mr-mothership-es.habilidades.Item.1mD2qDVWjnYJsRAp"
+    ]
    },
    "selected_adjustment": {
     "choose_stat": [],
@@ -5982,7 +5985,28 @@
      "master": 0,
      "master_full_set": 0
     },
-    "choose_skill_or": []
+    "choose_skill_or": [
+     [
+      {
+       "trained": 0,
+       "expert": 1,
+       "expert_full_set": 0,
+       "master": 0,
+       "master_full_set": 0,
+       "name": "1 habilidad experta",
+       "from_list": []
+      },
+      {
+       "trained": 2,
+       "expert": 0,
+       "expert_full_set": 0,
+       "master": 0,
+       "master_full_set": 0,
+       "name": "2 habilidades entrenadas",
+       "from_list": []
+      }
+     ]
+    ]
    },
    "roll_tables": {
     "loadout": "Compendium.mr-wages-of-sin.tablas.RollTable.lqkcqSVrO6cCP8Il",
@@ -6014,23 +6038,26 @@
   "type": "class",
   "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
   "system": {
-   "description": "<p>Clase de campaña para cazarrecompensas: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>",
+   "description": "<p><em>Clase de campaña para cazarrecompensas.</em></p><p>El libro (pág. 319) da el equipo inicial; los ajustes y las habilidades de esta clase los propone el módulo, con el mismo formato que las clases de Mothership 1e: formación militar y rastreo con terminales.</p>",
    "source": "Wages of Sin",
-   "author": "",
+   "author": "MR- Wages of Sin",
    "link": "",
    "trauma_response": "",
    "robotic": false,
    "common_skills": [],
    "base_adjustment": {
     "strength": 0,
-    "speed": 0,
-    "intellect": 0,
-    "combat": 0,
+    "speed": 5,
+    "intellect": 5,
+    "combat": 5,
     "sanity": 0,
     "fear": 0,
     "body": 0,
     "max_wounds": 0,
-    "skills_granted": []
+    "skills_granted": [
+     "Compendium.mr-mothership-es.habilidades.Item.jJdeF2OHerjs9BH1",
+     "Compendium.mr-mothership-es.habilidades.Item.MTX5YUkOjgi9WIN4"
+    ]
    },
    "selected_adjustment": {
     "choose_stat": [],
@@ -6041,7 +6068,28 @@
      "master": 0,
      "master_full_set": 0
     },
-    "choose_skill_or": []
+    "choose_skill_or": [
+     [
+      {
+       "trained": 0,
+       "expert": 1,
+       "expert_full_set": 0,
+       "master": 0,
+       "master_full_set": 0,
+       "name": "1 habilidad experta",
+       "from_list": []
+      },
+      {
+       "trained": 2,
+       "expert": 0,
+       "expert_full_set": 0,
+       "master": 0,
+       "master_full_set": 0,
+       "name": "2 habilidades entrenadas",
+       "from_list": []
+      }
+     ]
+    ]
    },
    "roll_tables": {
     "loadout": "Compendium.mr-wages-of-sin.tablas.RollTable.kNZnCi6A1GFlmPuI",

@@ -73,6 +73,67 @@ def slug(t):
     return t.strip("-")
 
 
+HAB_ES = Path("/Volumes/Datos_Dock/FoundryVTT/Data/modules/mr-mothership-es/_data/habilidades.json")
+_HAB = {}
+
+
+def _cargar_habilidades():
+    """Las habilidades de Mothership 1e en español (módulo MR- Mothership en español): nombre → objetos por rango."""
+    if _HAB:
+        return
+    for d in json.load(open(HAB_ES)):
+        if d.get("type") == "skill" and d["system"].get("bonus"):
+            _HAB.setdefault(d["name"].lower(), []).append(d)
+
+
+def habilidad(actor_id, nombre, rango=None):
+    """Copia de una habilidad del compendio de MR- Mothership en español para una ficha."""
+    _cargar_habilidades()
+    cands = _HAB[nombre.lower()]
+    orden = {"Trained": 0, "Expert": 1, "Master": 2}
+    d = next((c for c in cands if c["system"]["rank"] == rango), None) if rango else sorted(cands, key=lambda c: orden[c["system"]["rank"]])[0]
+    return {"_id": fid(f"{actor_id}:sk:{d['_id']}"), "name": d["name"], "type": "skill", "img": d["img"],
+            "system": {"description": d["system"].get("description", ""), "rank": d["system"]["rank"], "bonus": d["system"]["bonus"], "prerequisite_ids": d["system"].get("prerequisite_ids", [])},
+            "effects": [], "flags": {"core": {"sourceId": f"Compendium.mr-mothership-es.habilidades.Item.{d['_id']}"}}, "folder": None, "_stats": stats_doc()}
+
+
+def uuid_habilidad(nombre, rango=None):
+    _cargar_habilidades()
+    cands = _HAB[nombre.lower()]
+    orden = {"Trained": 0, "Expert": 1, "Master": 2}
+    d = next((c for c in cands if c["system"]["rank"] == rango), None) if rango else sorted(cands, key=lambda c: orden[c["system"]["rank"]])[0]
+    return f"Compendium.mr-mothership-es.habilidades.Item.{d['_id']}"
+
+
+# Habilidades que el libro NO da y propone el módulo, por palabras del texto de cada ficha (máx. 3, siempre al menos una)
+TRABAJOS = [(r"tala|aserradero|desramado|desbroce|arrastre|desembosque|desmonte|amputaci", ["Equipo industrial"]), (r"cocina", ["Química"]), (r"taller", ["Reparación"]),
+            (r"enfermer", ["Medicina de campo"])]
+OFICIOS = [(r"hacker|hackeo|informátic|intrusi|ciber|piratería informática|equipos de hackeo|caja negra", ["Hackeo", "Computadoras"]),
+           (r"zoólog|animal|criatura|bestia", ["Zoología"]), (r"artificiero|explosiv|bomba", ["Explosivos", "Química"]),
+           (r"general|soldado|militar|mercenari|tropas|veterano|ejército|desert|reclutamiento|guerra|tte\.|teniente|capitán|sargento|coronel|comandante|oficial|marine", ["Entrenamiento militar", "Armas de fuego"]),
+           (r"médic|cirujan|doctor|enfermer|medicina", ["Medicina de campo"]), (r"científic|investigador|biólog|químic|laboratorio", ["Química", "Matemáticas"]),
+           (r"piloto|capitán|nave|atraque|transportista|secuestro de nave", ["Pilotar"]), (r"pirata|piratería|contraband|ladrón|bandido|hurto|robo|saqueo|receptaci|allanamiento|extorsi|chantaje",
+            ["Conocimientos del Borde Exterior"]), (r"asesin|sicari|agresi|terroris|amenaza|violen|armas", ["Combate cuerpo a cuerpo"]),
+           (r"fraude|falsific|corrupci|despilfarro|blanqueo|evasi|empleo fraudulento|manipulaci|alteraci|revelaci|información protegida|pirata de|distribuci", ["Computadoras"]),
+           (r"droga|farmac|químic", ["Química"]), (r"ingenier|mecánic|reparaci|maquinaria", ["Reparación", "Mecánica"]), (r"ejecutiv|corporativ|directiv|empresa|compañía", ["Lingüística", "Computadoras"]),
+           (r"artist|pintor|músic|actor|actriz|influencer|streamer", ["Arte"]), (r"sacerdot|teólog|secta|culto|profeta|religi", ["Teología"]), (r"mensajer|correo|corredor|atleta", ["Atletismo"]),
+           (r"profesor|decano|académic|escritor|periodista|lingü", ["Lingüística"])]
+FUERA = {"Mecánica": "Expert", "Hackeo": "Expert", "Explosivos": "Expert", "Pilotar": "Expert", "Armas de fuego": "Expert", "Combate cuerpo a cuerpo": "Expert", "Medicina de campo": "Expert"}
+
+
+def habilidades_de(texto_ficha, trabajos=False):
+    """Hasta 3 habilidades que encajan con el texto (oficio, delito o trabajo de la ODC). Si nada encaja, Atletismo."""
+    t = texto_ficha.lower()
+    out = []
+    for lista in ((TRABAJOS, OFICIOS) if trabajos else (OFICIOS,)):
+        for patron, nombres in lista:
+            if re.search(patron, t):
+                for n in nombres:
+                    if n not in out:
+                        out.append(n)
+    return (out or ["Atletismo"])[:3]
+
+
 CAT = eq.Catalogo(fid, stats_doc, ruta, existe)
 PRISION_DOCS = {}      # icono → objeto de arma de prisión (se rellena en construir_equipo)
 
@@ -206,7 +267,7 @@ def construir_diarios_ordenes(ordenes, carp):
 
 
 # ───────────────────────── actores ─────────────────────────
-def crear_actor(actor_id, nombre, img, token, figura, st, bio, flags=None, arma=None, carp=None, equipo=None):
+def crear_actor(actor_id, nombre, img, token, figura, st, bio, flags=None, arma=None, carp=None, equipo=None, habilidades=None):
     """Criatura de mosh con SOLO las cifras que da el libro (las que faltan quedan en un valor corriente)."""
     cb = st.get("combat") if st.get("combat") is not None else 30
     ins = st.get("instinct") if st.get("instinct") is not None else 30
@@ -219,7 +280,7 @@ def crear_actor(actor_id, nombre, img, token, figura, st, bio, flags=None, arma=
              "armor": {"value": st.get("armor") or 0, "mod": 0, "min": 0, "max": 99, "damageReduction": st.get("dr") or 0, "label": "Armadura", "enabled": bool(st.get("armor"))},
              "loyalty": {"value": st.get("loyalty") if st.get("loyalty") is not None else 30, "min": 0, "max": 99, "label": "Lealtad", "enabled": st.get("loyalty") is not None},
          }}
-    items = [embeber(actor_id, c) for c in (equipo or [])]
+    items = [embeber(actor_id, c) for c in (equipo or [])] + [habilidad(actor_id, n, FUERA.get(n) if n in FUERA else None) for n in (habilidades or [])]
     if arma and arma[0] and arma[1]:      # ataque con su daño, tal como lo escribe la línea de estadísticas
         items.append({"_id": fid(f"item:arma:{actor_id}"), "name": arma[0], "type": "weapon", "img": CAT._img("arma:arma-fuego") if False else ruta("iconos/cat-arma-fuego.webp") if existe("iconos/cat-arma-fuego.webp") else ruta("iconos/equipo.webp"),
                       "system": {"description": f"<p>Ataque de {esc(nombre)} (del libro).</p>", "damage": arma[1], "shots": 1, "curShots": 1, "useAmmo": False, "ranges": {"value": ""}},
@@ -256,7 +317,7 @@ def actores_objetivo(ordenes):
         bio = f"<p><strong>Orden {o['num']:02d} · BL:{o['bl']} · {esc(o['seBusca'])}</strong>{pago}{entrega}</p>{anuncio}{aviso}{lista}<p>{_uuid_orden(o)}</p>"
         out.append(crear_actor(o["actorId"], f"{o['num']:02d} · {o['titulo']}", o["img"], o["token"], None, st, bio,
                                {"categoria": "objetivo", "orden": o["num"], "bl": o["bl"], "seBusca": o["seBusca"], "pago": o["pago"]},
-                               arma=(st.get("arma"), st.get("danio"))))
+                               arma=(st.get("arma"), st.get("danio")), habilidades=habilidades_de(" ".join([o["titulo"], o["delito"], o["informe"][:250]]))))
     return out
 
 
@@ -275,6 +336,18 @@ def _habilidad(actor_id, texto_ln):
     nombre = m.group(1).strip()
     return {"_id": fid(f"{actor_id}:hab:{eq.clave(nombre)}"), "name": nombre, "type": "ability", "img": ruta("iconos/cat-habilidad.webp") if existe("iconos/cat-habilidad.webp") else ruta("iconos/equipo.webp"),
             "system": {"description": f"<p>{esc(m.group(2))}</p>", "text": m.group(2).strip(), "roll": ""}, "effects": [], "flags": {}, "folder": None, "_stats": stats_doc()}
+
+
+HAB_CAZADORES = {   # (equipo, miembro) → habilidades que propone el módulo (el libro no da ninguna)
+    (1, 0): ["Entrenamiento militar", "Combate cuerpo a cuerpo", "Armas de fuego"],
+    (2, 0): ["Hackeo", "Computadoras"], (2, 1): ["Hackeo", "Computadoras"], (2, 2): ["Hackeo", "Computadoras", "Armas de fuego"], (2, 3): ["Hackeo", "Computadoras"],
+    (3, 0): ["Entrenamiento militar", "Armas de fuego"], (3, 1): ["Entrenamiento militar", "Armas de fuego", "Combate cuerpo a cuerpo"], (3, 2): ["Entrenamiento militar", "Armas de fuego"],
+    (4, 0): ["Gravedad cero", "Reparación", "Armas de fuego"], (5, 0): ["Computadoras", "Lingüística"], (6, 0): ["Combate cuerpo a cuerpo", "Atletismo", "Cibernética"],
+    (7, 0): ["Psicología", "Lingüística"], (8, 0): ["Combate cuerpo a cuerpo", "Atletismo"], (9, 0): ["Entrenamiento militar", "Armas de fuego", "Combate cuerpo a cuerpo"],
+    (10, 0): ["Zoología", "Supervivencia"],
+}
+HAB_PERSONAL = {"stephen-bognar": ["Lingüística", "Computadoras"], "christof-bognar": ["Lingüística", "Computadoras"], "kyou-aoki": ["Entrenamiento militar", "Combate cuerpo a cuerpo"],
+                "rani-kartall": ["Equipo industrial", "Reparación", "Mecánica"], "asad-sivert": ["Medicina de campo", "Química", "Entrenamiento militar"]}
 
 
 def actores_cazadores(cs, carp):
@@ -300,7 +373,8 @@ def actores_cazadores(cs, carp):
                    + f"<p>@UUID[Compendium.{MOD}.manual.JournalEntry.{fid('manual:03-cazarrecompensas-rivales')}.JournalEntryPage.{fid(f'cazador:pag:{n}')}]{{Ficha completa del libro}}</p>")
             a = crear_actor(aid, f"{n:02d} · {nombre}" + ("" if uno else f" ({c['titulo']})"), ruta(f"cazadores/cazador-{n:02d}.webp"),
                             ruta(f"tokens/cazador-{n:02d}.webp"), ruta(f"figuras/cazador-{n:02d}.webp"), st, bio,
-                            {"categoria": "cazarrecompensas", "num": n, "bls": c["bls"], "equipo": uno or mi == 0}, arma=(st.get("arma"), st.get("danio")), carp=carp, equipo=gear)
+                            {"categoria": "cazarrecompensas", "num": n, "bls": c["bls"], "equipo": uno or mi == 0}, arma=(st.get("arma"), st.get("danio")), carp=carp, equipo=gear,
+                            habilidades=HAB_CAZADORES.get((n, mi), ["Atletismo"]))
             a["items"] += habs
             out.append(a)
     return out
@@ -325,7 +399,7 @@ def actores_odc(carp_staff, carp_presos, carp_fauna):
         st = p["stats"]
         bio = f"<p>{p['html']}</p><p><em>Retrato generado para el módulo: el libro no ilustra al personal de dirección.</em></p>"
         out.append(crear_actor(fid(f"actor:odc:{k}"), p["nombre"], ruta(f"odc/{k}.webp"), ruta(f"tokens/{k}.webp"), None, st, bio,
-                               {"categoria": "odc-personal", "soborno": st.get("bribe")}, carp=carp_staff))
+                               {"categoria": "odc-personal", "soborno": st.get("bribe")}, carp=carp_staff, habilidades=HAB_PERSONAL.get(k, ["Atletismo"])))
     for p in texto.presos():
         n = p["num"]
         if existe(f"tokens/preso-{n}.webp"):
@@ -336,7 +410,8 @@ def actores_odc(carp_staff, carp_presos, carp_fauna):
             continue
         st = p["stats"]
         out.append(crear_actor(fid(f"actor:preso:{n}"), f"#{n} {p['nombre']}", img, tok, None, st,
-                               "".join(f"<p>{h}</p>" for h in p["html"]), {"categoria": "odc-preso", "preso": n}, arma=(st.get("arma"), st.get("danio")), carp=carp_presos))
+                               "".join(f"<p>{h}</p>" for h in p["html"]), {"categoria": "odc-preso", "preso": n}, arma=(st.get("arma"), st.get("danio")), carp=carp_presos,
+                               habilidades=habilidades_de(p["txt"], trabajos=True)))
     claves = {1: "fauna-larva", 2: "fauna-chupaarboles", 3: "fauna-pseudohiena", 4: "fauna-basilisco", 5: "fauna-hiperalgas",
               6: "fauna-simios", 7: "fauna-lagarto-jirafa", 8: "fauna-dragon", 9: "fauna-sirena", 10: "fauna-vandalos"}
     for fa in texto.fauna():
@@ -440,11 +515,16 @@ def items_catalogo(carp):
     return sorted(out, key=lambda x: (x["type"], x["name"]))
 
 
-def clase_item(clave, nombre, tabla_id, desc):
+def clase_item(clave, nombre, tabla_id, desc, ajuste, concedidas, elegir):
+    """Clase de campaña en el formato de MoSh (como las de MR- Mothership en español): ajustes, habilidades concedidas y a elegir."""
+    base = {"strength": 0, "speed": 0, "intellect": 0, "combat": 0, "sanity": 0, "fear": 0, "body": 0, "max_wounds": 0}
+    base.update(ajuste)
+    base["skills_granted"] = [uuid_habilidad(n) for n in concedidas]
     return {"_id": fid(f"clase:{clave}"), "name": nombre, "type": "class", "img": ruta("iconos/equipo.webp"),
-            "system": {"description": desc, "source": "Wages of Sin", "author": "", "link": "", "trauma_response": "", "robotic": False, "common_skills": [],
-                       "base_adjustment": {"strength": 0, "speed": 0, "intellect": 0, "combat": 0, "sanity": 0, "fear": 0, "body": 0, "max_wounds": 0, "skills_granted": []},
-                       "selected_adjustment": {"choose_stat": [], "choose_skill_and": {"trained": 0, "expert": 0, "expert_full_set": 0, "master": 0, "master_full_set": 0}, "choose_skill_or": []},
+            "system": {"description": desc, "source": "Wages of Sin", "author": "MR- Wages of Sin", "link": "", "trauma_response": "", "robotic": False, "common_skills": [],
+                       "base_adjustment": base,
+                       "selected_adjustment": {"choose_stat": [], "choose_skill_and": {"trained": 0, "expert": 0, "expert_full_set": 0, "master": 0, "master_full_set": 0},
+                                               "choose_skill_or": [[dict(o, name=n, from_list=[]) for n, o in elegir]]},
                        "roll_tables": {"loadout": f"Compendium.{MOD}.tablas.RollTable.{tabla_id}", "trinket": "", "patch": ""}},
             "effects": [], "folder": None, "ownership": {"default": 0}, "flags": {MOD: {"clase": clave}}, "_stats": stats_doc()}
 
@@ -634,8 +714,14 @@ def main():
     macros = macros_docs(carp["Macro"])
     c_clases = carpeta("Item", "clases", "Clases (equipo de Wages of Sin)", carp["Item"])
     tid = lambda c: fid(f"tabla:equipo-{c}")
-    clases = [clase_item("preso", "Preso (Wages of Sin)", tid("presos"), "<p>Clase de campaña para presos de la ODC: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>"),
-              clase_item("cazarrecompensas", "Cazarrecompensas (Wages of Sin)", tid("cazarrecompensas"), "<p>Clase de campaña para cazarrecompensas: solo aporta el equipo inicial del libro (pág. 319); los atributos y habilidades se eligen aparte.</p>")]
+    elegir = [("1 habilidad experta", {"trained": 0, "expert": 1, "expert_full_set": 0, "master": 0, "master_full_set": 0}),
+              ("2 habilidades entrenadas", {"trained": 2, "expert": 0, "expert_full_set": 0, "master": 0, "master_full_set": 0})]
+    clases = [clase_item("preso", "Preso (Wages of Sin)", tid("presos"),
+                         "<p><em>Clase de campaña para presos de la ODC.</em></p><p>El libro (pág. 319) da el equipo inicial; los ajustes y las habilidades de esta clase los propone el módulo, con el mismo formato que las clases de Mothership 1e: conocimiento de la calle y aguante físico.</p>",
+                         {"combat": 5, "body": 10, "fear": 5}, ["Atletismo", "Conocimientos del Borde Exterior"], elegir),
+              clase_item("cazarrecompensas", "Cazarrecompensas (Wages of Sin)", tid("cazarrecompensas"),
+                         "<p><em>Clase de campaña para cazarrecompensas.</em></p><p>El libro (pág. 319) da el equipo inicial; los ajustes y las habilidades de esta clase los propone el módulo, con el mismo formato que las clases de Mothership 1e: formación militar y rastreo con terminales.</p>",
+                         {"combat": 5, "intellect": 5, "speed": 5}, ["Entrenamiento militar", "Computadoras"], elegir)]
     for cl in clases:
         cl["folder"] = c_clases["_id"]
     equipo = equipo + items_catalogo(c_armas) + clases

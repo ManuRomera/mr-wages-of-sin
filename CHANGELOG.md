@@ -1,5 +1,11 @@
 # Cambios
 
+## 1.1.4 (2026-11-05)
+
+- **Habilidades en las fichas:** cazarrecompensas, personal de la ODC, presos y objetivos llevan ahora habilidades de Mothership 1e como objetos de la ficha (el libro no las da: las propone el módulo según oficio, delito o trabajo).
+- **Clases Preso y Cazarrecompensas completas:** ajustes de atributos, habilidades concedidas y a elegir (1 experta o 2 entrenadas), como las clases estándar; el creador de MoSh las ofrece y aplica.
+- Ahora requiere **MR- Mothership en español** (de él salen las habilidades y clases). La habilidad «Artes marciales» del equipo inicial usa los bonos de 1e (+20 maestro).
+
 ## 1.1.3 (2026-11-05)
 
 - **Macros arregladas:** fallaban en Foundry 13 al publicar en el chat (pedían un ajuste que solo existe en la 14). Ahora funcionan en 13 y 14.
