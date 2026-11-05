@@ -1,0 +1,158 @@
+{
+  "id": "mr-wages-of-sin",
+  "title": "MR- Wages of Sin: Kit de Cazarrecompensas y La Luna Carcelaria",
+  "description": "Contenido completo en español de Wages of Sin (MRPG-M6) para Mothership 1e en Foundry VTT v13/v14: las 100 Órdenes de Busca con carteles para jugadores, retratos e informes del Guardián; generador procedural de recompensas, delitos y complicaciones; reglas de rastreo, delitos de jugadores, juicios y los 10 Cazarrecompensas rivales; el módulo completo «La ODC: Baclite» (La Luna Carcelaria y el Infierno Verde) con bandas, más de 80 presos (#YYXX), los 50 miembros del personal (S YY/XX), fauna de Offit, armas de prisión, las 3 naves nuevas (MPT «Bus», Hunter-Seeker y Veil of Night) con sus planos de cubierta, 60 equipos iniciales, Terminal interactiva de Recompensas y paquete para MR- Dirección.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manu Romera",
+      "url": "https://github.com/ManuRomera"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mosh",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.1"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "mr-mothership-es",
+        "type": "module",
+        "manifest": "https://github.com/ManuRomera/mr-mothership-es/releases/latest/download/module.json",
+        "reason": "Traducción completa del sistema mosh, modo oscuro y accesibilidad compartidos."
+      },
+      {
+        "id": "mr-kit-desguazador",
+        "type": "module",
+        "manifest": "https://github.com/ManuRomera/mr-kit-desguazador/releases/latest/download/module.json",
+        "reason": "Ficha de nave y combate naval para las 3 naves de Wages of Sin (MPT «Bus», Hunter-Seeker y Veil of Night)."
+      },
+      {
+        "id": "mr-direccion",
+        "type": "module",
+        "manifest": "https://github.com/ManuRomera/mr-direccion/releases/latest/download/module.json",
+        "reason": "Barra del Guardián, lecturas en voz alta, relojes y figuras de cuerpo entero a escala en las escenas de Baclite y del sector."
+      }
+    ]
+  },
+  "esmodules": [
+    "js/main.mjs"
+  ],
+  "styles": [
+    "styles/wages.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/ManuRomera/mr-wages-of-sin",
+  "manifest": "https://github.com/ManuRomera/mr-wages-of-sin/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mr-wages-of-sin/releases/latest/download/module.zip",
+  "bugs": "https://github.com/ManuRomera/mr-wages-of-sin/issues",
+  "readme": "https://github.com/ManuRomera/mr-wages-of-sin#readme",
+  "changelog": "https://github.com/ManuRomera/mr-wages-of-sin/blob/main/CHANGELOG.md",
+  "license": "MIT",
+  "packs": [
+    {
+      "name": "aventura-baclite",
+      "label": "Wages of Sin — La ODC: Baclite y Sector (ES)",
+      "path": "packs/aventura-baclite",
+      "type": "Adventure",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ordenes",
+      "label": "Wages of Sin — Las 100 Órdenes de Busca (ES)",
+      "path": "packs/ordenes",
+      "type": "JournalEntry",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "manual",
+      "label": "Wages of Sin — Manual y Guía de la ODC (ES)",
+      "path": "packs/manual",
+      "type": "JournalEntry",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "objetivos",
+      "label": "Wages of Sin — Objetivos, Cazadores y ODC (ES)",
+      "path": "packs/objetivos",
+      "type": "Actor",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "naves",
+      "label": "Wages of Sin — Naves (MPT Bus, Hunter-Seeker, Veil of Night)",
+      "path": "packs/naves",
+      "type": "Actor",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipo",
+      "label": "Wages of Sin — Armas de Prisión y Equipos (ES)",
+      "path": "packs/equipo",
+      "type": "Item",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tablas",
+      "label": "Wages of Sin — Tablas y Generadores (ES)",
+      "path": "packs/tablas",
+      "type": "RollTable",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Wages of Sin — Macros (ES)",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}

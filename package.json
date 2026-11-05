@@ -1,0 +1,19 @@
+{
+  "name": "mr-wages-of-sin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MR- Wages of Sin: Kit de Cazarrecompensas y La Luna Carcelaria Baclite para Mothership 1e en Foundry VTT v13/v14",
+  "scripts": {
+    "datos": "python3 tools/build_foundry.py",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/reglas.test.mjs",
+    "check": "node --test tests/reglas.test.mjs && node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "archiver": "7.0.1",
+    "classic-level": "2.0.0"
+  },
+  "author": "Manu Romera",
+  "license": "MIT"
+}

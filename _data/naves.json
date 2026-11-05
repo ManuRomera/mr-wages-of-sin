@@ -1,0 +1,664 @@
+[
+ {
+  "_id": "pW2o4UbRTn3HNGZ1",
+  "name": "MPT «Bus» (Transporte Masivo de Presos)",
+  "type": "ship",
+  "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+  "system": {
+   "biography": "<p><strong>Modelo:</strong> Valecore MPT-SC J2C-II · <strong>Eslora:</strong> 120 m × 17 m · <strong>Coste:</strong> 200MCR</p><p>El Transporte Masivo de Personal (MPT «Bus») de Valecore traslada hasta 132 prisioneros hacinados hacia la Luna Carcelaria ODC en Baclite. Cuenta con pasarela superior de vigilancia armada para los guardias sobre el bloque de celdas.</p>",
+   "description": "El Transporte Masivo de Personal (MPT «Bus») de Valecore traslada hasta 132 prisioneros hacinados hacia la Luna Carcelaria ODC en Baclite. Cuenta con pasarela superior de vigilancia armada para los guardias sobre el bloque de celdas.",
+   "type": "Transporte penitenciario",
+   "class": "Clase 2 · Salto-2",
+   "images": {
+    "layout": "modules/mr-wages-of-sin/assets/planos/mpt-bus.webp",
+    "beauty": "modules/mr-wages-of-sin/assets/planos/mpt-bus.webp"
+   },
+   "runSetup": false,
+   "stats": {
+    "thrusters": {
+     "value": 15,
+     "min": 0,
+     "max": 99,
+     "label": "Propulsores"
+    },
+    "battle": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Batalla"
+    },
+    "systems": {
+     "value": 18,
+     "min": 0,
+     "max": 99,
+     "label": "Sistemas"
+    },
+    "bankruptcy": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Quiebra"
+    },
+    "armor": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Armadura"
+    },
+    "combat": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Combate"
+    },
+    "intellect": {
+     "value": 18,
+     "min": 0,
+     "max": 99,
+     "label": "Intelecto"
+    },
+    "speed": {
+     "value": 15,
+     "min": 0,
+     "max": 99,
+     "label": "Velocidad"
+    }
+   },
+   "supplies": {
+    "hull": {
+     "value": 1,
+     "max": 1
+    },
+    "fuel": {
+     "value": 12,
+     "max": 12
+    },
+    "crew": {
+     "value": 12,
+     "max": 12
+    },
+    "cryopods": {
+     "value": 24
+    },
+    "escape-pods": {
+     "value": 4
+    },
+    "upgrades": {
+     "value": 2,
+     "max": 2
+    }
+   },
+   "weapon-stats": {
+    "weapons": {
+     "value": 0,
+     "max": 1
+    },
+    "hardpoints": {
+     "value": 0,
+     "max": 1
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "MPT «Bus» (Transporte Masivo de Presos)",
+   "displayName": 20,
+   "actorLink": true,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
+   }
+  },
+  "items": [
+   {
+    "_id": "ncgVmFdXgeCv5Ru0",
+    "name": "Hangar (×1 Lanzadera)",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Desembarco de presos (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Desembarco de presos",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "QPxnL3KUt7wERQaE",
+    "name": "Enfermería penitenciaria",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Atención médica básica (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Atención médica básica",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "fe3WPfQr6MkV5GI0",
+    "name": "Bloque de 132 celdas de contención",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Transporte de 132 reclusos (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Transporte de 132 reclusos",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "nave": "mpt-bus",
+    "plano": "modules/mr-wages-of-sin/assets/planos/mpt-bus.webp"
+   },
+   "mr-kit-desguazador": {
+    "aplicado": true,
+    "nave": "mpt-bus",
+    "modelo": "Valecore MPT-SC J2C-II",
+    "clase": 2,
+    "salto": 2,
+    "coste": "200MCR",
+    "cascoBase": 0,
+    "mdmgBase": "1",
+    "mdmgTotal": "0*",
+    "eslora": "120 m × 17 m"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "qeGRYpjVf4Y54aL5",
+  "name": "Hunter-Seeker (Caza de Recompensas)",
+  "type": "ship",
+  "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+  "system": {
+   "biography": "<p><strong>Modelo:</strong> Gauss CR-Medusa J1C-II · <strong>Eslora:</strong> 113 m · <strong>Coste:</strong> 700MCR</p><p>Diseñada por Gauss para sindicatos de cazarrecompensas de élite, la CR-Medusa «Hunter-Seeker» combina reducción de firma, sensores de largo alcance, cañones automáticos gemelos y capacidad para 30 prisioneros.</p>",
+   "description": "Diseñada por Gauss para sindicatos de cazarrecompensas de élite, la CR-Medusa «Hunter-Seeker» combina reducción de firma, sensores de largo alcance, cañones automáticos gemelos y capacidad para 30 prisioneros.",
+   "type": "Caza interceptor de cazarrecompensas",
+   "class": "Clase 2 · Salto-1",
+   "images": {
+    "layout": "modules/mr-wages-of-sin/assets/planos/hunter-seeker.webp",
+    "beauty": "modules/mr-wages-of-sin/assets/planos/hunter-seeker.webp"
+   },
+   "runSetup": false,
+   "stats": {
+    "thrusters": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Propulsores"
+    },
+    "battle": {
+     "value": 29,
+     "min": 0,
+     "max": 99,
+     "label": "Batalla"
+    },
+    "systems": {
+     "value": 35,
+     "min": 0,
+     "max": 99,
+     "label": "Sistemas"
+    },
+    "bankruptcy": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Quiebra"
+    },
+    "armor": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Armadura"
+    },
+    "combat": {
+     "value": 29,
+     "min": 0,
+     "max": 99,
+     "label": "Combate"
+    },
+    "intellect": {
+     "value": 35,
+     "min": 0,
+     "max": 99,
+     "label": "Intelecto"
+    },
+    "speed": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Velocidad"
+    }
+   },
+   "supplies": {
+    "hull": {
+     "value": 1,
+     "max": 1
+    },
+    "fuel": {
+     "value": 5,
+     "max": 5
+    },
+    "crew": {
+     "value": 8,
+     "max": 8
+    },
+    "cryopods": {
+     "value": 12
+    },
+    "escape-pods": {
+     "value": 1
+    },
+    "upgrades": {
+     "value": 3,
+     "max": 5
+    }
+   },
+   "weapon-stats": {
+    "weapons": {
+     "value": 1,
+     "max": 4
+    },
+    "hardpoints": {
+     "value": 2,
+     "max": 4
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Hunter-Seeker (Caza de Recompensas)",
+   "displayName": 20,
+   "actorLink": true,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
+   }
+  },
+  "items": [
+   {
+    "_id": "mAvnjto88KHJjp0V",
+    "name": "Cañón automático doble",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>1d5+2 MDMG</p>",
+     "damage": "1d5+2 MDMG",
+     "shots": 4,
+     "curShots": 4
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "sJc5N7BEPWOFAbzz",
+    "name": "Lancha de abordaje (×1)",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Abordaje táctico (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Abordaje táctico",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "fh7Krl8jE6vhNH5l",
+    "name": "Reducción de firma de sensores",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Rastreo sigiloso (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Rastreo sigiloso",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "h6uBdwxni8SwlPFr",
+    "name": "30 celdas de detención criogénica",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Custodia de objetivos vivos (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Custodia de objetivos vivos",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "nave": "hunter-seeker",
+    "plano": "modules/mr-wages-of-sin/assets/planos/hunter-seeker.webp"
+   },
+   "mr-kit-desguazador": {
+    "aplicado": true,
+    "nave": "hunter-seeker",
+    "modelo": "Gauss CR-Medusa J1C-II",
+    "clase": 2,
+    "salto": 1,
+    "coste": "700MCR",
+    "cascoBase": 0,
+    "mdmgBase": "1d5",
+    "mdmgTotal": "1d5+2",
+    "eslora": "113 m"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "vBpkJXiJ1jPADx34",
+  "name": "Veil of Night (Crucero de Utpala)",
+  "type": "ship",
+  "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+  "system": {
+   "biography": "<p><strong>Modelo:</strong> Utpala Shipyards Magnum Opus J3C-VI · <strong>Eslora:</strong> 400 m · <strong>Coste:</strong> Incalculable</p><p>Obra maestra de los astilleros de Utpala (400 m de eslora, Salto-3, Casco 2). Fortaleza volante custodiada por la Élite de Utpala con escopetas de combate y cortadoras láser.</p>",
+   "description": "Obra maestra de los astilleros de Utpala (400 m de eslora, Salto-3, Casco 2). Fortaleza volante custodiada por la Élite de Utpala con escopetas de combate y cortadoras láser.",
+   "type": "Crucero acorazado de alta seguridad",
+   "class": "Clase 6 · Salto-3",
+   "images": {
+    "layout": "modules/mr-wages-of-sin/assets/planos/veil-of-night.webp",
+    "beauty": "modules/mr-wages-of-sin/assets/planos/veil-of-night.webp"
+   },
+   "runSetup": false,
+   "stats": {
+    "thrusters": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Propulsores"
+    },
+    "battle": {
+     "value": 65,
+     "min": 0,
+     "max": 99,
+     "label": "Batalla"
+    },
+    "systems": {
+     "value": 40,
+     "min": 0,
+     "max": 99,
+     "label": "Sistemas"
+    },
+    "bankruptcy": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Quiebra"
+    },
+    "armor": {
+     "value": 20,
+     "min": 0,
+     "max": 99,
+     "label": "Armadura"
+    },
+    "combat": {
+     "value": 65,
+     "min": 0,
+     "max": 99,
+     "label": "Combate"
+    },
+    "intellect": {
+     "value": 40,
+     "min": 0,
+     "max": 99,
+     "label": "Intelecto"
+    },
+    "speed": {
+     "value": 30,
+     "min": 0,
+     "max": 99,
+     "label": "Velocidad"
+    }
+   },
+   "supplies": {
+    "hull": {
+     "value": 2,
+     "max": 2
+    },
+    "fuel": {
+     "value": 12,
+     "max": 12
+    },
+    "crew": {
+     "value": 72,
+     "max": 72
+    },
+    "cryopods": {
+     "value": 36
+    },
+    "escape-pods": {
+     "value": 200
+    },
+    "upgrades": {
+     "value": 5,
+     "max": 6
+    }
+   },
+   "weapon-stats": {
+    "weapons": {
+     "value": 2,
+     "max": 4
+    },
+    "hardpoints": {
+     "value": 4,
+     "max": 4
+    }
+   }
+  },
+  "prototypeToken": {
+   "name": "Veil of Night (Crucero de Utpala)",
+   "displayName": 20,
+   "actorLink": true,
+   "texture": {
+    "src": "modules/mr-wages-of-sin/assets/iconos/nave.webp"
+   }
+  },
+  "items": [
+   {
+    "_id": "NhqWCPQ5zSdao9vJ",
+    "name": "Batería pesada de Utpala",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>3d10 MDMG</p>",
+     "damage": "3d10 MDMG",
+     "shots": 6,
+     "curShots": 6
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "O2HCqnGHcpqiCS2P",
+    "name": "Defensa láser de punto",
+    "type": "weapon",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Contramedidas</p>",
+     "damage": "Contramedidas",
+     "shots": 10,
+     "curShots": 10
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "0z4RTvccdv6aUL2V",
+    "name": "Guarnición Élite de Utpala",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>C:40 Escopeta 4d10 I:35 PA:10 RD:3 H:2(25) (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "C:40 Escopeta 4d10 I:35 PA:10 RD:3 H:2(25)",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   },
+   {
+    "_id": "CHqfKlyvd677KIZV",
+    "name": "400 celdas de máxima seguridad",
+    "type": "module",
+    "img": "modules/mr-wages-of-sin/assets/iconos/nave.webp",
+    "system": {
+     "description": "<p>Prisión móvil orbital (Incluido)</p>",
+     "hull": 1,
+     "totalHull": 1,
+     "feature": "Prisión móvil orbital",
+     "offline": false
+    },
+    "effects": [],
+    "flags": {},
+    "_stats": {
+     "systemId": "mosh",
+     "systemVersion": "0.6.1",
+     "coreVersion": "13",
+     "createdTime": 1762320000000,
+     "modifiedTime": 1762320000000
+    }
+   }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "nave": "veil-of-night",
+    "plano": "modules/mr-wages-of-sin/assets/planos/veil-of-night.webp"
+   },
+   "mr-kit-desguazador": {
+    "aplicado": true,
+    "nave": "veil-of-night",
+    "modelo": "Utpala Shipyards Magnum Opus J3C-VI",
+    "clase": 6,
+    "salto": 3,
+    "coste": "Incalculable",
+    "cascoBase": 2,
+    "mdmgBase": "2d10",
+    "mdmgTotal": "3d10",
+    "eslora": "400 m"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ }
+]

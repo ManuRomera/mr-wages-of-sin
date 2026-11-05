@@ -1,0 +1,846 @@
+[
+ {
+  "_id": "3wRw7vYf7nZFkvpS",
+  "name": "Pincho carcelario (plástico o metal)",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Sangrado [+]. Fácil de ocultar en un registro superficial.</p>",
+   "cost": 50,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d5",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-pincho"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "NT5KUkRdhPuaCvxD",
+  "name": "Anillos de pelea pesados",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Contundente. Pasan por bisutería ante miradas distraídas.</p>",
+   "cost": 40,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d5",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-anillos"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "KwDT5Nat62GlIlLi",
+  "name": "Pilas industriales en un calcetín",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Contundente. Arma improvisada clásica de los bloques 44.</p>",
+   "cost": 25,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d10 [-]",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-pilas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "ZJSVC5wnbGa5TXZB",
+  "name": "Látigo de cuchillas de desrame",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Sangrado. Herramienta forestal robada del taller.</p>",
+   "cost": 180,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "2d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-latigo"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "I53XNsSra9pmAjNI",
+  "name": "Hachuela de tala ODC",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Sangrado / Gore. Muy controlada fuera del turno de bosque.</p>",
+   "cost": 150,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "2d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-hachuela"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "74S75ArVRd5T8USo",
+  "name": "Motosierra pesada de tala",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Gore [+], Antiarmadura, Ruidosa.</p>",
+   "cost": 650,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "3d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-motosierra"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "OQOuf4K29BphMyz3",
+  "name": "Lazo de alambre de estrangulamiento",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Silencioso; en ataque por sorpresa impide gritar.</p>",
+   "cost": 60,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-lazo"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "GleP1q12jTKqgtsC",
+  "name": "Bisturí quirúrgico de enfermería",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · Sangrado [+]. Ignora PA ≤ 2.</p>",
+   "cost": 90,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-bisturi"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "YzXCx0FPoK5hsDjk",
+  "name": "Pistola sedante de captura",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Corto alcance (6 disparos). El objetivo debe superar Salvación de Cuerpo o caer inconsciente 1d10×10 min (Ideal para órdenes VIVO).</p>",
+   "cost": 850,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d5",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-sedante"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "Xrgsd7Rv2kcb5P6Y",
+  "name": "Porra eléctrica de contención",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Cuerpo a cuerpo · No letal. Salvación de Cuerpo o queda aturdido 1 ronda.</p>",
+   "cost": 450,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "1d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-porra-elec"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "ZZFJVlMmOsQ8cOTy",
+  "name": "Revólver de frontera (.44)",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Corto alcance (6 disparos). Fiable y fácil de reparar.</p>",
+   "cost": 350,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "2d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-revolver"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "bLldNUEQ4nWQ8Lx6",
+  "name": "Escopeta de combate Utpala",
+  "type": "weapon",
+  "img": "modules/mr-wages-of-sin/assets/iconos/arma-prision.webp",
+  "system": {
+   "description": "<p>Corto alcance (4 disparos) · 1d10 a medio alcance. Gore.</p>",
+   "cost": 1400,
+   "weight": 1,
+   "quantity": 1,
+   "damage": "4d10",
+   "shots": 6,
+   "curShots": 6,
+   "useAmmo": false,
+   "ranges": {
+    "value": "Corto"
+   }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "arma-escopeta-utpala"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "v5mVTrCFxEa7sNsT",
+  "name": "Mono carcelario naranja ODC",
+  "type": "armor",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>PA 0 · Lleva impreso el número de bloque y recluso (#YYXX) en pecho y espalda.</p>",
+   "cost": 10,
+   "weight": 1,
+   "quantity": 1,
+   "armorPoints": 0,
+   "damageReduction": 0
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "armadura-mono-odc"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "yCRdfq1zU33pizu2",
+  "name": "Chaleco antidisturbios de Funcionario CO",
+  "type": "armor",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>PA 5 · Incluye radio de corto alcance con la torre de control.</p>",
+   "cost": 750,
+   "weight": 1,
+   "quantity": 1,
+   "armorPoints": 5,
+   "damageReduction": 0
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "armadura-guardia-odc"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "xxvQ0jAL8oO1t4OZ",
+  "name": "Traje táctico de Cazarrecompensas",
+  "type": "armor",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>PA 7 · RD 1, puntos de anclaje magnéticos y visor HUD de códigos de 6 dígitos.</p>",
+   "cost": 2200,
+   "weight": 1,
+   "quantity": 1,
+   "armorPoints": 7,
+   "damageReduction": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "armadura-cazador"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "woFPdNAdfnKl1cpa",
+  "name": "Grilletes magnéticos de titanio",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Inmovilizan las manos o tobillos del objetivo; requieren llave criptográfica o Fuerza [−] con herramientas pesadas.</p>",
+   "cost": 200,
+   "weight": 1,
+   "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "item-grilletes"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "4UFmHmoTAZp3kP7J",
+  "name": "Terminal TaskMaster personalizada",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Acceso directo a la red de microencargos Taskr y al tablón de las 100 Órdenes de Busca del sector.</p>",
+   "cost": 500,
+   "weight": 1,
+   "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "item-taskmaster"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "mLgYyxC9FcuBHB48",
+  "name": "Baliza de rastreo magnética",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Transmite coordenadas cifradas durante 30 días incluso a través del casco de una nave.</p>",
+   "cost": 300,
+   "weight": 1,
+   "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "item-baliza"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "sv8fWvXCZCAPjEKg",
+  "name": "Paquete de «azúcar» / contrabando ODC",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Moneda de cambio en la economía sumergida de la prisión de Baclite (+20% en sobornos a presos o guardias).</p>",
+   "cost": 100,
+   "weight": 1,
+   "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "item-bolsa-azucar"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "jwt17RATKZFy4AHr",
+  "name": "Féretro de estasis portátil («El Ataúd»)",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p>Mantiene a un objetivo capturado en coma inducido durante 14 días para cobrar la recompensa Vivo sin riesgo de fuga.</p>",
+   "cost": 1800,
+   "weight": 1,
+   "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "item-criojaula"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "k4gV7WXUwLZvdFFe",
+  "name": "Equipo de Cazarrecompensas",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Traje táctico (PA 5), pistola sedante (6 disparos), grilletes magnéticos, baliza de rastreo, escáner biométrico.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-cazarrecompensas"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "80wtlzwapLrtcuMX",
+  "name": "Equipo de Recluso de la ODC",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Mono carcelario (PA 0), pincho oculto (1d5), 2 paquetes de azúcar de contrabando, mapa garabateado del bloque.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-preso-odc"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "UzwirVbtwgf3Euql",
+  "name": "Equipo de Agente de Seguridad / Alguacil",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Chaleco antidisturbios (PA 5), porra eléctrica (1d10), revólver (6 disparos), esposas desechables (×4), placa.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-alguacil"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "C4GGMnI10BPqu659",
+  "name": "Equipo de Transportista de Presos",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Traje espacial (PA 3), pistola de clavos (64 disparos), mochila propulsora, linterna frontal, raciones.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-transportista"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "Gp2Y4BorH1yNVfRL",
+  "name": "Equipo de Rastreador Forense",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Atuendo estándar (PA 1), kit de ADN y huellas, dron microcámara, gafas de visión nocturna, ganzúas electrónicas.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-rastreador-forense"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ },
+ {
+  "_id": "Nz7ISoLzKT86v8Xv",
+  "name": "Equipo de Fugado del Infierno Verde",
+  "type": "item",
+  "img": "modules/mr-wages-of-sin/assets/iconos/equipo.webp",
+  "system": {
+   "description": "<p><strong>Kit completo de campaña (págs. 318–319):</strong> Mono desgarrado (PA 1), hachuela de tala (2d10), cuerda de 10 m, cantimplora, antídoto improvisado, brújula.</p>",
+   "cost": 500,
+   "quantity": 1,
+   "weight": 1
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+   "default": 0
+  },
+  "flags": {
+   "mr-wages-of-sin": {
+    "clave": "kit-fugitivo-jungla"
+   }
+  },
+  "_stats": {
+   "systemId": "mosh",
+   "systemVersion": "0.6.1",
+   "coreVersion": "13",
+   "createdTime": 1762320000000,
+   "modifiedTime": 1762320000000
+  }
+ }
+]

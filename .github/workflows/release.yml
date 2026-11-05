@@ -1,0 +1,78 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag de versión (ej. v1.0.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Tag
+        id: tag
+        run: |
+          tag="${{ github.event.inputs.tag || github.ref_name }}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=${tag#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Compilar compendios y empaquetar
+        run: npm ci && node scripts/build.mjs
+
+      - name: Verificar contenido del ZIP
+        run: |
+          test -s dist/module.zip
+          for f in \
+            module.json \
+            packs/aventura-baclite/CURRENT \
+            packs/ordenes/CURRENT \
+            packs/manual/CURRENT \
+            packs/objetivos/CURRENT \
+            packs/naves/CURRENT \
+            packs/equipo/CURRENT \
+            packs/tablas/CURRENT \
+            packs/macros/CURRENT \
+            js/main.mjs \
+            js/core/reglas.mjs \
+            content/direccion-es.json \
+            content/ordenes-indice.json \
+            lang/es.json \
+            styles/wages.css; do
+            unzip -l dist/module.zip "$f" | grep -q "$f" || { echo "Falta $f en module.zip"; exit 1; }
+          done
+
+      - name: Notas de versión
+        run: |
+          awk -v v="${{ steps.tag.outputs.version }}" '
+            $0 ~ "^## "v" " { p=1; next }
+            /^## / && p { exit }
+            p { print }
+          ' CHANGELOG.md > release-notes.md
+          test -s release-notes.md || echo "Versión ${{ steps.tag.outputs.tag }}" > release-notes.md
+
+      - name: Publicar release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${{ steps.tag.outputs.tag }}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" dist/module.zip module.json --clobber
+            gh release edit "$tag" --notes-file release-notes.md
+          else
+            gh release create "$tag" dist/module.zip module.json \
+              --title "MR- Wages of Sin $tag" \
+              --notes-file release-notes.md
+          fi
